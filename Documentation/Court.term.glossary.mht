@@ -1,0 +1,4814 @@
+From: <Saved by UnMHT Ver.7.0.2>
+Subject: Doxpop Glossary
+Date: Wed, 05 Mar 2014 22:38:41 -0500
+MIME-Version: 1.0
+X-UnMHT-Save-State: Current-State
+Content-Type: multipart/related;
+	boundary="----=_Part_7CDC8C71_41F4510D.1449578BCAC";
+	type="text/html"
+
+------=_Part_7CDC8C71_41F4510D.1449578BCAC
+Content-Location: http://www.doxpop.com/prod/help/glossary.jsp
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="windows-1252"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html><!-- Saved from http://www.doxpop.com/prod/help/glossary.jsp --><head=
+><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dwindows-=
+1252">
+    <title>Doxpop Glossary</title>
+   =20
+
+
+
+
+ =20
+
+
+
+
+
+ =20
+
+
+
+
+ =20
+
+
+    <meta http-equiv=3D"Content-Style-Type" content=3D"text/css">
+    <meta http-equiv=3D"Content-Script-Type" content=3D"text/javascript">
+    <link href=3D"/prod/css/styles.css?2008081101" rel=3D"StyleSheet" type=
+=3D"text/css">
+    <link href=3D"/prod/css/newsletter.css?2008081101" rel=3D"StyleSheet"=
+ type=3D"text/css">
+    <link href=3D"/prod/css/DP-Styles.css?1391619214000" rel=3D"StyleSheet"=
+ type=3D"text/css">=20
+    <link href=3D"/prod/images/favicon.ico?2008081101" rel=3D"SHORTCUT ICON=
+">
+    <script src=3D"/prod/js/prototype-1.6.0.2.js;jsessionid=3D0E9F53B398159=
+ECCA00C91C4D3F724AE" type=3D"text/javascript"></script>
+    <script src=3D"/prod/js/doxpop_common.js;jsessionid=3D0E9F53B398159ECCA=
+00C91C4D3F724AE?20131216" type=3D"text/javascript"></script>
+
+  <base href=3D"http://www.doxpop.com/prod/help/"></head>
+  <body>
+    <!-- $Id: header.inc 20191 2014-01-08 16:14:06Z austinm $ -->
+<!--htdig_noindex-->
+
+=20
+<script type=3D"text/javascript">
+<!--
+// Globals
+var h_popupWindow;
+
+function h_showPopup(targetURL, popupID, popWidth, popHeight) {
+  if (h_popupWindow && h_popupWindow.open && !h_popupWindow.closed)
+  {
+    h_popupWindow.focus();
+  }
+
+  if (!popWidth) {
+    popWidth =3D (Math.min(600, Math.round(screen.width * 0.8)));
+  }
+  if (!popHeight) {
+    popHeight =3D (Math.round(screen.height * 0.6));
+  }
+
+  h_popupWindow =3D window.open(targetURL,
+    popupID,
+    'resizable=3D1, scrollbars=3D1, toolbar=3D0, directories=3D0, status=3D=
+0, menubar=3D1, ' +
+      'width=3D' + popWidth + ', height=3D' + popHeight);
+}
+
+function checkRegionCombo(combo) {
+  if (combo.value =3D=3D "EditMyRegions") {
+    window.location =3D "/prod/common/MySearchRegions;jsessionid=3D0E9F53B3=
+98159ECCA00C91C4D3F724AE";
+  }=20
+}
+
+// -->
+</script>
+
+  <!--
+    // Uncomment this section if you want to know informative stuff like
+    // request or session attributes and query parameters.
+ =20
+  -->
+
+       <div class=3D"DP-Header">
+           <table class=3D"DP-HeaderNav">=20
+             <tbody><tr>
+
+      <td>
+   =20
+        <!--
+  $Id: OdometerDiv.jsp 19711 2013-03-15 19:10:14Z jims $
+-->
+
+
+
+
+        <!-- This works, but feels like a hack (and that usually means it=
+ is). -->
+        <script type=3D"text/javascript">
+          <!--
+          // Refreshes the odometer display every time the page is displaye=
+d (whether it's cached or not)
+          updateOdometer("/prod/common/OdometerDiv.jsp;jsessionid=3D0E9F53B=
+398159ECCA00C91C4D3F724AE");
+          // -->
+        </script>
+      </td>
+
+	      =20
+<!--  $Id: WelcomeNotLoggedInDiv.jsp 19711 2013-03-15 19:10:14Z jims $ -->
+
+ <td class=3D"DP-SubscribeBox">
+    <a href=3D"/prod/common/NewSubscription">Sign Up Now!</a>
+ </td>
+ <td id=3D"emptyLogo">
+   =20
+    <a href=3D"/prod"><img alt=3D"Empty logo" border=3D"0" height=3D"53" sr=
+c=3D"/prod/images/doxpop_empty_logo.gif" width=3D"180"></a>
+ </td>
+ <td id=3D"headerLogin">
+  <form action=3D"https://www.doxpop.com/prod/common/Login" method=3D"POST"=
+ name=3D"hlogin" style=3D"float: right; clear: left;">
+   <input name=3D"action" type=3D"HIDDEN" value=3D"POST-LOGIN-INFO">
+   <input name=3D"request_url" type=3D"HIDDEN" value=3D"">
+   <input name=3D"done" type=3D"HIDDEN" value=3D"">
+   <input name=3D"seen_message" type=3D"HIDDEN" value=3D"">
+   <table><tbody>
+     <tr>
+       <td class=3D"Hint">Username:
+       </td>
+       <td class=3D"Hint">Password:
+       </td>
+     </tr>
+     <tr>
+       <td>
+         <input accesskey=3D"u" class=3D"DP-TextFieldLogin" id=3D"husername=
+" name=3D"username" size=3D"12" tabindex=3D"1" type=3D"TEXT" value=3D"">
+       </td>
+       <td align=3D"left">
+         <input accesskey=3D"p" class=3D"DP-TextFieldLogin" id=3D"hpassword=
+" name=3D"password" size=3D"12" tabindex=3D"2" type=3D"PASSWORD" value=3D"">
+       </td>
+       <td rowspan=3D"2" valign=3D"top">
+         <input name=3D"login_button" tabindex=3D"3" type=3D"SUBMIT" value=
+=3D"Login">
+       </td>
+     </tr>
+     <tr>
+       <td align=3D"left" class=3D"DP-Hint" colspan=3D"2" valign=3D"top">
+        <a href=3D"/prod/common/Login">Need help logging in?</a>
+       </td>
+     </tr>
+    </tbody>
+    </table>
+   </form>
+
+     =20
+<!-- $Id: RegionDiv.jsp 11949 2007-08-10 21:34:58Z emmanuelg $ -->
+
+ <input id=3D"courtSearchRegion" name=3D"courtSearchRegion" type=3D"hidden"=
+ value=3D"1">
+ <input id=3D"recorderSearchRegion" name=3D"recorderSearchRegion" type=3D"h=
+idden" value=3D"39">
+
+               </td>
+             </tr>
+           </tbody></table>
+       </div>
+
+       <!-- Add warning if they don't have javascript turned on -->
+       <noscript>
+         <div class=3D"DP-NoJavascript">
+           <span style=3D"color:#EE0000;">Warning:
+           </span>You do not have JavaScript enabled. Some features may not=
+ work correctly.
+         </div>
+       </noscript>
+      =20
+       <!-- TABS -->
+       <div id=3D"tabs">
+         <ul>
+           <li class=3D"DP-TabLeft"><a accesskey=3D"w" href=3D"/prod/">welc=
+ome</a></li>
+          =20
+          =20
+           <li class=3D"DP-TabLeft"><a accesskey=3D"c" href=3D"/prod/court/=
+">court cases</a></li>
+           <li class=3D"DP-TabLeft"><a accesskey=3D"r" href=3D"/prod/record=
+er/">recorded documents</a></li>
+           <li class=3D"DP-TabRight" id=3D"current"><a accesskey=3D"h" href=
+=3D"/prod/help/HelpTopic" target=3D"help">help</a></li>
+         </ul>
+       </div>
+       <!-- /TABS -->
+       <div class=3D"DP-TitleBar">
+         <table style=3D"width: 98%"><tbody>
+           <tr>
+             <td class=3D"DP-SectionTitle" nowrap=3D"nowrap">
+
+<script type=3D"text/javascript">
+<!--
+  document.write(document.title);
+// -->
+</script>
+
+             </td>
+             <td>
+
+<!-- Welcome Tab -->
+             </td>
+           </tr>
+         </tbody></table>
+       </div>
+
+
+
+   =20
+     =20
+     =20
+   =20
+   =20
+
+
+=20
+=20
+  <div class=3D"DP-ContentArea" id=3D"contentArea">
+=20
+
+<!-- The WHOLE page goes in here -->
+
+
+=20
+
+
+<!--/htdig_noindex-->
+
+
+      <table width=3D"75%">
+        <tbody><tr>
+          <td>
+<h2 style=3D"margin-bottom: 0;">Contents:</h2>
+
+
+<ul>
+<li><a href=3D"#Court_Terms">Court Terms</a>
+</li>
+<li><a href=3D"#Recorder_Terms">Recorder Terms</a>
+</li>
+<li><a href=3D"#Doxpop_and_Technical_Terms">Doxpop and Technical Terms</a>
+</li>
+</ul>
+
+<hr>
+<h2><a id=3D"Court_Terms" name=3D"Court_Terms"></a>Court Terms</h2>
+<hr>
+
+<dl>
+<a id=3D"DefAddedParty" name=3D"DefAddedParty"></a>
+
+<dt class=3D"qt-header"> Added or Redefined Party</dt><dd> Term used in som=
+e Indiana Clerks&#x27; offices to refer to parties that are not initially=
+ listed as a party. In most cases, the Added or Redefined Party has a finan=
+cial interest that arose in the course of hearing the case and they have be=
+en added to the case to aid in keeping financial records accurately. For in=
+stance, the person may have posted bail for a defendant or been awarded res=
+titution.=20
+</dd>
+
+<dt class=3D"qt-header">CCS</dt><dd>See <a href=3D"#DefChronologicalCaseSum=
+mary">Chronological Case Summary</a>.
+</dd>
+
+
+<dt class=3D"qt-header">CMS</dt><dd>See <a href=3D"#DefCaseManagementSystem=
+">Case Management System</a>.
+</dd>
+
+<a id=3D"DefCaseManagementSystem" name=3D"DefCaseManagementSystem"></a>
+<dt class=3D"qt-header">Case Management System</dt><dd>Any of many software=
+ programs used to store and manage court records, and in some cases documen=
+t images, electronically. These programs may be purchased from commercial=
+ vendors, as most are, or developed by information services personnel withi=
+n local government. Information on a CMS may include court schedules, case/=
+cause numbers, party information, chronological case summary (docket sheet)=
+, minute entries on events, judgments, and financial information.
+</dd>
+
+<a id=3D"DefCaseNumber" name=3D"DefCaseNumber"></a>
+<dt class=3D"qt-header">Case Number</dt><dd> See <a href=3D"#DefCauseNumber=
+">Cause ID or Cause Number</a>.
+</dd>
+
+<a id=3D"DefCaseStatus" name=3D"DefCaseStatus"></a>
+<dt class=3D"qt-header"> Case Status </dt><dd> The two forms of case status=
+ officially recognized by Indiana=20
+Courts are &quot;Pending&quot; and &quot;Decided&quot;. Decided refers to=
+ cases in which &quot;no further proceedings remain to be conducted=20
+as evidenced by the final judgment or other order of the court.&quot; (Tria=
+l Rule 77(G)(1). Pending refers to all cases=20
+which are not decided. Because different terms are used throughout the coun=
+try and even within Indiana, Doxpop uses=20
+the general term of &quot;Open&quot; to refer to a case which is Pending,=
+ Redocketed or Undecided and &quot;Closed&quot; to refer to=20
+Decided or Disposed Cases. See also <a href=3D"#DefDisposed"> Disposed</a>,=
+ <a href=3D"#DefRedocketed"> Redocketed</a>.
+
+</dd>
+
+<a id=3D"DefCaseType" name=3D"DefCaseType"></a>
+
+<dt class=3D"qt-header">Case Type </dt><dd> The classification of a case in=
+to one of several types. For Indiana cases, this classification is indicate=
+d in the standard format of the <a href=3D"#DefCauseNumber">cause ID or cau=
+se number</a>. The current list of Indiana case types and their abbreviatio=
+ns follows:
+
+<ul>
+<li>AD - Adoption<br></li>
+<li>CB - Court Business Record - i.e. court orders that refer to non-case=
+ matters such as the appointment
+</li><li>CC - Civil Collection<br></li>
+<li>CF- Criminal Felony (New CF case numbers shall not be issued after 12/3=
+1/2001.  CF cases filed prior to 1/1/2002 shall continue to bear the CF cas=
+e type designation.)</li>
+<li>CM - Criminal Misdemeanor<br></li>
+<li>CT - Civil Tort<br></li>
+<li>CP - Civil Plenary (New CP case numbers shall not be issued after 12/31=
+/2001.  CP cases filed before 1/1/2002 shall continue to bear the CP case=
+ type.)<br></li>
+<li>DF - Class D Felony, frequently entered as FD<br></li>
+<li>DR - Domestic Relation (includes Dissolution of Marriage, Annulment, an=
+d Legal Separation)</li>
+<li>ES - Estate, Supervised<br></li>
+<li>EU - Estate, Unsupervised<br></li>
+<li>FA - Class A Felony<br></li>
+<li>FB - Class B Felony<br></li>
+<li>FC - Class C Felony<br></li>
+<li>FD - Class D Felony, also can be entered as DF<br></li>
+<li>GU - Guardianship<br></li>
+<li>IF - Infraction<br></li>
+<li>JC - Juvenile CHINS (Child in Need of Services)<br></li>
+<li>JD - Juvenile Delinquency<br></li>
+<li>JM - Juvenile Miscellaneous<br></li>
+<li>JP - Juvenile Paternity<br></li>
+<li>JS - Juvenile Status<br></li>
+<li>JT - Juvenile Termination of Parental Rights<br></li>
+<li>MC - Miscellaneous Criminal<br></li>
+<li>MF - Mortgage Foreclosure<br></li>
+<li>MH - Mental Health</li>
+<li>MI - Miscellaneous (Civil  cases other than those specifically identifi=
+ed - i.e. change of name, appointment of appraisers, marriage waivers, etc.=
+)<br></li>
+<li>MR - Murder<br></li>
+<li>OV - Local Ordinance Violation<br></li>
+<li>OE - Exempted Ordinance Violation<br></li>
+<li>PC - Post Conviction Relief Petition<br></li>
+<li>PL - Civil Plenary (Civil Plenary cases filed after 1/1/2002- All Civil=
+ cases except those otherwise specifically designated.)<br></li>
+<li>PO - Protective Order<br></li>
+<li>RS - Reciprocal Support<br></li>
+<li>SC - Small Claims<br></li>
+<li>TR - Trust<br></li>
+</ul>
+<p>See case numbering amendments from 2001 at <a href=3D"http://www.in.gov/=
+judiciary/orders/rule-amendments/2001/admin.pdf">http://www.in.gov/judiciar=
+y/orders/rule-amendments/2001/admin.pdf</a> and from 2004 at <a href=3D"htt=
+p://www.in.gov/judiciary/orders/rule-amendments/2004/0904-admin.pdf">http:/=
+/www.in.gov/judiciary/orders/rule-amendments/2004/0904-admin.pdf</a>
+</p></dd>
+
+<a id=3D"DefCauseNumber" name=3D"DefCauseNumber"></a>
+<dt class=3D"qt-header">Cause ID or Cause Number</dt><dd>The combination of=
+ letters and numbers used to identify a case. In Indiana, the &quot;Cause=
+ Number&quot; is made up of several parts that encode information about the=
+ case. The format is as follows:=20
+<p style=3D"font-family: monospace">
+[County Number]-[Court ID]-[Year][Month]-[Type]-[Annual Sequence Number]
+</p>
+For instance: <i>53-C01-0201-IF-00012</i> refers to the 12th (00012) Infrac=
+tion (IF)=20
+to be filed in 2002. The case was filed in January of 2002 (0201) in the Fi=
+rst=20
+Circuit Court (C01) of Monroe County (53).
+
+</dd>
+
+<a id=3D"DefChronologicalCaseSummary" name=3D"DefChronologicalCaseSummary">=
+</a>
+<dt class=3D"qt-header">Chronological Case Summary</dt><dd>A Chronological=
+ Case Summary (abbreviated CCS) is a standard sequential record-keeping for=
+mat for case information in Indiana. It mainly contains a sequence of <a hr=
+ef=3D"#DefMinuteEntry">minute entries</a> that summarize important events.=
+ The contents of a CCS are standardized in Indiana Trial Rule 77(B) as foll=
+ows:=20
+<p style=3D"font-family: monospace">
+(B) Chronological case summary.  For each case, the clerk of the circuit co=
+urt shall=20
+maintain a sequential record of the judicial events in such proceeding.  Th=
+e record=20
+shall include the title of the proceeding; the assigned case number; the na=
+mes,=20
+addresses, telephone and attorney numbers of all attorneys involved in the=
+ proceeding,=20
+or the fact that a party appears pro se with address and telephone number=
+ of the party=20
+so appearing; and the assessment of fees and charges (public receivables).=
+ Notation of=20
+judicial events shall set forth the date of the event and briefly define an=
+y documents,=20
+orders, rulings, or judgments filed or entered in the case. The chronologic=
+al case=20
+summary shall also note the entry of orders, rulings and judgments in the=
+ record of=20
+judgments and orders, the entry of judgments in the judgment docket (IC 33-=
+17-2-31),=20
+and file status (pending/decided) under section (G) of this rule. The chron=
+ological=20
+case summary shall be an official record of the trial court and shall be ma=
+intained=20
+apart from other records of the court and shall be organized by case number.
+</p>
+</dd>
+
+
+<a id=3D"DefCivilCollection" name=3D"DefCivilCollection"></a>
+<dt class=3D"qt-header">Civil Collection</dt><dd>Cases involving situations=
+ in which one party is seeking to collect on a debt and there is little dou=
+bt that the debt exists. If there is some dispute about whether the debt ac=
+tually exists, (ie: at question is the interpretation of the actual or impl=
+ied contract) then the case will likely be filed as <a href=3D"#DefCivilPle=
+nary">Civil Plenary</a> instead.
+</dd>
+
+<a id=3D"DefCivilPlenary" name=3D"DefCivilPlenary"></a>
+<dt class=3D"qt-header">Civil Plenary</dt><dd>A case type designating civil=
+ cases in which the parties are generally engaged in litigation over a cont=
+ract or some other business dealing involving real or personal property and=
+ claiming only <a href=3D"#DefEquitableRelief">Equitable</a> or <a href=3D"=
+#DefInjunctiveRelief">Injunctive Relief</a>. If a small claims defendant re=
+quests a jury trial, the Small Claims case will usually become a Civil Plen=
+ary case. Between 1991 and 2002, these cases bore the code designation &quo=
+t;CP&quot;. From 2002 to the present, these cases bear the code designation=
+ &quot;PL&quot;.
+
+</dd>
+
+<a id=3D"DefCivilTort" name=3D"DefCivilTort"></a>
+<dt class=3D"qt-header">Civil Tort</dt><dd>Case type designating civil case=
+s in which the claim goes beyond a simple contract interpretation and &quot=
+;wrongful&quot; actions (or inactions) are alleged. Under this case type,=
+ one may find personal injury, malpractice, slander etc... Because a Civil=
+ Tort case may result in the finding that someone acted in a negligent or=
+ malicious manner, part of the relief may include <a href=3D"#DefPunitiveDa=
+mages">Punitive Damages</a> in addition to Compensatory Damages.
+</dd>
+
+<a id=3D"DefCourtDocket" name=3D"DefCourtDocket"></a>
+
+<dt class=3D"qt-header">Court Docket</dt><dd>Schedule or calendar of cases=
+ before a court, not to be confused with a <a href=3D"#DefDocketSheet">dock=
+et sheet</a>.
+</dd>
+
+<a id=3D"DefDisposed" name=3D"DefDisposed"></a>
+<dt class=3D"qt-header">Disposed</dt><dd>A commonly used term to refer to=
+ Decided cases.
+</dd>
+
+<a id=3D"DefDocketSheet" name=3D"DefDocketSheet"></a>
+<dt class=3D"qt-header">Docket Sheet</dt><dd>Alternate term for <a href=3D"=
+#DefChronologicalCaseSummary">Chronological Case Summary</a>. It should not=
+ be confused with the <a href=3D"#DefCourtDocket">Court Docket</a>.=20
+
+</dd>
+
+<a id=3D"DefEquitableRelief" name=3D"DefEquitableRelief"></a>
+<dt class=3D"qt-header">Equitable Relief</dt><dd>A form of remedy in a civi=
+l case that may be requested when legal remedies such as payment of money=
+ are not sufficient to compensate the plaintiff. Examples of Equitable Reli=
+ef are <a href=3D"#DefInjunctiveRelief">Injunctive Relief</a> and Specific=
+ Performance.
+</dd>
+
+<a id=3D"DefFiling" name=3D"DefFiling"></a>
+
+<dt class=3D"qt-header">Filing</dt><dd>A written document concerning the ca=
+se given to the court. This includes complaints, motions, and answers, amon=
+g others.=20
+</dd>
+
+<a name=3D"DefForeignJudgment"></a>
+<dt class=3D"qt-header">Foreign Judgment</dt><dd>A record created to repres=
+ent liability that a person or company has=20
+incurred in another county. Foreign Judgments are usually filed in an effor=
+t to bring these liabilities to the=20
+attention of anyone researching the debtor in the county in which they live=
+ or own property. Many Indiana counties=20
+store Foreign Judgments in their local <a href=3D"#DefCaseManagementSystem"=
+>Case Management System</a>=20
+under the case types &quot;MI&quot; or &quot;FJ&quot;. To see which Doxpop=
+ counties make Foreign Judgments available on our system,=20
+please visit our <a href=3D"../court/PartnerCourtsDetail.jsp">list of partn=
+er courts in detail.</a>
+</dd>
+
+
+<a id=3D"DefInjunctiveRelief" name=3D"DefInjunctiveRelief"></a>
+<dt class=3D"qt-header">Injunctive Relief</dt><dd>An order in a civil case,=
+ sought by the plaintiff, in which the court orders the defendant to cease=
+ and desist from particular action(s) that the court has ruled unfairly har=
+m the plaintiff.=20
+</dd>
+
+
+<a id=3D"DefJudgment" name=3D"DefJudgment"></a>
+<dt class=3D"qt-header">Judgment</dt><dd>A document produced by a court tha=
+t offers an opinion or verdict.
+</dd>
+
+<a id=3D"DefJudgmentDocket" name=3D"DefJudgmentDocket"></a>
+<dt class=3D"qt-header">Judgment Docket</dt><dd>An index similar to the <a=
+ href=3D"#DefRecordofJudgments">Record of Judgments and Orders</a> containi=
+ng only Judgments for Civil cases involving monetary awards. In some office=
+s, this is combined into the Record of Judgments and Orders as a single ind=
+exed set of books. =20
+
+</dd>
+
+<a id=3D"DefLisPendens" name=3D"DefLisPendens"></a>
+<dt class=3D"qt-header">Lis Pendens</dt><dd>A notice filed by a party that=
+ intends to sue another party. The purpose of a Lis Pendens is to notify th=
+e public that a suit is being prepared and hence those intending to deal wi=
+th the party to be sued should be aware that a lien or liability may soon=
+ exist.
+</dd>
+
+<a id=3D"DefMinuteEntry" name=3D"DefMinuteEntry"></a>
+<dt class=3D"qt-header">Minute Entry</dt><dd>A narrative description in the=
+ court record, usually brief, of activity that occurred in the case on a pa=
+rticular date. A minute entry might indicate, for example, that parties app=
+eared in court, that a hearing was rescheduled, or that notice was successf=
+ully served upon a party in the case.
+
+</dd>
+
+<a id=3D"DefMortgageForeclosure" name=3D"DefMortgageForeclosure"></a>
+<dt class=3D"qt-header">Mortgage Foreclosure</dt><dd>A relatively new desig=
+nation in Indiana for cases involving foreclosure of a loan on Real Propert=
+y. Before 2002, Mortgage Foreclosures were all filed as <a href=3D"#DefCivi=
+lTort">&quot;Civil Tort&quot;</a> cases.=20
+</dd>
+
+<a id=3D"DefMotion" name=3D"DefMotion"></a>
+
+<dt class=3D"qt-header">Motion</dt><dd>An official petition to a judge, ask=
+ing for a ruling such as an order or judgment.=20
+</dd>
+
+<a id=3D"DefNuncProTunc" name=3D"DefNuncProTunc"></a>
+<dt class=3D"qt-header">Nunc Pro Tunc Entry</dt><dd>A minute entry which co=
+rrects or replaces a previous entry. Minute entries are not supposed to be=
+ substantially altered after being initially entered, so a second entry is=
+ required instead of editing the first. (Nunc pro tunc means &quot;now for=
+ then&quot; in Latin.)
+</dd>
+
+<a id=3D"DefOrder" name=3D"DefOrder"></a>
+
+<dt class=3D"qt-header">Order</dt><dd>A document produced by a court that=
+ commands something to be done.
+</dd>
+
+<a id=3D"DefOrderBook" name=3D"DefOrderBook"></a>
+<dt class=3D"qt-header">Order Book</dt><dd>See <a href=3D"#DefRecordofJudgm=
+ents">Record of Judgments and Orders</a>.
+</dd>
+
+
+<a id=3D"DefParalegal" name=3D"DefParalegal"></a>
+<dt class=3D"qt-header">Paralegal</dt><dd>Someone with specialized training=
+ who does legal work under the supervision of an attorney.
+</dd>
+
+
+<a id=3D"DefPersonalProperty" name=3D"DefPersonalProperty"></a>
+<dt class=3D"qt-header">Personal Property</dt><dd>A movable item over which=
+ ownership can be claimed (as opposed to <a href=3D"#DefRealProperty">Real=
+ Property</a>, which is fixed in place). Examples include livestock, cars,=
+ and boats.
+</dd>
+
+<a id=3D"DefPetitionforReview" name=3D"DefPetitionforReview"></a>
+<dt class=3D"qt-header">Petition for Judicial Review</dt><dd>A Petition for=
+ Judicial Review is a case filed by a former defendant who was found guilty=
+ and thinks something was done wrong in the original case. In this case typ=
+e, everyone involved in prosecuting the original case is named as a Defenda=
+nt, so the prosecuting attorney and Judge are shown as defendants.
+
+</dd>
+
+<a name=3D"DefPunitiveDamages"></a>
+<dt class=3D"qt-header">Punitive Damages</dt><dd>Relief to a plaintiff that=
+ may be awarded in addition to Compensatory Damages when the court finds th=
+at a defendant acted in a negligent or malicious manner, causing damage to=
+ the plaintiff.
+</dd>
+
+
+<a name=3D"DefRJO"></a>
+<dt class=3D"qt-header">RJO</dt><dd>See <a href=3D"#DefRecordofJudgments">R=
+ecord of Judgments and Orders</a>.
+</dd>
+
+<a name=3D"DefRecordofJudgments"></a>
+<dt class=3D"qt-header">Record of Judgments and Orders</dt><dd>The Record=
+ of Judgments and Orders (also known as an RJO or Order Book) is a compilat=
+ion of all judgments, orders and opinions of the court maintained in an eas=
+ily indexed fashion by the Clerk of Court. The Record of Judgments and Orde=
+rs is typically a series of bound paper books indexed from the case file an=
+d CCS by book and page number. A few Indiana Courts keep RJOs on microfilm=
+ or electronically.
+
+</dd>
+
+<a name=3D"DefRedocketed"></a>
+<dt class=3D"qt-header">Redocketed</dt><dd>Describes a case which was once=
+ decided, but is now pending for new action (for instance, a case in which=
+ a contempt citation is filed because a party fails to comply with an order=
+ on a decided case).
+</dd>
+
+<a name=3D"DefService"></a>
+<dt class=3D"qt-header">Service</dt><dd>The delivery of legal documents con=
+cerning a case to a party involved in the case.
+
+</dd>
+
+<a name=3D"DefSmallClaims"></a>
+<dt class=3D"qt-header">Small Claims</dt><dd>Cases in which the amount clai=
+med is $6,000.00 or less. In Indiana, this amount increased from $3,000.00=
+ on July 1st, 2005. Small claims usually involve a business transaction, bu=
+t a tort case involving relief of $6,000.00 or less may also be filed as a=
+ Small Claim. A defendant in a Small Claim case may request a jury trial.=
+ If this occurs, the case will usually be redocketed as a <a href=3D"#DefCi=
+vilPlenary">Civil Plenary</a> or <a href=3D"#DefCivilTort">Civil Tort</a>=
+ case.
+</dd>
+
+<a name=3D"DefTaxWarrant"></a>
+<dt class=3D"qt-header">Tax Warrant</dt><dd>Not actually a court case, but=
+ a notice of judgment issued by the Indiana=20
+Department of Revenue that publicly  establishes a lien against the propert=
+y of a debtor for unpaid and overdue=20
+Indiana state taxes. Not to be confused with county &quot;tax sales&quot;=
+ or a federal tax debt, many Indiana counties store Tax=20
+Warrants in their local <a href=3D"#DefCaseManagementSystem">Case Managemen=
+t System</a> under the case type=20
+&quot;TW&quot;. To see which Doxpop counties make Tax Warrants available on=
+ our system, please visit our <a href=3D"../court/PartnerCourtsDetail.jsp">=
+list of partner courts in detail.</a>
+</dd>
+
+</dl>
+
+<br>
+<h2><a name=3D"Recorder_Terms"></a>Recorder Terms</h2>
+<hr>
+
+<a name=3D"DefAddition"></a>
+<dl>
+<dt class=3D"qt-header">Addition</dt><dd>A piece of land that has been join=
+ed to a town or city, and which is <a href=3D"#DefPlattedLand">platted</a>=
+ to define its borders, <a href=3D"#DefLot">lots</a>, and <a href=3D"#DefBl=
+ock">blocks</a>. The plat of the addition is filed with the <a href=3D"#Def=
+Recorder">Recorder</a> of the county and serves as the legal definition for=
+ the addition. On our system, an addition is a type of <a href=3D"#DefTract=
+">tract</a> and you may search for the name of an addition in the tract fie=
+ld.=20
+</dd>
+
+
+<a name=3D"DefBlock"></a>
+<dt class=3D"qt-header">Block</dt><dd>Piece of <a href=3D"#DefPlattedLand">=
+platted land</a> belonging to a <a href=3D"#DefTract">tract</a>, used in pa=
+rt to find and identify the legal boundaries of that piece of land. A block=
+ typically contains a number of <a href=3D"#DefLot">lots</a> and a tract ca=
+n have many blocks.=20
+</dd>
+
+
+<a name=3D"DefCopyFee"></a>
+
+<dt class=3D"qt-header">Copy Fee</dt><dd>Amount paid to a Recorder for repr=
+oduction of recorded documents. In Indiana, a <a href=3D"#DefRecorder">Reco=
+rder</a> is required by state law to charge one dollar for every page repro=
+duced from a recorded document. If you buy a page copy through Doxpop, your=
+ total cost includes the one dollar per page fee, which is passed along dir=
+ectly to the recorder.
+</dd>
+
+<a name=3D"DefDeed"></a>
+<dt class=3D"qt-header">Deed</dt><dd>The written document which transfers=
+ <a href=3D"#DefTitle">title</a> or an interest in real property to another=
+ person or entity.
+
+</dd>
+
+<a name=3D"DefDivision"></a>
+<dt class=3D"qt-header">Division</dt><dd>Part of a town or city which is <a=
+ href=3D"#DefPlat">platted</a> to define its borders, <a href=3D"#DefLot">l=
+ots</a>, and <a href=3D"#DefBlock">blocks</a>. The plat of the division is=
+ filed with the <a href=3D"#DefRecorder">Recorder</a> of the county and ser=
+ves as the legal definition of land in the division. In Doxpop, a division=
+ is a type of tract, and you can search for the name of a division in the=
+ tract field.=20
+</dd>
+
+
+<a name=3D"DefImprovement"></a>
+<dt class=3D"qt-header">Improvement</dt><dd>In the context of Real Property=
+ law and assessment, an Improvement means a building or other immovable obj=
+ect which &quot;improves&quot; the value of the parcel of land on which it=
+ is immovably affixed. Mobile homes are considered <a href=3D"#DefPersonalP=
+roperty">Personal Property</a> rather than an improvement on <a href=3D"#De=
+fRealProperty">Real Property</a> because they can be moved.
+
+</dd>
+
+
+<a name=3D"DefIndexInformation"></a>
+<dt class=3D"qt-header">Index Information</dt><dd>Information in the <a hre=
+f=3D"#DefRecorder">Recorder</a>&#x27;s database indicating the existence,=
+ type, date, parties to, and location of documents, as opposed to the actua=
+l documents or facsimile images of them.
+</dd>
+
+
+<a name=3D"DefLot"></a>
+<dt class=3D"qt-header">Lot</dt><dd>A lot is a piece of <a href=3D"#DefPlat=
+tedLand">platted land</a>, used in part to find and identify the legal boun=
+daries for that piece of land. A lot is smaller than a <a href=3D"#DefBlock=
+">block</a> and there are usually many lots within each block for a <a href=
+=3D"#DefTract">tract</a>.
+
+</dd>
+
+<a name=3D"DefMortgage"></a>
+<dt class=3D"qt-header">Mortgage</dt><dd>A documented agreement in which a=
+ property owner pledges the title to that property to a lender as security=
+ for a loan.
+</dd>
+
+
+<a name=3D"DefMortgageRelease"></a>
+<dt class=3D"qt-header">Mortgage Release</dt><dd>A document attesting that=
+ the terms of a <a href=3D"#DefMortgage">mortgage</a> have been satisfied=
+ and that the lender surrenders claim to the property specified in the mort=
+gage as security.
+</dd>
+
+<a name=3D"DefOriginalPlat"></a>
+<dt class=3D"qt-header">Original Plat (O.P.)</dt><dd><a href=3D"#DefPlat">P=
+lat</a> filed at the time of the incorporation of a town or city. This plat=
+ changes the legal definition of land within the town limits such that it=
+ is no longer described by its location in the country-wide section-townshi=
+p-range grid. This plat is usually later divided and added to by other plat=
+s.
+
+</dd>
+<a name=3D"DefPerpetuationFund"></a>
+<dt class=3D"qt-header">Perpetuation Fund</dt><dd>The fund used by the coun=
+ty Recorder (Indiana) to maintain and preserve recorded public documents pe=
+rmanently. In Indiana this fund is supplied through recording fees as well=
+ as a statutory charge of one dollar per page collected by the <a href=3D"#=
+DefRecorder">Recorder</a> for copies of those documents. See also <a href=
+=3D"#DefCopyFee">Copy Fee</a>.
+</dd>
+<a name=3D"DefPlat"></a>
+<dt class=3D"qt-header">Plat</dt><dd>A graphic representation or map deline=
+ating townships and sections, including some geographical features, based=
+ upon the data collected by surveyors.
+</dd>
+
+<a name=3D"DefPlattedLand"></a>
+<dt class=3D"qt-header">Platted Land</dt><dd>Land that is within the limits=
+ of a city or town, described by <a href=3D"#DefLot">lot</a>, <a href=3D"#D=
+efBlock">block</a>, and <a href=3D"#DefTract">tract</a>. An example of this=
+ type of land description is &quot;Lot 12 Block 3 Bakerson&#x27;s Addition&=
+quot;. A plat is filed in the <a href=3D"#DefRecorder">Recorder&#x27;s Offi=
+ce</a> for every <a href=3D"#DefDivision">division</a>, <a href=3D"#DefAddi=
+tion">addition</a>, and tract for incorporated towns and cities in the coun=
+ty.
+</dd>
+  =20
+<a name=3D"DefQuarter"></a>
+<dt class=3D"qt-header">Quarter</dt><dd>A square 1/2 mile by 1/2 mile unit=
+ of land (160 acres), one-fourth of the <a href=3D"#DefSection">section</a>=
+-<a href=3D"#DefTownship">township</a>-<a href=3D"#DefRange">range</a> in=
+ which <a href=3D"#DefUnplattedLand">unplatted land</a> is located. This is=
+ denoted by NW or Pt NW, for example, in a legal description. It is not unu=
+sual to see even more specific directions, such as SWNW, which would mean=
+ the land in question is in the southwest quarter of the northwest quarter=
+ of a section-township-range. When searching on Doxpop, the quarter field=
+ can be used to search for directions of the form NW, SWNW, WNW, etc. Land=
+ smaller than a quarter quarter quarter section, which is 1/8 mile by 1/8=
+ mile (10 acres), is typically <a href=3D"#DefPlat">platted</a>.
+</dd>
+
+<a name=3D"DefRange"></a>
+<dt class=3D"qt-header">Range</dt><dd>In the U.S. public land surveying sys=
+tem, a north-south column of townships, identified as being east or west of=
+ a reference longitudinal meridian--for example, Range 3 West. See also <a=
+ href=3D"#DefSection">Section</a> and <a href=3D"#DefTownship">Township</a>.
+</dd>
+
+<a name=3D"DefRealProperty"></a>
+<dt class=3D"qt-header">Real Property</dt><dd>Land or <a href=3D"#DefImprov=
+ement">Improvements</a> on land.
+
+</dd>
+<a name=3D"DefRecorder"></a>
+<dt class=3D"qt-header">Recorder</dt><dd>The official charged with the perm=
+anent preservation of <a href=3D"#DefRecorded">recorded</a> public document=
+s. In Indiana, the elected county Recorder. In other states the person perf=
+orming this function may be called the Recorder of Deeds or by another titl=
+e.
+</dd>
+<a name=3D"DefRecorded"></a>
+<dt class=3D"qt-header">Recorded</dt><dd>Describes a document submitted to=
+ the county <a href=3D"#DefRecorder">Recorder</a> for permanent preservatio=
+n of the document and/or its image as a public document. The Recorder charg=
+es a fee for recording each document submitted.
+
+</dd>
+<a name=3D"DefSection"></a>
+<dt class=3D"qt-header">Section</dt><dd>A square mile unit of land, 640 acr=
+es and 1/36th of a township in the U.S. public land surveying system. See=
+ also <a href=3D"#DefTownship">Township</a> and <a href=3D"#DefRange">Range=
+</a>.
+</dd>
+<a name=3D"DefTitle"></a>
+
+<dt class=3D"qt-header">Title</dt><dd>Ownership of real property or persona=
+l property. The document that denotes ownership of real estate property is=
+ known as a <a href=3D"#DefDeed">deed</a>.
+</dd>
+<a name=3D"DefTownship"></a>
+<dt class=3D"qt-header">Township</dt><dd>In the U.S. public land surveying=
+ system, a geographic division of land within a base line and meridian grid=
+ location framework. Townships are six miles square and further subdivided=
+ into 36 sections of 640 acres each. See also <a href=3D"#DefSection">Secti=
+on</a> and <a href=3D"#DefRange">Range</a>. Also refers to political subdiv=
+isions of a county that are of variable size and irregular shape.
+
+</dd>
+<a name=3D"DefTract"></a>
+<dt class=3D"qt-header">Tract</dt><dd>A large piece of land in a town or ci=
+ty that has been broken into <a href=3D"#DefBlock">blocks</a> and <a href=
+=3D"#DefLot">lots</a>, is defined by a <a href=3D"#DefPlat">plat</a> filed=
+ in the <a href=3D"#DefRecorder">Recorder&#x27;s Office</a>, and is recogni=
+zed as the legal definition for that land. Examples of tracts are <a href=
+=3D"#DefAddition">additions</a>, <a href=3D"#DefDivision">divisions</a>, an=
+d subdivisions. =20
+</dd>
+
+
+<a name=3D"DefUnplattedLand"></a>
+<dt class=3D"qt-header">Unplatted Land</dt><dd>Land that is not defined leg=
+ally by a <a href=3D"#DefPlat">plat</a>, usually found outside of town and=
+ city limits. This land is commonly identified by its <a href=3D"#DefSectio=
+n">section</a>, <a href=3D"#DefTownship">township</a>, and <a href=3D"#DefR=
+ange">range</a> and occasionally the directional <a href=3D"#DefQuarter">qu=
+arter</a> of the range of the land, as well as the number of acres included.
+
+</dd>
+
+
+<a name=3D"DefVerificationPass"></a>
+<dt class=3D"qt-header">Verification Pass</dt><dd>A standard procedure used=
+ in most Recorder&#x27;s offices when entering indexing information, requir=
+ing that two different people review the information. The first person ente=
+rs the information and the second verifies that it is correct. This usually=
+ happens before the document is scanned into an image file.
+
+</dd>
+</dl>
+
+
+<br>
+<h2><a name=3D"Doxpop_and_Technical_Terms"></a>Doxpop and Technical Terms</=
+h2>
+<hr>
+
+<a name=3D"DefBillingCode"></a>
+<dl>
+<dt class=3D"qt-header">Billing Code</dt><dd>A code, chosen by the user, us=
+ed to sort searhes into categories. Each category generally signifies a cli=
+ent. Searches can later be sorted by code so that clients can be billed per=
+ search.
+</dd>
+
+<a name=3D"DefCaseWatch"></a>
+<dt class=3D"qt-header">Case Watch</dt><dd>A Doxpop tool that enables a reg=
+istered user to request e-mail notification any time there is new activity=
+ on a particular case. Setting a watch activates a &quot;trigger&quot; that=
+ automatically sends a message whenever there is a change related to the sp=
+ecified cause number, in most cases within ten minutes of the entry of the=
+ activity on a local court <a href=3D"#DefCaseManagementSystem">case manage=
+ment system</a>.
+</dd>
+
+<a name=3D"DefFireWall"></a>
+<dt class=3D"qt-header">Firewall</dt><dd>A computer system designed to prev=
+ent unauthorized access to the secure or private parts of a computer or com=
+puter network.
+</dd>
+
+<a name=3D"DefInterfaceProgram"></a>
+<dt class=3D"qt-header">Interface</dt><dd>A computer program developed to=
+ enable two or more software programs that were not specifically designed=
+ to work together to interact in a particular way. For example, an interfac=
+e might be developed to enable a program on one computer system to export=
+ data to another program on a separate computer system.
+
+</dd>
+
+<a name=3D"DefPersonalInformationManager"></a>
+<dt class=3D"qt-header">Personal Information Manager</dt><dd>Sometimes abbr=
+eviated &quot;PIM&quot;, a Personal Information Manager is a program that=
+ organizes and stores personal information such as appointments and contact=
+ information on a PC or handheld device. The <a href=3D"#DefScheduleNotific=
+ation">Doxpop Schedule Notification Service</a> and links throughout the we=
+b site allow Doxpop users to easily download court hearing information into=
+ the most popular Personal Information Managers.
+</dd>
+
+<a name=3D"DefPersonWatch"></a>
+<dt class=3D"qt-header">Person Watch</dt><dd>A Doxpop tool that enables a=
+ registered user to request e-mail notification any time there is new activ=
+ity on a particular person. Setting a watch activates a &quot;trigger&quot;=
+ that automatically sends a message whenever there is a change related to=
+ the specified name, in most cases within ten minutes of the entry of the=
+ activity on a local court <a href=3D"#DefCaseManagementSystem">case manage=
+ment system</a>.
+
+</dd>
+
+<a name=3D"DefPIM"></a>
+<dt class=3D"qt-header">PIM</dt><dd>See <a href=3D"#DefPersonalInformationM=
+anager">Personal Information Manager</a>
+
+</dd>
+
+<a name=3D"DefScheduleNotification"></a>
+<dt class=3D"qt-header">Schedule Notification</dt><dd>Using her/his bar ID=
+ number an attorney can set up a Doxpop account to send e-mail notification=
+ any time a schedule change is entered by court staff on the local court <a=
+ href=3D"#DefCaseManagementSystem">case management system</a>.  Attorneys=
+ can also receive e-mail notice 15 minutes in advance of scheduled court ap=
+pearances.
+</dd>
+
+<a name=3D"DefSearchCounter"></a>
+<dt class=3D"qt-header">Search Counter</dt><dd>The box in the upper left ha=
+nd corner of a subscriber&#x27;s screen that shows the number of searches=
+ made in the current billing period. Clicking on the counter will show more=
+ detailed information about your search history by user and billing code fo=
+r each billing period.
+
+</dd>
+
+<a name=3D"DefSearchRegion"></a>
+<dt class=3D"qt-header">Search Region</dt><dd>The geographic region a Doxpo=
+p user selects as the basis of a records search. Currently the options are=
+ to select a single county or the entire database. An enhancement scheduled=
+ for development will permit searching multiple specified counties within=
+ the aggregated database.
+
+</dd>
+
+<a name=3D"DefServerComputer"></a>
+<dt class=3D"qt-header">Server</dt><dd>A computer that receives, stores, an=
+d/or processes information for access by a number of computers and/or users=
+ from their personal or business workstation computers or other data manage=
+ment devices.
+</dd>
+
+<a name=3D"DefUniversalResourceLocator"></a>
+
+<dt class=3D"qt-header">URL</dt><dd>Acronym for Universal Resource Locator=
+ or Uniform Resource Locator. A URL is the address of a particular site on=
+ the world-wide web or the Internet. Each URL is formatted on a conventiona=
+l pattern.
+</dd>
+
+</dl>
+     </td>
+        </tr>
+      </tbody></table>
+ =20
+
+  <!-- $Id: footer.inc 20289 2014-02-11 16:11:14Z austinm $ -->
+<!--htdig_noindex-->
+
+  </div>
+ =20
+<div class=3D"DP-Footer">
+  <img alt=3D" " height=3D"20" src=3D"/prod/images/footer_logo.gif;jsession=
+id=3D0E9F53B398159ECCA00C91C4D3F724AE" width=3D"80">
+ <div class=3D"DP-FooterLinks">
+
+ =20
+ =20
+ =20
+   =20
+   =20
+ =20
+
+ =20
+   =20
+   =20
+   =20
+     <a href=3D"/prod/info/terms.jsp;jsessionid=3D0E9F53B398159ECCA00C91C4D=
+3F724AE" onclick=3D"h_showPopup(&#x27;/prod/info/terms.jsp;jsessionid=3D0E9=
+F53B398159ECCA00C91C4D3F724AE&#x27;, &#x27;h_TermsOfService&#x27;); return=
+ false" target=3D"newWindow">Terms of Service</a> ::=20
+   =20
+ =20
+   <a href=3D"/prod/info/privacy.jsp;jsessionid=3D0E9F53B398159ECCA00C91C4D=
+3F724AE" onclick=3D"h_showPopup(&#x27;/prod/info/privacy.jsp;jsessionid=3D0=
+E9F53B398159ECCA00C91C4D3F724AE&#x27;, &#x27;h_PrivacyPolicy&#x27;); return=
+ false" target=3D"newWindow">Privacy Policy</a> ::
+   <a href=3D"/prod/info/privacy_public_access.jsp;jsessionid=3D0E9F53B3981=
+59ECCA00C91C4D3F724AE" onclick=3D"h_showPopup(&#x27;/prod/info/privacy_publ=
+ic_access.jsp;jsessionid=3D0E9F53B398159ECCA00C91C4D3F724AE&#x27;, &#x27;h_=
+PrivacyPublicAccessy&#x27;); return false" target=3D"newWindow">Privacy and=
+ Public Access</a> ::=20
+   <a href=3D"/prod/help/HelpTopic;jsessionid=3D0E9F53B398159ECCA00C91C4D3F=
+724AE" target=3D"help">Help</a>
+  <br>
+   <a href=3D"//www.doxpop.com/us/careers">Careers</a> ::
+   <a href=3D"/prod/common/about.jsp;jsessionid=3D0E9F53B398159ECCA00C91C4D=
+3F724AE">About Us</a> ::
+   <a href=3D"/prod/info/fees.jsp;jsessionid=3D0E9F53B398159ECCA00C91C4D3F7=
+24AE" onclick=3D"h_showPopup(&#x27;/prod/info/fees.jsp;jsessionid=3D0E9F53B=
+398159ECCA00C91C4D3F724AE&#x27;, &#x27;h_FeesAndServices&#x27;, 960, 600);=
+ return false" target=3D"newWindow">Fee Schedule</a>
+ </div>
+=20
+  Copyright (c) 2002-2014 Doxpop, llc. All Rights Reserved=20
+</div>
+
+<!-- Google Analytics -->
+
+
+ =20
+ =20
+   =20
+ =20
+
+
+<script type=3D"text/javascript">
+var gaJsHost =3D (("https:" =3D=3D document.location.protocol) ? "https://s=
+sl." : "http://www.");
+document.write(unescape("%3Cscript src=3D'" + gaJsHost + "google-analytics.=
+com/ga.js' type=3D'text/javascript'%3E%3C/script%3E"));
+</script>
+<script type=3D"text/javascript">
+var pageTracker =3D _gat._getTracker("UA-3819156-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+pageTracker._setVar("Unregistered");
+</script>
+
+<!--/htdig_noindex-->
+
+ =20
+
+<div style=3D"clear: both;margin-top: 2em;font-size: 0.8em;border: 1px soli=
+d black;background-color: white;color: black;padding: 0.5em;text-align: cen=
+ter;">Saved from <a class=3D"unmht_link_to_original" style=3D"color: blue;b=
+ackground-color: inherit;text-decoration: underline" href=3D"http://www.dox=
+pop.com/prod/help/glossary.jsp">http://www.doxpop.com/prod/help/glossary.js=
+p</a><br>Wed Mar 05 2014 22:38:41 GMT-0500 (EST)<br>Saved by UnMHT Ver.7.0.=
+2</div></body></html>
+------=_Part_7CDC8C71_41F4510D.1449578BCAC
+Content-Location: http://www.doxpop.com/prod/css/styles.css?2008081101
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/css
+
+/*****************************************/
+/* Styles that are used by ALL templates */
+/*****************************************/
+body {
+  margin: 0px 0px;
+  font-size: medium;
+  background-repeat: repeat;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+form {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  background-repeat: no-repeat;
+/*  height: 73px;*/
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+/*  border-bottom-color: #CDCDCD;  */
+  border-bottom-color: #e8e8e8;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  background-color: #f1f1f1;
+/*  background-image: url(../images/doxpop-trans.gif); */
+  background-image: url(../images/doxpop_blue_green_tl.gif);
+  background-position: center top;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+.header-nav a {
+  font-size: small;
+  font-weight: bold;
+  color: #0000FF;
+  text-decoration: underline; =20
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+/*  display: block; */
+}
+.header-nav a:hover {
+  text-decoration: none;
+}
+.footer {
+  background-image: url(../images/footer_logo_line.gif);
+  background-repeat: repeat-x;
+  background-position: left top;
+  background-color: #FFFFFF;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: #666666;
+  padding-bottom: 10px;
+}
+.footer a {
+  color: #0000FF;
+  text-decoration: underline;
+}
+.footer a:hover {
+  text-decoration: none;
+}
+/* These items are used to control the formatting of the navigation bar in=
+ the header */
+.help-nav a {
+  display: block;
+  padding-left: 19px;
+  padding-right: 32px;
+  text-decoration: underline; =20
+}
+.aboutus-nav a {
+  display: block;
+  padding-right: 40px;
+  text-decoration: underline; =20
+}
+.isdoxpop-nav a {
+  display: block; =20
+  padding-right: 41px;
+  text-decoration: underline; =20
+}
+.feeschedule-nav a {
+  display: block;
+  padding-right: 34px;
+  text-decoration: underline; =20
+}
+.register-nav a {
+  display: block;
+  padding-right: 39px;
+  text-decoration: underline; =20
+}
+.shoppingcart-nav a {
+  display: block;
+  padding-right: 19px;
+}
+
+.example {
+  font-size: medium;
+  color: #414141;
+  margin-top: 0;
+}
+
+/* Box for Image */
+.screen-shot-box {
+/*  float: left;
+  margin: 10px; */
+  border: solid #8B0000 1px;
+  padding: 5px;
+}
+/* Box for County List */
+.county-box {
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid #8B0000 1px;
+  background-color: #F8EFEF;
+/*  margin-bottom: 15px; */
+  float: right;
+}
+.county-box p {
+  font-size: medium;
+  color: #000000;
+}
+
+.county-box .box-header {
+  font-size: medium;
+  padding: 5px;
+  background-color: #8B0000;
+  color: #FFFFFF;
+}
+
+.county-box table {
+  margin: 1px 10px 10px 10px;
+}
+
+.county-box .county {
+  margin: 3px 5px 0px 4px;
+}
+
+.county-box .city {
+  margin: 1px 5px 0px 10px;
+}
+
+.county-box .soon {
+  font-size: small;
+  vertical-align: text-top;
+  color: #0C8C2A;
+}
+
+.county-box .new {
+  font-size: small;
+  vertical-align: text-top;
+  color: #8B0000;
+}
+
+/* Boxes for quotations */
+.quote-box {
+/*  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 15px; */
+}
+
+.quote-box .quote {
+  font-family: Times New Roman, Times, serif;
+  font-size: medium;
+  font-style: italic;
+  color: #222222;
+  text-align: left;
+}
+.quote-box .cite {
+  font-family: Times New Roman, Times, serif;
+  font-size: medium;
+  font-style: italic;
+  color: #222222;
+  text-align: right;
+  font-weight: bold;
+}
+
+.testimonial-box {
+  font-family: Times New Roman, Times, serif;
+  font-size: medium;
+  width: 280px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.testimonial-box .highlight {
+/*  font-size: medium; */
+  color: #0C8C2A;
+  font-weight: bold;
+}
+.testimonial-box .cite {
+   white-space: nowrap;
+   float: right;
+   font-weight: bold;
+   font-style: italic;
+   margin-top: 8px;
+}
+
+
+/* Styles for normal navigation links */
+/* the :hover and :visited sections are covered by content-area class */
+
+a.nav-link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: small;
+}
+
+
+/***********************************************/
+/* Styles that are used only by the splash page*/
+/***********************************************/
+.shadow-box-header-red {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: #FFFFFF;
+  background-color: #8B0000;
+  border: solid #8B0000 1px;
+  padding: 5px;
+}
+.shadow-box-textarea-red {
+  background-color: #F8EFEF;
+  border: solid #8B0000 1px;
+  font-size: small;
+  color: #414141;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.shadow-box-header-blue {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: #FFFFFF;
+  background-color: #144F99;
+  border: solid #144F99 1px;
+  padding: 5px;
+  font-weight: normal;
+  clear: both;
+}
+.shadow-box-textarea-blue {
+  background-color: #EDF4FB;
+  border: solid #144F99 1px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: #414141;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.shadow-box-textarea-blue label {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: #414141;
+}
+.shadow-box-textarea-blue span {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: #414141;
+}
+.shadow-box-header-orange {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: #FFFFFF;
+  background-color: #FC9700;
+  border: solid #FC9700 1px;
+  padding: 5px;
+  font-weight: normal;
+}
+.shadow-box-textarea-orange {
+  background-color: #FFFAEF;
+  border: solid #FC9700 1px;
+  font-size: small;
+  color: #414141;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+/* If this is all that is needed with the hover pseudo-class it is not need=
+ed at all
+.shadow-box-textarea-orange a:hover {
+  text-decoration: none;
+}
+*/
+
+.shadow-box-textarea-orange a.register-link {
+  color: #0000FF;
+  text-decoration: underline;
+}
+.shadow-box-textarea-orange a.register-link:hover {
+  text-decoration: none;
+}
+.shadow-box-textarea-orange a.register-link:visited {
+  color: #535353;
+}
+
+.shadow-box-textarea-orange div {
+  padding: 5px;
+}
+.shadow-box-header-green {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: #FFFFFF;
+  background-color: #0C8C2A;
+  border: solid #0C8C2A 1px;
+  padding: 5px;
+  font-weight: normal;
+}
+.shadow-box-textarea-green {
+  background-color: #F6F9EF;
+  border: solid #0C8C2A 1px;
+  font-size: small;
+  color: #414141;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.shadow-box-textarea-green label {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: #414141;
+}
+.shadow-box-textarea-green span {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: #414141;
+}
+.shadow-box-textarea-green dt {
+  color: #144F99;
+  font-size: small;
+  font-weight: bold;
+}
+.shadow-box-textarea-green span.highlight {
+  color: #144F99;
+  font-size: small;
+}
+.shadow-box-textarea-inner-green {
+  font-size: small;
+/*   line-height: 14px; */
+  color: #535353;
+  padding-right: 5px;
+}
+.shadow-box-textarea-inner-green a.sub-header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+  color: #0C8C2A;
+  padding-bottom: 3px;
+  text-decoration: underline;
+}
+.shadow-box-textarea-inner-green a.sub-header:visited {
+  color: #5F8D00;
+  text-decoration: underline;
+}
+.shadow-box-textarea-inner-green a.sub-header:hover {
+  text-decoration: none;
+}
+.box-image-link-green {
+  margin-right: 6px;
+  margin-bottom: 6px;
+  border: solid #0C8C2A 1px;
+}
+.box-image-link-green-highlight {
+  margin-right: 6px;
+  margin-bottom: 6px;
+  border: solid #F6F9EF 1px;
+}
+.shadow-box-textarea-inner-green div {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+  color: #5F8D00;
+  padding-bottom: 3px;
+}
+.splash-feature-box {
+  font-size: small;
+  color: #414141;
+  padding-left: 0px;
+  /*border: 1px solid #D5D5D5;*/
+  padding-right: 0px;
+  margin-bottom: 10px;
+}
+.our-data-box {
+  /*border: 1px solid #D5D5D5;*/
+  margin-bottom: 15px;
+}
+.our-data-text {
+  font-size: small;
+  color: #535353;
+  background-color: #F1F1F1;
+  padding-left: 18px;
+  padding-top: 1px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  text-align: justify;
+}
+.splash-content-area {
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+.addon-bottom-cell {
+  font-size: medium;
+  color: #535353;
+  text-align: center;
+  padding: 5px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: none;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #D5D5D5;
+  border-right-color: #D5D5D5;
+  border-bottom-color: #D5D5D5;
+  border-left-color: #D5D5D5;
+}
+
+/**************************************************************************=
+****/
+/* Styles that are used only by the Inner page AND application page templat=
+es */
+/**************************************************************************=
+****/
+.title-bar {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #144F99;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #144F99;
+  background-color: #144F99;
+  clear: both;
+  padding-top: 4px;
+  padding-bottom: 1px;
+  height: 1.5em ;
+}
+
+.title-bar table td {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.subnav {
+  background-position: right top;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #CDCDCD;
+  background-image: url(../images/subnav_bg.gif);=20
+/*  background-image: url(../images/search-screenshot.png); */
+  background-repeat: no-repeat;
+  padding-left: 19px;
+  background-color: #709F00;
+  padding-bottom: 6px;
+  padding-top: 8px;
+}
+.subnav td {
+  margin-bottom: 6px;
+  padding-right: 20px;
+}
+.subnav td a {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: #FDF7F2;
+  text-decoration: underline;
+  background-image: url(../images/subnav_arrow.gif);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 10px;
+}
+.subnav td a:hover {
+  text-decoration: none;
+}
+.subnav-distinct {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: small;
+  text-align: right;
+  color: #FDF7F2;
+  text-decoration: none;
+  padding-top: 0px;
+  padding-right: 19px;
+  padding-bottom: 0px;
+}
+.subnav-distinct a {
+  color: #FDF7F2;
+  text-decoration: none;
+}
+.subnav-distinct a:hover {
+  text-decoration: none;
+}
+
+.content-area {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  /* width: 98%; */
+  margin: 3px;
+  padding: 3px;
+}
+.content-area a {
+  text-decoration: underline;=20
+  color: #0000EE;
+}
+.content-area a:visited {
+  color: #0000EE;
+}
+.content-area a:hover {
+  text-decoration: none;
+}
+.content-area h1 {
+  color: #0E4694;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: x-large;
+}
+.content-area h2 {
+  color: #0E4694;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: large;
+}
+.content-area h3 {
+  color: #0E4694;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: medium;
+}
+.content-area h4 {
+  color: #0E4694;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: medium;
+}
+.content-area h5 {
+  color: #0E4694;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: medium;
+}
+.content-area h6 {
+  color: #0E4694;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: medium;
+}
+
+.news-content-area {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+.news-content-area a {
+  color: #0000FF ;
+  text-decoration: underline;=20
+}
+.news-content-area a:visited {
+  color: #0000FF;
+}
+.news-content-area a:hover {
+  text-decoration: none;
+}
+.news-content-area h1 {
+  color: #0E4694;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: medium;
+}
+.news-content-area h2 {
+  color: #0E4694;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: medium;
+}
+.news-content-area h3 {
+  color: #0E4694;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: medium;
+}
+.news-content-area h4 {
+  color: #0E4694;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: medium;
+}
+.news-content-area h5 {
+  color: #0E4694;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: medium;
+}
+.news-content-area h6 {
+  color: #0E4694;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: medium;
+}
+
+.news-title {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: #FFFFFF;
+  padding-left: 19px;
+  vertical-align: middle;
+}
+
+.section-title {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+/*  font-size: medium;  */
+  font-size: large;
+  color: #FFFFFF;
+  padding-left: 19px;
+  vertical-align: middle;
+}
+
+.section-small {
+  color: #FFFFFF;
+  font-size: small;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  vertical-align: middle;
+}
+.section-small a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+.section-small a:hover {
+  text-decoration: none;
+}
+
+.subsection-headline {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: #144F99;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-left: 19px;
+}
+.text-field-login {
+  border: 1px solid #878787;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  color: #666666;
+}
+
+.Hint {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-weight: normal;
+  color: #666666;
+  text-align: left;
+}
+.Hint a {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #0000FF;
+  text-decoration: underline;
+  font-size: x-small;
+}
+.Hint a:hover {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #0000FF;
+  text-decoration: none;
+}
+
+/* The clue to Hide and Show */
+.clue {
+   	display: none;
+    position: absolute;
+/*    left: 300px; */
+    width: 200px;
+    margin-top: -4px;
+    border: 1px solid #c93;
+    padding: 10px 12px;
+    /* to fix IE6, I can't just declare a background-color,
+    I must do a bg image, too!  So I'm duplicating the pointer.gif
+    image, and positioning it so that it doesn't show up
+    within the box */
+    background: #ffc url(hint.gif) no-repeat -10px 5px;
+}
+/* The pointer image is hadded by using another span */
+.clue .clue-pointer {
+    position: absolute;
+    left: -10px;
+    top: 5px;
+    width: 10px;
+    height: 19px;
+    background: url(hint.gif) left top no-repeat;
+}
+
+.CuteBtn {
+  color: #000000;
+  font-size: 80%;
+}
+
+/* The quicktip CSS for <a> tags was getting overridden by content-area...s=
+o I=20
+ * just moved the Quick Tip stuff to a higher priority and that seems to wo=
+rk.
+ */
+
+/* Styles for Quick Tips */
+.qt-header {
+  display: block;
+  color: #0E4694;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: large;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/* unfortunately ".content-area a" binds more tightly*/=20
+a.qt-header {
+  text-decoration: none;
+}
+
+
+/*****************************************/
+/* Styles used ONLY by Application Pages */
+/*****************************************/
+
+.CCSTitle {
+  font-size: medium;
+}
+.case-number {
+  color: #333333;
+  font-size: large;
+  font-weight: bold;
+}
+.case-name {
+  color: #333333;
+  font-size: large;
+}
+.case-file-date {
+  color: #333333;
+  font-size: medium;
+}
+.case-text {
+  color: #333333;
+  font-size: medium;
+}
+.case-print {
+  font-size: medium;
+  margin-top: 5px;
+}
+.case-detail-logo {
+  font-size: medium;
+  padding-bottom: 10px;
+}
+
+.results {
+  margin-left: 25px;
+  width: 94%;
+  font-size: medium;
+  color: #000000;
+}
+.results table {
+  background-color: #F8FFF9;
+  border-top: 1px solid #1C7E24;
+  border-right: 1px solid #1C7E24;
+  border-left: 1px solid #1C7E24;
+  border-bottom: none;
+  width: 100%;
+}
+.results table #headercol {
+  color: #333333;
+  text-align: center;
+  vertical-align: bottom;
+  border-bottom: 2px solid #000000;
+}
+.results table #financecell {
+  border-right: 1px solid #666666;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.results table #topline {
+  border-top: 1px solid #666666;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.results .Name {
+  text-align: right;
+  vertical-align: top;
+  font-weight: bold;
+}
+.results .Value {
+  text-align: left;
+  vertical-align: top;
+}
+.results .Time {
+  font-size: smaller;
+  font-weight: bold;
+}
+
+.CountyList td {
+  font-size: smaller;
+}
+
+.FormGrid th {
+  text-align: left;
+}
+
+.FormGrid .divLine {
+  border-bottom: 2px solid #999999;
+}
+
+.FormGrid td {
+  padding-right: 15px;
+}
+
+.FormGrid .court {
+  background-color: #EEEEFF;
+}
+
+.FormGrid .recorder {
+  background-color: #EEFFEE;
+}
+
+/*****************************************************/
+/* Misc. Styles that are/can be used by all templates*/
+/*****************************************************/
+.grey-9px-links {
+  font-size: medium;
+}
+.grey-9px-links a {
+  color: #535353;
+  text-decoration: underline; =20
+}
+.grey-9px-links a:hover {
+  text-decoration: none;
+}
+.nojavascript-box {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: small;
+  background-color: #F1f1f1;
+  text-align: center;
+  color: #000000;
+  padding: 1px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #FEFEFE;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ABABAB;
+}
+.alert-box {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: small;
+  background-color: #FFFA86;
+  text-align: center;
+  color: #000000;
+  padding: 1px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #CDCDCD;
+}
+.alert-box a {
+  color: #144F99;
+  text-decoration: underline;
+}
+.alert-box a:hover {
+  text-decoration: none;
+}
+
+#tabs {
+  float:left;
+  background:#ffffff;
+  font-size: small;
+  line-height:normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+ =20
+  padding-left: 11px;
+  margin: 4px 0px 0px 0px;
+  padding-bottom: 0px; =20
+}
+#tabs ul {
+  margin:0px;
+  padding:0px 7px;
+  list-style:none;
+}
+#tabs li.TabLeft {
+  float:left;
+  background:url(../images/inactive-tab-left.gif) no-repeat left bottom;
+  margin:0px 9px 0px 0px;
+  padding:0px 0px 0px 7px;
+}
+#tabs li.TabRight {
+  float:right;
+  background:url(../images/inactive-tab-left.gif) no-repeat left bottom;
+  margin:0px 9px 0px 0px;
+  padding:0px 0px 0px 7px;
+}
+#tabs a {
+  float: left;
+  color: #FFFFFF;
+  text-decoration: none;
+  display:block;
+  background:url(../images/inactive-tab-right.gif) no-repeat right bottom;
+  padding: 2px 11px 2px 0px;
+}
+/*
+  The highlight is a cool effect, but doesn't work so well under IE
+#tabs li:hover {
+  background:url(../images/highlight-tab-left.gif) no-repeat left bottom;
+}
+#tabs a:hover {
+  background:url(../images/highlight-tab-right.gif) no-repeat right bottom;
+}
+*/
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a {float:none;}
+/* End IE5-Mac hack */
+
+#tabs #current {
+  background-image:url(../images/active-tab-left.gif);
+}
+#tabs #current a {
+  background-image:url(../images/active-tab-right-shadow.gif);
+  padding: 2px 11px 2px 0px;
+}
+
+.doxpop-text {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: #666666;
+  text-align: justify;
+/*   line-height: 18px; */
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.doxpop-text h3 {
+  font-size: large;
+  color: #0C8C2A;
+  font-weight: normal;
+  margin: 0px;
+  padding: 15px 0px 5px;
+}
+
+.ccs-base {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* these are used to tint alternating lines */
+.tint0 {
+  /* background: #eeeeff; */
+  background-color: #EDF4FB;
+}
+.tint1 {
+  background: #ffffff;
+}
+
+/* Legacy classes from the old stylesheet */
+.tint {
+  background: #eeeeff;
+}
+
+.PageLabel {
+  font-size: x-large;
+  text-align: center;
+}
+
+.SubLabel {
+  font-size: medium;
+  text-align: center;
+  font-weight: bold;
+}
+
+.ColumnHeading {
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  font-size: 85% ;
+}
+.ColumnHeadingRight {
+  font-weight: bold;
+  font-style: normal;
+  text-align: right;
+  vertical-align: top;
+  font-size: 85% ;
+}
+
+.TableData {
+  text-align: left;
+  vertical-align: top;
+  font-size: 85% ;
+}
+
+.TableDataRight {
+  text-align: right;
+  vertical-align: top;
+  font-size: 85% ;
+}
+
+.FieldLabel {
+  font-weight: bold;
+  font-style: normal;
+  text-align: right;
+  vertical-align: top;
+}
+
+.FieldData {
+  text-align: left;
+}
+
+.FieldDataRight {
+  text-align: left;
+}
+
+.DataLink a, a.DataLink {
+  color: #0000FF;
+}
+.DataLink a:hover, a.DataLink:hover {
+  text-decoration: none;
+}
+.DataLink a:visited, a.DataLink:visited {
+  color: #AA00AA;
+}
+
+.ActionLink a {
+  font-weight: bold;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #0000ff;
+  text-decoration: underline;
+}
+.ActionLink a:hover {
+  text-decoration: none;
+  color: #0000FF;
+}
+.ActionLink a:visited {
+  color: #0000FF;
+}
+
+.ActionLinkBig {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #0000FF;=20
+}
+.ActionLinkBig a:hover {
+  text-decoration: none;
+  color: #0000FF;
+}
+.ActionLinkBig a:visited {
+  color: #0000FF;
+}
+
+/* This section is an attempt to standardize the display of data collection=
+ forms */
+.FormFieldLabel {
+  font-weight: bold;
+  font-style: normal;
+  font-size: medium;
+  text-align: right;
+  padding-top: 0.2em;
+  padding-right: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.2em;
+  vertical-align: middle;
+}
+
+.FormFieldLabel div {
+  text-align: left;
+  /*
+  text-indent: -2.5em;
+  padding-left: 2.5em;
+  */
+  float: right;
+}
+
+.FormFieldData {
+  font-weight: normal;
+  font-style: normal;
+  font-size: medium;
+  text-align: left;
+  vertical-align: bottom;
+  padding: 0.2em;
+}
+
+.FormFieldCheckbox {
+  vertical-align: middle;
+  padding: 0.2em;
+}
+
+.FormFieldCheckbox label {
+  font-weight: normal;
+  font-style: normal;
+  font-size: medium;
+  color: black;
+  text-align: left;
+}
+
+.FormSubmit {
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.FormCancel {
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  padding: 0.1em;
+}
+
+/* This section is an attempt to standardize the display of data */
+.DisplayFieldLabel {
+  font-weight: bold;
+  font-style: normal;
+  font-size: medium;
+  text-align: right;
+  padding-top: 0.2em;
+  padding-right: 0.9em;
+  padding-bottom: 0.2em;
+  padding-left: 0.2em;
+  vertical-align: middle;
+}
+
+.DisplayFieldData {
+  font-weight: normal;
+  font-style: normal;
+  font-size: medium;
+  text-align: left;
+  padding: 0.2em;
+  vertical-align: middle;
+}
+
+/* This section is an attempt to standardize the display of tabular data */
+.DataTable {
+
+}
+
+.DataTable .TextLabel {
+  font-weight: bold;
+  font-size: medium;
+  text-align: left;
+  vertical-align: bottom;
+  padding: 0.2em;
+}
+
+.DataTable .DateLabel {
+  font-weight: bold;
+  font-size: medium;
+  text-align: left;
+  vertical-align: bottom;
+  padding: 0.2em;
+}
+
+.DataTable .NumberLabel {
+  font-weight: bold;
+  font-size: medium;
+  text-align: right;
+  vertical-align: bottom;
+  padding: 0.2em;
+}
+
+.DataTable .GroupLabel {
+  font-weight: bold;
+  font-size: medium;
+  text-align: center;
+  vertical-align: bottom;
+  padding: 0.2em;
+}
+
+.DataTable .TextData {
+  font-weight: normal;
+  font-size: medium;
+  text-align: left;
+  vertical-align: top;
+  padding: 0.2em;
+}
+
+.DataTable .DateData {
+  font-weight: normal;
+  font-size: medium;
+  text-align: left;
+  vertical-align: top;
+  padding: 0.2em;
+}
+
+.DataTable .NumberData {
+  font-weight: normal;
+  font-size: medium;
+  text-align: right;
+  vertical-align: top;
+  padding: 0.2em;
+}
+
+.InactiveRow td, .InactiveRow a:link, .InactiveRow a:visited {
+  color: #666666;=20
+}
+
+/* Links to Press Releases */
+.PressRelease {
+}
+
+.PressRelease a {
+  color: #232323;
+}
+.PressRelease a:visited {
+  color: #636363;
+}
+
+/* This link is for a smaller "More . . ." link */
+a.ContinueLink {
+/*  display: block;  Changing to block cause caused weird behavior on IE6
+  clear: both;
+  float: right;
+  width: 20%; */
+  white-space: nowrap;
+  font-size: small;
+  color: #0000EE;
+}
+a.ContinueLink:visited {
+  color: #990099;
+}
+.SubHeaderNav {
+  width: 95%;
+  font-size: small;
+  margin-bottom: 1em;
+}
+.SubHeaderNav td {
+  text-align: center;
+}
+.SubHeaderNav a {
+  color: #0000EE;
+}
+.SubHeaderNav a:visited {
+  color: #990099;
+}
+
+.info {
+  width: 450px;
+  background-color: #DDFFDD;
+  border: 1px dotted #000000;
+  padding: 5px;
+  text-align: justify;
+}
+
+.warning {
+  color: #CC0000; =20
+  font-weight: bolder;
+}
+
+.color {
+  margin: 0px 0px 20px 0px;
+  padding: 5px;
+}
+
+.navigationPane {
+  float: left ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: #FFFFFF;
+  background-color: #144F99;
+  padding: 0px;
+  font-weight: normal;
+}
+
+.navigationPane a {
+  color: #FFFFFF;
+  display: block ;
+  text-decoration: none;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0px;
+}
+
+.navigationPane a:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+  background-color: #0C8C2A;
+}
+
+.navigationPane a.highlight {
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #0C8C2A;
+  margin-right: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.navigationPane a.highlight:hover {
+  text-decoration: none;
+}
+
+/*
+Use ErrorText to nest around field labels that correspond to required fields
+have been left empty.  ErrorText is also used in the include file error.inc=
+ to
+display error mesages.
+*/
+.ErrorText {
+  font-weight: bold;
+  color: #FF0000;
+}
+.MessageText {
+  font-weight: bold;
+  color: #0C8C2A;
+}
+
+/* Stuff for jscalendar */
+/* The main calendar widget.  DIV containing a table. */
+
+div.calendar { position: relative; }
+
+.calendar, .calendar table {
+  border: 1px solid #556;
+  font-size: medium;
+  color: #000;
+  cursor: default;
+  background: #eef;
+  font-family: tahoma,verdana,sans-serif;
+}
+
+/* Header part -- contains navigation buttons and day names. */
+
+.calendar .button { /* "<<", "<", ">", ">>" buttons have this class */
+  text-align: center;    /* They are the navigation buttons */
+  padding: 2px;          /* Make the buttons seem like they're pressing */
+}
+
+.calendar .nav {
+  background: #778 no-repeat 100% 100%;
+}
+
+.calendar thead .title { /* This holds the current "month, year" */
+  font-weight: bold;      /* Pressing it will take you to the current date=
+ */
+  text-align: center;
+  background: #fff;
+  color: #000;
+  padding: 2px;
+}
+
+.calendar thead .headrow { /* Row <TR> containing navigation buttons */
+  background: #778;
+  color: #fff;
+}
+
+.calendar thead .daynames { /* Row <TR> containing the day names */
+  background: #bdf;
+}
+
+.calendar thead .name { /* Cells <TD> containing the day names */
+  border-bottom: 1px solid #556;
+  padding: 2px;
+  text-align: center;
+  color: #000;
+}
+
+.calendar thead .weekend { /* How a weekend day name shows in header */
+  color: #a66;
+}
+
+.calendar thead .hilite { /* How do the buttons in header appear when hover=
+ */
+  background-color: #aaf;
+  color: #000;
+  border: 1px solid #04f;
+  padding: 1px;
+}
+
+.calendar thead .active { /* Active (pressed) buttons in header */
+  background-color: #77c;
+  padding: 2px 0px 0px 2px;
+}
+
+/* The body part -- contains all the days in month. */
+
+.calendar tbody .day { /* Cells <TD> containing month days dates */
+  width: 2em;
+  color: #456;
+  text-align: right;
+  padding: 2px 4px 2px 2px;
+}
+.calendar tbody .day.othermonth {
+  font-size: medium;
+  color: #bbb;
+}
+.calendar tbody .day.othermonth.oweekend {
+  color: #fbb;
+}
+
+.calendar table .wn {
+  padding: 2px 3px 2px 2px;
+  border-right: 1px solid #000;
+  background: #bdf;
+}
+
+.calendar tbody .rowhilite td {
+  background: #def;
+}
+
+.calendar tbody .rowhilite td.wn {
+  background: #eef;
+}
+
+.calendar tbody td.hilite { /* Hovered cells <TD> */
+  background: #def;
+  padding: 1px 3px 1px 1px;
+  border: 1px solid #bbb;
+}
+
+.calendar tbody td.active { /* Active (pressed) cells <TD> */
+  background: #cde;
+  padding: 2px 2px 0px 2px;
+}
+
+.calendar tbody td.selected { /* Cell showing today date */
+  font-weight: bold;
+  border: 1px solid #000;
+  padding: 1px 3px 1px 1px;
+  background: #fff;
+  color: #000;
+}
+
+.calendar tbody td.weekend { /* Cells showing weekend days */
+  color: #a66;
+}
+
+.calendar tbody td.today { /* Cell showing selected date */
+  font-weight: bold;
+  color: #00f;
+}
+
+.calendar tbody .disabled { color: #999; }
+
+.calendar tbody .emptycell { /* Empty cells (the best is to hide them) */
+  visibility: hidden;
+}
+
+.calendar tbody .emptyrow { /* Empty row (some months need less than 6 rows=
+) */
+  display: none;
+}
+
+/* The footer part -- status bar and "Close" button */
+
+.calendar tfoot .footrow { /* The <TR> in footer (only one right now) */
+  text-align: center;
+  background: #556;
+  color: #fff;
+}
+
+.calendar tfoot .ttip { /* Tooltip (status bar) cell <TD> */
+  background: #fff;
+  color: #445;
+  border-top: 1px solid #556;
+  padding: 1px;
+}
+
+.calendar tfoot .hilite { /* Hover style for buttons in footer */
+  background: #aaf;
+  border: 1px solid #04f;
+  color: #000;
+  padding: 1px;
+}
+
+.calendar tfoot .active { /* Active (pressed) style for buttons in footer */
+  background: #77c;
+  padding: 2px 0px 0px 2px;
+}
+
+/* Combo boxes (menus that display months/years for direct selection) */
+
+.calendar .combo {
+  position: absolute;
+  display: none;
+  top: 0px;
+  left: 0px;
+  width: 4em;
+  cursor: default;
+  border: 1px solid #655;
+  background: #def;
+  color: #000;
+  font-size: medium;
+  z-index: 100;
+}
+
+.calendar .combo .label,
+.calendar .combo .label-IEfix {
+  text-align: center;
+  padding: 1px;
+}
+
+.calendar .combo .label-IEfix {
+  width: 4em;
+}
+
+.calendar .combo .hilite {
+  background: #acf;
+}
+
+.calendar .combo .active {
+  border-top: 1px solid #46a;
+  border-bottom: 1px solid #46a;
+  background: #eef;
+  font-weight: bold;
+}
+
+.calendar td.time {
+  border-top: 1px solid #000;
+  padding: 1px 0px;
+  text-align: center;
+  background-color: #f4f0e8;
+}
+
+.calendar td.time .hour,
+.calendar td.time .minute,
+.calendar td.time .ampm {
+  padding: 0px 3px 0px 4px;
+  border: 1px solid #889;
+  font-weight: bold;
+  background-color: #fff;
+}
+
+.calendar td.time .ampm {
+  text-align: center;
+}
+
+.calendar td.time .colon {
+  padding: 0px 2px 0px 3px;
+  font-weight: bold;
+}
+
+.calendar td.time span.hilite {
+  border-color: #000;
+  background-color: #667;
+  color: #fff;
+}
+
+.calendar td.time span.active {
+  border-color: #f00;
+  background-color: #000;
+  color: #0f0;
+}
+
+.note {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.WarningBackground {
+  background: #ff0000;
+}
+
+.AlertBackground {
+  background: #ffff00;
+}
+
+.OKBackground {
+  background: #00ff00;
+}
+
+.ToastBackground {
+  background: #444444;
+  color: #cccccc;
+}
+
+.STGBackground {
+  background: #7777ff;
+  color: #efefef;
+}
+
+
+/* Styles for the Recorder Application */
+
+td.previewCell {
+  border: solid #CCCCCC 1px;
+}
+
+td.previewCell img {
+  width: 208px;
+  height: 343px;
+  background-repeat: no-repeat;
+  background-image: url(../images/image_loading.jpg);
+}
+
+/* Sytles for Context Help */
+div.ContextHelpDiv {
+  background-color: #EDF4FB;
+/*  background:transparent url(../images/ltBlue85pct.png) repeat; */
+  border: solid #144F99 1px;
+  width: 250px;
+  height: 200px;
+/*  overflow: scroll; */
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  z-index: 3;
+  visibility: hidden;
+/*  display:none; */
+}
+
+.ContextHelpTitle {
+  color: #FFFFFF;
+  background-color: #144F99;
+}
+
+.ContextHelpContents {
+}
+
+.ContextHelpBottom {
+  text-align: center;
+}
+
+/* Sytles for Custom Options */
+#OptionsDiv {
+  background-color: #FFFFFF;
+/*  background:transparent url(../images/ltBlue85pct.png) repeat; */
+  border: solid #144F99 1px;
+/*  width: 250px;
+  height: 200px; */
+/*  overflow: scroll; */
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  z-index: 3;
+  visibility: hidden;
+  padding: 3px;
+/*  display:none; */
+}
+
+#OptionsDiv .CustomOptionDisable {
+  background-color: #EDEDED;
+  color: #9F9F9F ;
+  border: solid #EDEDED 1px;
+  padding: 1px;
+  white-space: nowrap ;
+}
+
+#OptionsDiv .CustomOption {
+  border: solid #FFFFFF 1px;
+  padding: 1px;
+  white-space: nowrap ;
+  cursor: pointer ;
+}
+
+#OptionsDiv .CustomOption:hover {
+  background-color: #E9F0FF;
+  border: solid #144F99 1px;
+}
+
+.RegionBox {
+  font-size: small;
+  margin: 3px;
+  float: right;
+  clear: both;
+}
+
+.BillingCodeBox {
+  font-size: small;
+  margin: 3px;
+  float: right;
+  clear: both;
+}
+
+.WelcomeBox {
+  font-size: small;
+  margin: 3px;
+  text-align: left ;
+/*  float: left;
+  clear: both;
+*/
+}
+div.Odometer {
+  cursor: pointer;
+  font-size: small;
+  margin: 3px;
+}
+
+.InfoNote {
+  z-index: 1;
+  position: relative;
+/*  top: 5;   NO SUCH ATTRIBUTE */
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: medium;
+  text-align: center;
+  padding: 1px;
+  background-color: #555555;
+  color: #FFFFFF;
+/*  width: 320;   NO SUCH ATTRIBUTE */
+  background:url(../images/round_rect.gif) no-repeat left top;
+}
+
+.TrimBlock {
+  padding: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #E8E8E8;
+}
+
+.ForegroundBox {
+  background-color: #FFFFFF;
+}
+
+.Instructions {
+  text-align: left;
+  font-size: medium;
+  background-color: #FFFFFF;
+}
+
+.TableList, .TableList table {
+  font-size: medium;
+  text-align: left;
+}
+
+.PopupTable, .PopupTable table {
+  font-size: x-small;
+ =20
+}
+.PopupTable tr .Header {
+  font-weight: bold;
+}
+
+/* Box for Search Count List */
+.search-count {
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid #144F99 1px;
+  background-color: #EDF4FB;
+  padding: 10px;
+}
+
+.Odometer, .Odometer a, .Odometer a:hover, .Odometer a:visited {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Boxes for UpgradeServicePlan page */
+.upgrade-plan-shadow-box-header-red {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: #FFFFFF;
+  background-color: #8B0000;
+  border: solid #8B0000 1px;
+  padding: 5px;
+}
+.upgrade-plan-shadow-box-textarea-red {
+  background-color: #F8EFEF;
+  border: solid #8B0000 1px;
+  font-size: small;
+  color: #414141;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+.upgrade-plan-shadow-box-header-green {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: #FFFFFF;
+  background-color: #0C8C2A;
+  border: solid #0C8C2A 1px;
+  padding: 5px;
+  font-weight: normal;
+}
+.upgrade-plan-shadow-box-textarea-green {
+  background-color: #F6F9EF;
+  border: solid #0C8C2A 1px;
+  font-size: small;
+  color: #414141;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+/**************************************************************************=
+*/
+/* Styles for legal documents such as the subscription agreement.        =
+  */
+/**************************************************************************=
+*/
+.legal-boilerplate-box {
+  font-family: Times New Roman, Times, serif;
+  font-size: medium;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.legal-detail-box {
+  font-family: Times New Roman, Times, serif;
+  font-size: medium;
+  background-color: #EEEEEE;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.legal-heading {
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+}
+
+.TuckedList {
+
+}
+
+/*
+ * Rounded borders that work with any color as long as the background
+ * is white.
+ */
+.RndTop div {
+  background: url(../images/tl.gif) no-repeat left top;
+}
+.RndTop {
+  background: url(../images/tr.gif) no-repeat right top;
+}
+.RndBot div {
+  background: url(../images/bl.gif) no-repeat left bottom;
+}
+.RndBot {
+  background: url(../images/br.gif) no-repeat right bottom;
+}
+.RndTop div, .RndTop, .RndBot div, .RndBot {
+/*  width: auto;*/
+  height: 2px;
+  font-size: 1px;   /* Stupid IE */
+  overflow: hidden; /* Stupid IE */
+}
+.RndContent {
+  line-height: 100%;
+  margin: 0 3px;
+}
+
+
+------=_Part_7CDC8C71_41F4510D.1449578BCAC
+Content-Location: http://www.doxpop.com/prod/css/newsletter.css?2008081101
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/css
+
+/* Styles for Newsletters */
+
+td.NLheading {
+  text-align: center;
+  font-family: Palatino, "Times New Roman", Times, serif;
+  color: #0A498E;
+  padding-top: 0.5em;
+  padding-bottom: 0.7em;
+}
+div.NLheading {
+  font-size: 45px;
+  white-space: nowrap;
+}
+.NLheading img {
+  border: none;
+  vertical-align: text-top;
+}
+.NLheading span {
+}
+.NLsubheading {
+  font-size: 90%;
+}
+.NLtopLeftInfo {
+  font-family: Palatino, "Times New Roman", Times, serif;
+  font-size: 90%;
+  vertical-align: bottom;
+  padding-bottom: 10px;
+  color: #000000;
+}
+.NLtopRightInfo {
+  font-family: Palatino, "Times New Roman", Times, serif;
+  font-size: 90%;
+  text-align: right;
+  vertical-align: bottom;
+  padding-bottom: 10px;
+  color: #000000;
+}
+.NLleftColumn {
+}
+.NLcontents {
+  border: 1px solid #0A498E;
+  width: 100%;
+  background-color: #EFF5F9;
+  margin-bottom: 10px;
+}
+.NLcontents .NLlabel {
+  color: #FFFFFF;
+  border: 1px solid #0A498E;
+  background-color: #0A498E;
+  font-weight: bold;
+  padding: 5px;
+  white-space: nowrap;
+}
+.NLcontents .NLlabel a {
+  color: #FFFFFF;
+}
+.NLcontents .NLlabel a:visited {
+  color: #FFFFFF;
+}
+.NLcontents a {
+  color: #0A498E;
+}
+.NLcontents a:visited {
+  color: #000000;
+}
+a.NLnavLink {
+  color: #0A498E;
+}
+a.NLnavLink:visited {
+  color: #000000;
+}
+.NLcontents ul {
+  margin: 5px;
+  padding-left: 14px;
+}
+.NLheadlines {
+  border: 1px solid #18791D;
+  width: 100%;
+  background-color: #F6F9EF;
+  margin-bottom: 10px;
+}
+.NLheadlines .NLlabel {
+  border: 1px solid #18791D;
+  color: #FFFFFF;
+  background-color: #18791D;
+  font-weight: bold;
+  padding: 5px;
+  white-space: nowrap;
+}
+.NLheadlines p {
+  margin: 8px;
+}
+.NLitemBlue {
+  border: 1px solid #0A498E;
+  width: 100%;
+  background-color: #EFF5F9;
+  margin-bottom: 10px;
+}
+.NLitemBlue .NLlabel {
+  color: #FFFFFF;
+  background-color: #0A498E;
+  font-weight: bold;
+  padding: 5px;
+  white-space: nowrap;
+}
+.NLitemBlue p {
+  margin: 5px;
+}
+.NLitemGreen {
+  border: 1px solid #18791D;
+  width: 100%;
+  background-color: #F6F9EF;
+  margin-bottom: 10px;
+}
+.NLitemGreen .NLlabel {
+  color: #FFFFFF;
+  background-color: #18791D;
+  font-weight: bold;
+  padding: 5px;
+  white-space: nowrap;
+}
+.NLitemGreen p {
+  margin: 5px;
+}
+div.NLcartoon {
+  float: right;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  margin-right: 0;
+}
+img.NLcartoon {
+/*  width: 100%; */
+  margin: 0;
+  border: 1px solid #0A498E;
+}
+.NLmiddleColumn {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.NLrayNote {
+  border: 1px solid #18791D;
+  width: 100%;
+  background-color: #F6F9EF;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 85%;
+}
+.NLrayNote p {
+  margin: 8px;
+}
+.NLrayNote .NLcite {
+  float: left;
+  text-align: left;
+  white-space: nowrap;
+  font-weight: bold;
+  font-style: italic;
+  margin: 8px;
+}
+.NLarticle {
+  margin-bottom: 10px;
+  padding: 5px;
+/*  width: 100%;
+  border: 1px solid #18791D;
+  float: left; */
+}
+.NLarticle .NLlabel {
+  font-weight: bold;
+  font-size: 110%;
+}
+.NLarticle p, .NLarticle ul {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 90%;
+}
+.NLarticle p.NLlistheader {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 90%;
+}
+.NLarticle em {
+  font-weight: bold;
+  font-style: normal;
+}
+.NLarticle .NLmore {
+  text-align: right;
+}
+.NLarticle .NLafter {
+ /* clear: both; */
+}
+.NLrightColumn {
+}
+.NLsubscribe {
+  width: 100%;
+  text-align: center;
+}
+.NLsubscribe a {
+  color: #18791D;
+  font-weight: bold;
+}
+.NLsubscribe a:visited {
+  color: #18791D;
+}
+.NLfooter {
+  text-align: center;
+  background-image: url(http://www.doxpop.com/prod/images/footer_logo_line.=
+gif);
+  background-repeat: repeat-x;
+  background-position: left top;
+  background-color: #FFFFFF;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #666666;
+  padding-bottom: 10px;
+}
+.NLfooter a {
+  color: #666666;
+  text-decoration: underline;
+}
+.NLfooter a:hover {
+  text-decoration: none;
+}
+.NLinterviewer {
+  font-size: 90%;
+  font-weight: bold;
+  color: #18791D;
+}
+.NLinterviewee {
+  font-size: 90%;
+  font-weight: bold;
+  color: #0A498E;
+}
+.NLsolicit {
+  padding-top: 1.5em;
+  font-size: 90%;
+}
+.NLhighlightList {
+}
+.NLhighlightList li {
+  font-weight: bold;
+}
+
+
+------=_Part_7CDC8C71_41F4510D.1449578BCAC
+Content-Location: http://www.doxpop.com/prod/css/DP-Styles.css?1391619214000
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/css
+
+/*******************************/
+/* Updated Doxpop Stylesheet   */
+/*******************************/
+
+/*****************************
+* basic rules for everything *
+******************************/
+body {
+  color: #000000;
+  background-color: #FFFFFF;=20
+  font-size: medium;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin: 0px;
+  width: 100%;
+}
+
+table {
+  border: 0pt black none;
+  text-align: left;
+/*  border-collapse: collapse;
+ *  width: auto; =20
+ *  padding: 3px;
+ *  This was messing up some other pages, so I'm removing it=20
+ *  for now. */
+}
+
+label {
+  font-weight: bold;
+}
+
+a:link {
+  color: #0000FF;
+}
+
+a:visited {
+  color: #6633AA;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0E4694;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: X-large;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: large;
+}
+
+h3 {
+  font-weight: bolder;
+  font-size: medium;
+}
+
+h4, h5, h6 {
+  font-weight: normal;
+  font-size: medium;
+}
+
+pre {
+  font-family: "Lucida Console", monospace;
+  font-size: medium;
+  margin: 0px;
+  margin-left: 3px;
+}
+
+.DP-ContentArea {
+  margin: 3px;
+  padding: 3px;
+}
+
+/* styles for the header */
+.DP-Header {
+  float: left;
+  width: 100%;
+  background-color: #F1F1F1;
+  background-image: url(../images/doxpop_blue_green_tl.gif);
+  background-position: center top;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #E8E8E8;
+  padding-bottom: 0.2em;
+  padding-top: 0.3em;
+}
+
+.DP-Header table {
+  table-layout: auto;
+  width: 100%;
+  height: 48px;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: top;
+}
+
+.DP-HeaderNav {
+  vertical-align: top;
+  padding-right: 10px;
+}
+
+.DP-NoJavascript {
+  font-size: small;
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 1px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #FEFEFE;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ABABAB;
+}
+
+#emptyLogo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 180px;
+  height: 53px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+#emptyLogo a {
+  position: relative;
+  left: -90px;
+}
+
+#headerLogin {
+  text-align: right;
+  float: right;
+}
+
+#headerLogin table {
+  width: auto;
+}
+
+
+.DP-WelcomeBox {
+  font-size: small;
+  margin: 3px;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+.DP-WelcomeBox a {
+  font-size: x-small;
+  font-weight: normal;
+}
+
+.DP-TextFieldLogin {
+  width: 8em;
+  border: 1px solid #878787;
+  font-size:x-small;
+}
+
+.DP-SubscribeBox {
+  padding-left: 15px;
+  font-size: small;
+  font-weight: bold;
+}
+
+#tabs {
+  background: #FFFFFF none repeat scroll 0%;
+  color: #FFFFFF;
+  float: left;
+  font-size: small;
+  line-height: normal;
+  margin: 4px 0px 0px;
+  padding-bottom: 0px;
+  padding-left: 11px;
+  width: 98%;
+}
+
+#tabs ul {
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px 7px;
+}
+
+#tabs a {
+  background:transparent url(../images/inactive-tab-right.gif) no-repeat sc=
+roll right bottom;
+  color:#FFFFFF;
+  display:block;
+  float:left;
+  padding:2px 11px 2px 0px;
+  text-decoration:none;
+}
+ =20
+
+#tabs li.DP-TabLeft {
+  background: transparent url(../images/inactive-tab-left.gif) no-repeat sc=
+roll left bottom;
+  float: left;
+  margin-right: 9px;
+  padding-left: 7px;
+}
+
+#tabs li.DP-TabRight {
+  background: transparent url(../images/inactive-tab-left.gif) no-repeat sc=
+roll left bottom;
+  float: right;
+  margin-right: 9px;
+  padding-left: 7px;
+}
+
+#tabs #current {
+  background-image: url(../images/active-tab-left.gif);
+}
+
+#tabs #current a {
+  background-image:url(../images/active-tab-right-shadow.gif);
+  padding:2px 11px 2px 0px;
+}
+
+.DP-TitleBar {
+  background-color: #144F99;
+  border-bottom: 5px solid #144F99;
+  border-top: 1px solid #144F99;
+  clear: both;
+  height: 1.5em;
+  padding-bottom: 1px;
+  padding-top: 4px;
+}
+
+.DP-TitleBar td {
+  padding-right: 5px;
+}
+
+.DP-SectionTitle {
+  color: #FFFFFF;
+  font-size: large;
+  padding-left: 14px;
+  vertical-align: middle;
+}
+
+.DP-SectionTitle a {
+  color:#F3F3F3;
+  text-decoration: underline;
+}
+
+.DP-SectionSmall {
+  color: #FFFFFF;
+  font-size: small;
+  vertical-align: middle;
+}
+
+.DP-AlertBox {
+  font-size: small;
+  background-color: #FFFA86;
+  text-align: center;
+  color: #000000;
+  padding: 1px;
+  border-bottom: 1px solid #CDCDCD;
+}
+
+.DP-AlertBox a {
+  color: #144F99;
+}
+
+.DP-SubNav {
+  background-position: right top;
+  border-bottom: 1px solid #CDCDCD;
+  background-image: url(../images/subnav_bg.gif);
+  background-repeat: no-repeat;
+  padding-left: 19px;
+  padding-bottom: 6px;
+  padding-top: 8px;
+  background-color: #709F00;
+}
+
+.DP-SubNav td {
+  margin-bottom: 6px;
+  padding-right: 20px;
+}
+
+.DP-SubNav td a, .DP-SubNav td a:visited {
+  font-size: small;
+  color: #FDF7F2;
+  background-image: url(../images/subnav_arrow.gif);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 10px;
+}
+
+.DP-NavigationPane {
+  background: url(../images/bottom.gif) #144F99 no-repeat scroll right bott=
+om;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  color: #FFFFFF;
+  padding: 0px;
+  float: left;
+}
+
+.DP-NavigationPane a, .DP-NavigationPane a:visited {
+  color: #FFFFFF;
+  display: block;
+  text-decoration: none;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0px;
+}
+
+.DP-NavigationPane a:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+  background-color: #0C8C2A;
+}
+
+.DP-NavigationPane a.highlight {
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #0C8C2A;
+  margin-right: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.DP-NavigationPane a.highlight:hover {
+  text-decoration: none;
+}
+
+.DP-RegionBox {
+  font-size: small;
+  margin: 3px;
+  float: right;
+  clear: both;
+}
+
+.DP-Odometer, .DP-Odometer a, .DP-Odometer a:hover, .DP-Odometer a:visited {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+div.DP-Odometer{
+  margin: 3px;
+  position: relative;
+}
+
+/* Styles for the footer */
+.DP-Footer {
+  clear: both;
+  text-align: center;
+  background-image: url(../images/footer_logo_line.gif);
+  background-position: left top;
+  background-repeat: repeat-x;
+  color: #666666;
+  font-size: small;
+  padding-bottom: 10px;
+}
+
+.DP-FooterLinks {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+/* Basic text styles */
+
+.DP-Hint {
+  font-size: x-small;
+  font-weight: normal;
+  color: #666666;
+}
+
+.DP-ErrorText {
+  text-align: center;
+  font-weight: bold;
+  color: #FF0000;
+}
+
+.DP-MessageText {
+  font-weight: bold;
+  color: #0C8C2A;
+}
+
+.DP-Warning {
+  color: #CC0000;
+  font-weight: bolder;
+}
+
+.DP-PageLabel {
+  font-size: x-large;
+  text-align: center;
+}
+
+.DP-InfoText {
+  font-size: small;
+  font-weight: normal;
+}
+
+.DP-Example {
+  font-size: small;
+  color: #414141;
+  margin-top: 0;
+}
+
+.DP-TextBlock {
+  background-color: #FFFFFF;
+  font-size: medium;
+  font-weight: normal;
+  text-align: left;
+}
+
+/******************************
+* Styles for forms and tables *
+*******************************/
+
+/* right now, only used for the list of plans. Could be
+ * useful in a more generic sense, in which case it might
+ * make more sense to call it something else */
+
+.DP-PlanTable {
+  border-collapse: collapse;
+}
+
+.DP-PlanTable th, .DP-PlanTable tr td {
+  border: solid #808080 1px; =20
+  padding: 3px;
+}
+
+.DP-TabularData .DP-TableHeader {
+  vertical-align: bottom;
+  text-align: center;
+  background: #EEEEEE;
+}
+
+.DP-TabularData .DP-TableHeader th {
+  padding-bottom: 0.1em;
+  border-bottom: 1px solid black;
+}
+
+.DP-TabularData td {
+  vertical-align: top;
+}
+
+.DP-Tint0 {
+  background: #FFFFFF;
+}
+
+.DP-Tint1 {
+  background: #E8EEE9;
+}
+
+.DP-Number {
+  text-align: right;
+}
+
+.DP-DollarValue {
+  text-align: right;
+}
+
+.DP-Text {
+  text-align: left;
+}
+
+.DP-TabularData {
+  font-style: normal;
+}
+
+.DP-TabularData td {
+  font-weight: normal;
+}
+
+/* What could we call this besides DisplayTable? Perhaps SingleRecordTable,=
+ or
+ * something equivalent? */
+.DP-DisplayTable {
+  font-style: normal;
+  font-size: medium;
+  vertical-align: top;
+}
+
+.DP-DisplayTable tr th {
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+
+/* If we'll be using this kind of table for other things than just forms,
+ * we should probably rename it. */
+.DP-FormTable {
+  font-style: normal;
+  font-size: small;
+  vertical-align: top;
+}
+
+.DP-FormTable td {
+  vertical-align: bottom;
+}
+
+.DP-FormTable label {
+  font-weight: bold;
+}
+
+.DP-FormCheckbox {
+  vertical-align: middle;
+  padding: 0.2em;
+}
+
+.DP-FormCheckbox label {
+  font-weight: normal;
+  font-style: normal;
+  font-size: medium;
+  color: #000000;
+  text-align: left;
+}
+
+.DP-CourtListTable, .DP-RecorderListTable {
+  border-collapse: collapse;
+  font-size: 0.8em;
+}
+
+.DP-CourtListTable tr td, .DP-CourtListTable tr th {
+  border-bottom: 1px solid gray;
+  margin: 0px;
+  padding: 1px;
+}
+
+.DP-RecorderListTable tr td, .DP-RecorderListTable tr th {
+  border-bottom: 1px solid gray;
+  padding: 1px;
+  margin: 0px;
+}
+
+.DP-SimpleListTable {
+  border-collapse: collapse;
+}
+
+.DP-SimpleListTable tr td, .DP-SimpleListTable tr th {
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+  padding: 2px;
+  margin: 0px;
+}
+
+.DP-FormSubmit {
+  padding: 0.2em;
+  text-align: center;
+}
+
+.DP-FormCancel {
+  padding: 0.1em;
+  text-align: center;
+}
+
+.DP-IECorrectedTable {
+  width: auto;
+}
+
+/* OverLib stuff */
+.DP-PopupTable, .DP-PopupTable table {
+   font-size: x-small;
+}
+
+.DP-PopupTable th {
+  font-weight: bold;
+}
+
+
+
+/*******************
+ * Boxes & Borders *
+ * *****************/
+
+/* boxes for grouping fields */
+.DP-GroupBorder {
+  background-color: #E8E8E8;
+  padding: 5px 8px;
+}
+
+.DP-SubLabel {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.DP-GroupBorderLabel {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.DP-GroupBorder .DP-ForegroundBox {
+  background-color: #FFFFFF;
+  padding: 3px;
+}
+
+/* Shadow Boxes */
+.DP-ShadowBoxGreen {
+  background-color: #F6F9EF;
+  border: solid #0C8C2A 1px;
+  font-size: small;
+  color: #414141;
+  margin: 5px 5px 10px 5px;
+  padding: 5px;
+  position: relative; /* Fix for IE6 rendering bug */
+  zoom: 1; /* Fix for IE bug */
+}
+
+.DP-ShadowBoxGreen .DP-BoxHeader {
+  color: #FFFFFF;
+  font-weight: bold;
+  background-color: #0C8C2A;
+  border: solid #0C8C2A 1px;
+  padding: 5px;
+  margin: -5px -5px 5px -5px;
+}
+
+.DP-ShadowBoxGreen .DP-SubHeader {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+  color: #0C8C2A;
+  padding-bottom: 3px;
+}
+
+.DP-ShadowBoxGreen a.DP-SubHeader:visited {
+  color: #5F8D00;
+}
+
+.DP-ShadowBoxGreen a.DP-ImageLink {
+  margin-right: 6px;
+  margin-bottom: 6px;
+  border: solid #0C8C2A 1px;
+  display: block;
+}
+
+.DP-ShadowBoxGreen a.DP-ImageLink:hover {
+  border: solid #F6F9EF 1px;
+}
+
+.DP-ImageLink img {
+  display: block;
+}
+
+.DP-ShadowBoxBlue {
+  background-color: #EDF4FB;
+  border: solid #144F99 1px;
+  font-size: small;
+  color: #414141;
+  margin: 5px 5px 10px 5px;
+  padding: 5px;
+  position: relative; /* Fix for IE6 rendering bug */
+  zoom: 1; /* Fix for IE bug */
+}
+
+.DP-ShadowBoxBlue .DP-BoxHeader {
+  color: #FFFFFF;
+  font-weight: bold;
+  background-color: #144F99;
+  border: solid #144F99 1px;
+  padding: 5px;
+  margin: -5px -5px 5px -5px;
+}
+
+.DP-ShadowBoxRed {
+  background-color: #F8EFEF;
+  border: solid #8B0000 1px;
+  font-size: small;
+  color: #414141;
+  margin: 5px 5px 10px 5px;
+  padding: 5px;
+  position: relative; /* Fix for IE6 rendering bug */
+  zoom: 1; /* Fix for IE bug */
+}
+
+.DP-ShadowBoxRed .DP-BoxHeader {
+  color: #FFFFFF;
+  font-weight: bold;
+  background-color: #8B0000;
+  border: solid #8B0000 1px;
+  padding: 5px;
+  margin: -5px -5px 5px -5px;
+}
+
+.DP-ShadowBoxOrange {
+  background-color: #FFFAEF;
+  border: solid #FC9700 1px;
+  font-size: small;
+  color: #414141;
+  margin: 5px 5px 10px 5px;
+  padding: 5px;
+  position: relative; /* Fix for IE6 rendering bug */
+  zoom: 1; /* Fix for IE bug */
+}
+
+.DP-ShadowBoxOrange .DP-BoxHeader {
+  color: #FFFFFF;
+  background-color: #FC9700;
+  font-weight: bold;
+  border: solid #FC9700 1px;
+  padding: 5px;
+  margin: -5px -5px 5px -5px;
+}
+
+ /* InfoBoxes */
+ .DP-InfoBox {
+   background-color: #C4D4FF;
+   margin: 0.2em;
+   font-size: small;
+   border: 2px solid #C4D4FF;
+ }
+
+.DP-InfoBox .DP-Heading {
+  background-color: #C4D4FF;
+  text-align: left;
+  font-size: medium;
+  font-weight: normal;
+  color: #000044;
+}
+
+.DP-InfoBox .DP-ForegroundBox {
+  background-color: #FFFFFF;
+  margin: 2px;
+}
+
+.DP-InfoBox .DP-Tint1 {
+  background-color: #EEEEEE;
+}
+
+.DP-InfoBox .DP-Footnote {
+  text-align: right;
+  margin-right: 0.5em;
+  background-color: #C4D4FF;
+  font-size: small;
+  font-weight: normal;
+}
+
+.DP-SplashFeatureBox {
+  font-size: small;
+  color: #414141;
+  margin: 5px 5px 10px 5px;
+}
+
+
+/*************************
+ * Super user pages      *
+ *************************/
+
+.DP-InactiveRow td, .DP-InactiveRow a:link, .DP-InactiveRow a:visited {
+  color: #666666;
+}
+
+/*******************
+ * QuickTips & FAQ *
+ *******************/
+.DP-FAQHeader {
+  display: block;
+  color: #0E4694;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: large;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  text-decoration: none;
+}
+
+/***************=20
+ * Legal Stuff *
+ * *************/
+
+.DP-Legal {
+  font-family: Times New Roman, Times, serif;
+  font-size: medium;
+  font-weight: normal;
+  text-align: left;
+}
+
+.DP-LegalHeading {
+  font-weight: bold;
+}
+
+.DP-LegalDetailBox {
+  background-color: #EEEEEE;
+  margin: 8px 40px 12px;
+}
+
+.DP-LegalBoilerplateBox {
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+/******************
+ * Press Releases *
+ ******************/
+
+.DP-PressRelease {
+  font-size: x-small;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+.DP-PressRelease a:link {
+  color: #232323;
+}
+
+.DP-PressRelease a:visited {
+  color: #636363;
+}
+
+a.DP-MoreInfoLink {
+  clear: both;
+  float: right;
+  text-align: right;
+  white-space: nowrap;
+  font-size: small;
+  color: #0000EE;
+}
+
+a.DP-MoreInfoLink:visited {
+  color: #6633AA;
+}
+
+/*********************
+ * Welcome tab stuff *
+ *********************/
+
+.DP-ShadowBoxGreen .DP-Highlight {
+  color: #008800;
+}
+
+.DP-ShadowBoxGreen dt {
+  color: #006600;
+  font-weight: bold;
+}
+
+.DP-TestimonialBox {
+  font-family: Times New Roman, Times, serif;
+  font-size: medium;
+  float: left;
+  margin: 0.5em;
+}
+
+.DP-TestimonialBox .DP-Highlight {
+  color: #0C8C2A;
+  font-weight: bold;
+}
+
+.DP-TestimonialBox .DP-Citation {
+  float: right;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 0.5em;
+}
+
+/*******************
+ * Court Pages     *
+ *******************/
+
+.DP-CourtWelcomeText {
+  font-size: 90%;
+  padding: 0.5em;
+}
+
+.DP-PartnerCourtsDetail {
+  margin-left: 1em;
+  margin-bottom: 10px;
+  font-size: small;
+  float: left;
+}
+
+.DP-PartnerCourtsDetail .DP-TabularData {
+  border-collapse: collapse;
+}
+
+.DP-PartnerCourtsDetail .DP-TabularData td, .DP-PartnerCourtsDetail .DP-Tab=
+ularData th {
+  border: 1px solid black;
+  padding: 2px;
+}
+
+.DP-CountyList p {
+  margin: 3px 5px 0px 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+.DP-CountyList .DP-New {
+  font-size: small;
+  vertical-align: text-top;
+  color: #8B0000;
+}
+
+.DP-CountyList .DP-Soon {
+  font-size: small;
+  vertical-align: text-top;
+  color: #0C8C2A;
+}
+
+.DP-CountyList .DP-Historical {
+  font-size: small;
+  vertical-align: text-top;
+  color: #000000;
+}
+
+.DP-RegionBox {
+  font-size: small;
+  margin: 3px;
+  float: right;
+  clear: both;
+}
+
+.DP-CaseNumber, .DP-CaseCourt {
+  color: #333333;
+  font-size: large;
+  font-weight: bold;
+}
+
+.DP-CaseName {
+  color: #333333;
+  font-size: large;
+}
+
+.DP-CaseFileDate {
+  color: #333333;
+  font-size: medium;
+}
+
+.DP-CaseText {
+  color: #333333;
+  font-size: medium;
+}
+
+.DP-CasePrint {
+  font-size: medium;
+  margin-top: 5px;
+}
+
+.DP-CaseDetailLogo {
+  font-size: medium;
+  padding-bottom: 10px;
+}
+
+.DP-CourtDetailNotFound, .DP-RecorderDetailNotFound {
+  margin-left: 25px;
+}
+
+.DP-PartyListTable, .DP-CourtDetailsTable, .DP-CourtFinancialTable, .DP-Rec=
+orderDetailsTable {
+  margin-left: 25px;
+  width: 94%;
+  font-size: medium;
+  color: #000000;
+  background-color: #F8FFF9;
+  border: 1px solid #1C7E24;
+  border-collapse: collapse;
+}
+
+.DP-PartyListTable td {
+  border-top: 1px solid #1C7E24;
+  width: 50%;
+}
+
+@media print {
+  .DP-CaseDetailsBody {
+    font-size: small;
+  }
+  .DP-PartyListTable, .DP-CourtDetailsTable, .DP-CourtFinancialTable {
+    font-size: small;
+  }
+  .DP-CaseDetailsBody pre {
+    font-size: small;
+  }
+  .DP-NonPrintable {
+    display: none;
+  }
+
+  .DP-PartyListTable a {
+    color: #000000;
+    text-decoration: none;
+  }
+}
+
+.DP-CourtDetailsTable th {
+  text-align: right;
+  vertical-align: top;
+  padding-right: 0.5em;
+  width: 20%;
+}
+.DP-CourtDetailsTable td {
+  text-align: left;
+  width: 80%;
+}
+
+.DP-PartyListTable td, .DP-CourtDetailsTable td, .DP-CourtFinancialTable td=
+ {
+  vertical-align: top;
+}
+
+.DP-CourtDetailsTable .DP-Time {
+  font-size: small;
+  font-weight: bold;
+}
+
+.DP-CourtFinancialTable {
+  font-size: x-small;
+}
+
+.DP-CourtFinancialTable th {
+  text-align: center;
+  border-bottom: 2px solid #000000;
+}
+
+.DP-CourtFinancialTable td {
+  border-right: 1px solid #666666;
+}
+
+.DP-CourtFinancialTable .DP-Tint0 {
+  background-color: #F8FFF9;
+}
+
+.DP-CourtFinancialTable .DP-Tint1 {
+  background-color: #E8EEE9;
+}
+
+
+.DP-ChargeCount {
+  font-weight: bold;
+}
+
+.DP-SearchButton {
+  font-size: smaller;
+}
+
+.DP-SearchResultsTable .DP-Tint0 {
+  background-color: #EEEEFF;
+}
+
+.DP-SearchResultsTable .DP-Tint1 {
+  background-color: #FFFFFF;
+}
+
+.DP-SearchResultsTable a {
+  font-size: medium;
+}
+
+.DP-SearchResultsTable th {
+  text-align: center;
+  padding: 0.2em;
+}
+
+.DP-SearchResultsTable td {
+  padding: 0.2em;
+}
+
+.DP-AdvancedSearchTable, .DP-AdvancedSearchTable a {
+  font-size: small;
+}
+
+.DP-ListNavigation {
+  font-weight: bold;
+}
+
+
+/*******************
+ * Recorder Pages  *
+ *******************/
+
+.DP-RecorderWelcomeText {
+  font-size: 90%;
+  padding: 0.5em;
+}
+
+td.DP-PreviewCell {
+  border: 1px solid #CCCCCC;
+  width: 100px;
+}
+
+td.DP-PreviewCell img {
+  width: 208px;
+  height: 343px;
+  background-repeat: no-repeat;
+  background-image: url( ../images/image_loading.jpg);
+}
+
+.DP-RecorderResultsTable td {
+  vertical-align: top;
+}
+
+.DP-DocumentList th {
+  text-align: center;
+}
+
+.DP-DocumentList td {
+  vertical-align: top;
+  padding: 0.2em;
+}
+
+.DP-DocumentList .DP-Tint1 {
+  background-color: #FFFFFF;
+}
+
+.DP-DocumentList .DP-Tint0 {
+  background-color: #EEEEFF;
+}
+
+.DP-DocumentSubHeading {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/*******************
+*  New Info Pages  *
+*******************/
+
+div.DP-infomain {
+  margin: 2%;
+}
+
+.DP-infomain dt {
+  font-weight: bold;
+  color: #0E4694;
+}
+
+.DP-infomain dd {
+  margin-bottom: 1em;
+  margin-left: 1.5em;
+}
+
+
+/*******************
+ * Other           *
+ *******************/
+
+
+.DP-Clue {
+  background:#FFFFCC url(hint.gif) no-repeat scroll -10px 5px;
+  border:1px solid #CC9933;
+  display:none;
+  margin-left:6px;=20
+  padding:0.5em;
+  position:absolute;
+  width:200px;
+  font-size: small;
+  z-index: 1;
+}
+
+.DP-Clue .DP-CluePointer {
+  position: absolute;
+  left: -10px;
+  width: 10px;
+  height: 19px;
+  background: url(hint.gif) left top no-repeat;
+  top: 0px;
+}
+
+.DP-OldDocument {
+  color: #666666;
+}
+
+.DP-Note {
+  font-weight: bold;
+  font-size: medium;
+}
+
+.DP-Center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.HeaderDetailRight {
+  float: right;=20
+  padding-right: 15px;=20
+  text-align: right;
+}
+
+/* This is meant to be used with a heading, usually h3=20
+   too keep the heading from overlapping other elements
+   on the detail pages */
+.DetailHeading {
+  clear: both;
+}
+
+/* Help section styles */
+.DP-BreadCrumbs {
+  font-size: x-small;
+  color: #777777;
+  float: left;
+}
+
+.SubtopicTitle {
+}
+
+.SubtopicCaption {
+  font-size: small;
+  font-style: italic;
+}
+
+.HelpTimestamp {
+  float: right;
+  margin-top: 1em;
+  font-size: x-small;
+  font-style: italic;
+  color: #777777;
+}
+
+/* Styles for the plain header */
+.DP-PlainHeaderTop {
+  text-align: center;
+}
+
+.DP-PlainTitleBar {
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 1em;
+  padding-right: 0;
+  background-color: #144F99;
+  color: #ffffff;
+  font-size: large;
+  vertical-align: middle;
+}
+
+/* Styles for LoginSteps */
+.DP-LoginStepContent {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.DP-InstructionDiv {
+/*  display: block; */
+  background-color: #edf4fb;
+  border: 1px solid #e0e0ff;
+  margin-top: 0.25em;
+  margin-bottom: 1em;
+  padding: 0.25em;
+/*  width: 40em;
+  height: 10em;*/
+}
+
+.DP-InstructionDiv ol {
+  padding-bottom: 0.5em;
+}
+
+.DP-TextToCopy {
+  font-size: smaller;
+  font-weight: bold
+}
+
+.DP-New {
+  color: #f80000;
+}
+
+.DP-CalendarLegendLinks {
+  font-size: small;=20
+  font-weight: bold;=20
+  text-align: right;=20
+  padding-right: 3px;
+}
+
+/* Custom CSS for our Feedburner news section */
+
+.feedburnerFeedBlock li {
+  font-size: x-small;
+  list-style-type: none;
+}
+
+.feedburnerFeedBlock span {
+  position: relative;
+  left: -30px;
+}
+
+.feedburnerFeedBlock .date {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 5px;
+  position: relative;
+  left: -30px;
+  top: 0px;
+}
+
+.feedburnerFeedBlock #creditfooter {
+  float: right;
+  width: 25%;
+}
+
+.DP-SocialIcons {
+  float: left;
+  width: 75%;
+}
+
+table.sortable {
+  border: none ;
+  border-spacing: 0px;
+  width: 100%;
+}
+
+.sortable td, .sortable th {
+  margin: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 7px;
+  padding-left: 7px;
+  vertical-align: text-top;
+}
+
+.sortable tr.Headings {
+  background-color: #e5e5e5;
+}
+
+.sortable tr.Headings th {
+  text-align: left ;
+}
+
+.sortable tr.Row1 {
+  background-color: #e5e5e5;
+}
+
+.sortable tr.Row0 {
+  background-color: #FFFFFF;
+}
+
+table.sortable tbody tr:nth-child(2n) {
+  background: #e5e5e5;
+}
+
+table.sortable tbody tr:nth-child(2n+1) {
+  background: #FFF;
+}
+
+table.sortable tbody tr:hover {
+  background: #CDCDFF;
+}
+
+table.sortable th {
+/*  border-left: 1px solid #bbb;*/
+/*  border: 1px solid #777777;*/
+/*  border-radius: 1.5em;*/
+}
+table.sortable tbody td {
+  border-left: 1px dashed #bbb;
+}
+table.sortable th:first-child, table.sortable tbody td:first-child {
+  border-left: none;
+}
+
+.sorttable_default {
+  background-image: url(../images/tablesort_ascdesc.gif);
+  background-repeat: no-repeat;
+  background-position: right;
+  border: 1px solid #c5c5c5;
+  border-radius: 0.5em;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.sorttable_sorted {
+  background-image: url(../images/tablesort_asc.gif);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #c5c5c5;
+  border: 1px solid #c5c5c5;
+  border-radius: 0.5em;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.sorttable_sorted_reverse {
+  background-image: url(../images/tablesort_desc.gif);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #c5c5c5;
+  border: 1px solid #c5c5c5;
+  border-radius: 0.5em;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+table.sortable th.sorttable_default, .sorttable_sorted, .sorttable_sorted_r=
+everse {
+  padding-right: 20px;
+}
+
+/*************/
+/* Fees Page */
+/*************/
+table.apiplans {
+  background-color: #FFFFFF;
+  padding: 3px;
+  font-style: normal;
+  font-size: small;
+  vertical-align: top;
+}
+
+.DP-PlanTable {
+  border-collapse: collapse;
+}
+
+.DP-PlanTable th, .DP-PlanTable tr td {
+  border: solid #808080 1px; =20
+  padding: 3px;
+}
+
+td.apipricing {
+  text-align: right;
+  width: 3em;
+  font-weight: bold;
+}
+
+.hiddensubscription {
+  display: none;
+}
+
+#toggleplans {
+  padding-left: 1em;
+  cursor: pointer;
+  color: blue;
+  text-align: right;
+  font-weight: bold;
+  text-decoration: underline;
+  border: none;
+  background-color: white;
+  vertical-align: center;
+}
+
+------=_Part_7CDC8C71_41F4510D.1449578BCAC
+Content-Location: http://www.doxpop.com/prod/images/favicon.ico?2008081101
+Content-Transfer-Encoding: base64
+Content-Type: image/x-icon
+
+AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAQAEAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA////ALh8PgAtjxIAqtabAGKqTADs1b4AzqV6AKVZCwCGxHEAxd+/APbr3wBNoDkA
+HoYAAKxlHACPxYUA7vfvAOPMswDw3ssA0OXIACeLCAB+wGkANpIZAO/k2QCpXxMArtSkAIjBfwD3
+7+gAgbxyAPz6+QBdqEYAtXg4AOn06wCQwn8A6NbDANCofwAjiQQApl0PACuMCwDO6MUAUKI8APv+
++wDkzrcAM5EWAKpjGQDr07sAqWEWAP79+wC2ejoAJYkGAKZbDQAghwEA7fbtAPbu5gCoXhEAz6d9
+AP3+/wC2ezwAKYwLACaKBwD+//4A/P78ACiLCQD27+cAplwOAKddEACqZBoAz6Z8AP7+/gCnXhEA
+48y0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAARAEBAQEBAQEBAQEBAQEBAUQBAQEBAQEBAQEBAQEBAQFEAQEBAQEBAQEBAQEBAQEBRAEBAQEB
+AQEBAQEBAQEBAUQBARAgAQEBAR0/NT81Gy9EKSEoDBw0AQEiOR8wHwISRAQzPiYNITwBRkUyQTIY
+LUQVJCsrOh49ASpCLiwuDgZECTMrKzsFPQEqQi4sLg4GRCcWMRQDGQEBESUIQAg2LUQBEw8aCjgB
+ARc3B0MHIwtEAQEBAQEBAQEBAQEBAQEBRAEBAQEBAQEBAQEBAQEBAUQBAQEBAQEBAQEBAQEBAQFE
+AQEBAQEBAQEBAQEBAQEBAURERERERERERERERERERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+
+------=_Part_7CDC8C71_41F4510D.1449578BCAC
+Content-Location: http://www.doxpop.com/prod/images/doxpop_blue_green_tl.gif
+Content-Transfer-Encoding: base64
+Content-Type: image/gif
+
+R0lGODlhtAA1AOf/AABUpQBUpgBVpwBWqABXqQNapgZbpwpcqA9dqQBkrxxYpQBlsB9ZpiBapxVf
+rACHIRhhrQCIIgCJIxtirgCKJACMJgyHIiBlrA+IJBGJJSJnrSRorhSKJiVprxaLJxtvtCdqsClq
+sRiNKBSOMSprsheQMhmRMy5wsTBxsh2TNTJysxqVPh+UNjNztGdoZhyWPyGVNzV0th6XQDZ1ty16
+uzd2uCCYQTl3uS98vCKaQjp4uiWbQ21vbD16vDx8uD59uT9+ui+bSzObREB/uzGdTEGAvDKeTUOB
+vTSfTkSCvjWgT0WDv0aEwHd5djehUEiFwUmGwjqkU1KHvlOIv36AfVSJwEOlWlaKwUWmXFeLw0ao
+XVmNxEipXlqOxVuPx1qRwlyQyFOqYGOQwlCrZ12UxWWRxFKsaF+VxmaTxVOuamCXyGeUxouNilWv
+a2KZymmWyI2PjFaxbGSbzGWczWKyb22dyWC0dmS0cW+eymG2eHGgzGO3eXKizmy3enSk0G65fHal
+0my6g2+6fXen032mzW28hX6nz2+9hp+hnn+p0ICq0Xi+iIKs03m/iXvAioSu1YWv1nzCi6aopYew
+2I2x04XDjoTElY6z1Y+01pG114bHl4fImJO32ZS42rCyrpDJmpa63JHKnJe73py82ZPMnbW3tJHN
+pZ+/25rOp6HB3ru9up3QqaPD4KTE4Z7SqqbG46fSrMDCvq7F5KzI36nVrq7K4arWsKjYt7DM47bJ
+47LO5cjKx7TP57HZurnN5rXQ6LvP6LTbvMvOyrrS5LXcvcLR5bfev8PT57/ewcXV6b3gyMfW6tPV
+0r/hysjX68nY7MDjy8ra7sjjzc/b6cnkztnb19Dd68vm0NLe7NPf7dTg7t3f3M7p0tXh79bi8NXo
+1NPp29fj8djk89Tr3OHk4Nnl9NXs3d3l7trn9dft39/n8OXn5Nnv4eDp8d/t4eHq8uDv4uLr8+Ps
+9Ors6eLx5OTt9ePy5eXu9+fv+OX05+jw+enx+uzz6Orz++v18AAAACH5BAEKAP8ALAAAAAC0ADUA
+AAj+AP8JHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmTKFOqXPmQ2ypU
+1AyeO0Wz5ileLHPqhChtFTSDiyo8iMAhT0FRAJIqBeCD4ChDUKHm2kl1pD9BSNJ8I/iHQoYMdAhq
+smDhgVkLh5wuTaqgB8Eea90QzNKjbhJ5VamWO6WHYp8HZZEM7JUBcAQLqwa+MMv4wQh7AzmtTaqD
+II64BDUoUACAwLm8KtW1mlRmxgEACPBKtMEYwzWBixo/6COQnQfZFiiAGzhqMlOCPta+yawUATrQ
+KQ0pKLAUQr2JURiPoCfQlOxIAv2VwE0hXWTflQf+Xlaq4AzBBEoNfEZ+cl62Y4CUTug3UdkKCyVM
+DYTH2uwLdwOZIdsDVqg1WVMDBbfUcANpAMBmxrGn0jnMKXABfRP5o8xWBJnTRxR2vDYQOP2ZxUJM
+300WnkBZXODiBSEQQtA0yQyDDTYSqlQPAklNcBI8hziBRCDmFFQMDSgg6QMNONSR45MF4cOjAh1A
+aeWVAl2Q1AdYdpnjAklV6eWYeWkJwAlkprkTmACooCaUqniiyi6lCCOQJ9WQNI0uv0wzkJluLvTM
+KZRQwgku7SgUji8YiTgQP9QgIymAD8FDjCmbbLKKNA+xQ+lA30iKDIcEzcMGM9sg0sQ/u7iwTkj+
+5ejxAQGcKaBBGbUAmlCsHyhAAAKcofYEowN1s8YPIRgAgHkJnbHBBio8R9A1m1jhwU//5BMICyM4
+9oAHTqDCUC9jjJDBCB5kYAEGLxzyqUHprJJGCYsMhMoO23XLgQ2HsEMQHJ+VAkcppVDxqkf4EHIB
+AyRIMQObnSkVqEGcaOmDLOe8g00mHzxYwBn6CBQODhAsBQhCoHCGAycCXbMHFiuo+0AJW32jxICH
+PRDFOAjBk0YGHhSCDDzuKGPHdg+kAEtBi5ixQ7plWSJQH2Th9gALtwzExjb/lDKNC9NQwXVHs5BQ
+Ho4C4cMKDcEmNTFBeCSFh0HzbMEWEPgM5M3+D0oxMItB2ZQsBkHIBCHEfWZhAI4yQkSAhB2BjLFC
+BGc9sIN3BZkTxAMrIGOQfZRzEMpA9kQRxA6FDRWKPVxQIEMbgbQRBAWAleXB0vNIwsw/nswTyzyI
+7M7RGQAUMAlChDDntkGKJDVFQuMBMPhA8dDwIAAhJErQEAA8f5A/O5hFQSUjjIGiQPagsgJjFoRR
+kD1IRECBLQghg/QIvRh0CGN/KBFE1gRRhhUqt4J3iQQNSSmDQjihvLf9Yxk8KoAzElIM5QGgFQTR
+hpkAoMCBxAcH0jqIgHJTgXodZBybe4BXmkGQPAAGCwpxoVl24I+CwKI1TjDgQOzQGBOOBBf+nClA
+NhaCnjYVJAnLUwgSk4KggeRCeQXA4D9moYAPaEMhe2CMHRQCjW6V5Q8DucZtHqCfhIADaRYQVwAp
+xzkdEuRmZrFBSZaQFBwwxEFGHAg2lMeshJyCPH4iiB6U8gF5iOMCCCjGQmT4AGUs5A6MEYxAAnEW
+TinECYzRQkF6QTkLCGIht+gkB7gxknaYSUZETKJAKKEURSxEHBYEhUGsxxkw1EABsmAIJVVIKoQo
+gzErGIgQzOIBfynEEoxhQQ0Hogw2boIh6zOLI0WSC6VQgiFFfJsXlJIJhnRMbgZZxmmC5SSGZDEC
+HuCZQtyBNGX+wx7disBjFtILxmRgNwP+gQbtLDC6hWiBMQAMCSuTMoqF1ENXCbImQxQEAAYVRDlJ
+KQDaFhKbmfUSISwwSzD/8Q3aoXOZCaEG7VTouYFIoyxkZEgcGFPSkMQnKSxTSD2KiKaEJuVkC5EC
+W9SAEBUopYMUJaY6FZLRBzhBIM2gHAUoUKR1CsUCHnDUP6DBxn4qhIcqHCpICKEURiwEH8rKo0Cs
+l5QvMKQKSkFlQTSolAKcgiEVpdlC4GkWE0qjWw/IgCUTkg68lgBzApHGSMuoEC6YhQgkMYRSsrAQ
+dTSQIGhNygwYAgWlvDVKNCjAEZSSgCsqpKIc0OpBqEG5CEzTHHhNqULMkToYFKQZjLH+akKIYJZC
+kOSPD9JAyBIyDIkRhKsPQoA6FqIgAwy3IGJQwNyYoJQhBNWiC9mEWaJAkGg+ICwKuatZ2lAQabCR
+sAgBB+0ocNGPeEN5CogpQuKmyn8UYylSTIiZlmAQrjr3H9pIQLDUehDQitYgSMhr/nbIGDkqZBWJ
+C6hAoBHbhSDTAkYpCUM3UA6EZKOIAOASQU6gFCkoxBkV0kVBTlGABYRjIJdQCgFwkZC4lpcgqyjL
+Fglii9YMGCFZfIAkCeJds4DXIOYwwQNkAA+TtKJCCoiBOAzSDh9YUEwDGWjxjpGQNyRlegN5BgRw
+WRA6ciYEx+nvWdKCEGhk1Ar5ADD+YwqEEH6sbwTEMAiDzeIEYxqEH4ZlwTRNolO2bIAT8RCIPk5B
+AhXUQlkKSMBubQqAGYSQIMc4DQ3eQRBvcBioxcJwEhBSUcBwYa8DgcULIkAHkAaQA4yR2kF2WYmD
+CPYsNlhaQa6hhQgE4XwmOccM2JIUCKhABRMowBTqMY8iKuCyA8kGHgHQg4kKZBgdYMqJBzINEmRY
+NUdZCk+Bwr5vWaESq1hFI5CAgRH8uCCb8GgGsFOQQliAA6o2iDRwI4RAmAIWmxiDByhgB1Of5B1f
+8I0C1iAQdFiQAR84ArKzQVYFIOAMp/jFKcDwqznMYyDOSIIDfPU3hBAvWDNwJUH+KpqbxpDFAiOg
+w38Nggq8WiAIlehFMDRB7h3c+HNsTB1jDmMBJdx8JceowwcQqQEdHC9tX/hCHfRACDyAAdkCuYQK
+wsoZA6hAD94oyDLOgIc6GEIh81gD1/XwBpEPpKIjoMUikFCCCpTABnYA9UK+kQcWUAADGFjXCLAg
+64TM2QKWCAUWWOCBEbCACwqmCj4WPZFu1OIUstBF1kVSUQqo0x/0cGND/CGNW3i+GdRhyKsf8Mx/
++MMdobeSPo6b7JUM8SCNAExoczJvwMi2KoZYwhPMXhBKDIIg4rjBP7pBX4QUIwlTKMN6LlKPGWCo
+ILGH7kS88Jx9eMHZD2nGYA/+8oQkJGE4UggkRkDRF4X4YBrnwMFUDCKGjgukFlUQCDASQohB7EMP
+mK7IMI7AabNwAJ8MsQWPNgV/03QUUXsP0GoFMQ03kDF5gxMWEQ4dJA7idxDvEChicAraIHJ6EGgq
+AAhPYFb/8Agy0godRwlS4AUEIQWKxAnmUQ96AAVf90BlsAS55Ate8AQFNYKcQHAw6DBzswxZkAWs
+h3a4RhCZkAVF8FZqcAFvkDcCMQpo4Av89w+UMAVZ4Cf9UH6XsAz/kAmcAAZrZBbxNhCnIIL/EA5f
+NwyToAdFIEXHgAZPQH3/4AtbMAVeOAmcUAbisAQfcDKGUA794AaXsARz8w/+nCAFelAMPiAOnKAD
+8SAKcoEPKrAP6AABlBAOPvBWW/AK/+AFrPAPb+AG7aA9AvEBmUAJT9ANnzgK4aAC6DAMODAMgSaL
+0zANJ8CKKrAFOCIFk1APWSBLSdAK2PYPfzEURygQZaAH7eAFovCFW1CM6KACQ4AjgHAG7wAKzuUM
+QCAQPvAM/wAEUgCO+cQY7CZIQMAIl/APsqBAhqACyzAKRfAPtngOJ1APwxB+mYAG/1ADV+Ana6AI
+eaMC75ANCJAJ2jADuOANKnAO9ZAJJDAFeLBkeFBQ0+BcwIAga8AyN8CKOJAN3jAD+1AQ6HACk6AD
+17QMG2AIZcBYZaBeZbD+g0OAC/KQPf9wCoz1D0XghWdQBmE2SYmTjLkwj/9wfv8ACNdUED/QTZQ4
+XOLAJaMwHPrwARd3AslQEL9Ehgbhi7nAKHjQTVnwjLkQf0cwFdEgfF6QBYPgA6xQDyfgWVCgSN1Q
+GblQfFkgC/UQA+sIcQTxA4qkCHJhCL/3DzfwDBf4D+qgAv1QC95DELngYbowj6OwBK8QDd4ofjrg
+hftAAuEwDN34D3LQTepwjwKBBzkpEDJEAdgiSMejDR3wHFJALMDBigwpELnQjV9Zh3bUDU00GIwR
+CAahAqyXBMNQlCdGCSfzAZ9BCQpEA5TgC4nyDHYkEML5D6+wBf9ACF7+5ZZX5A06cAo/UIGb6Asd
+UFBMFw94MBzDsGnLMI/LoALTUA4jKRAk+A8hWYc+cA7tEGhFMAnxsGRfQAjvgAfmMQpyIBCEUAbl
+sAYx8A/18A6ysGkEBhgtNRCGsAbh8AWBEgMQOBCH+Q9T6QvZcDH/oAaA8Aw+IBeycJq+aRa0QRC8
+SRAt0A7nEChZMBUqIAq1EALH44vyYJmnwI//EA8fcGLa+Q9SMArvoAZOcg748AWZ4FACIQtHAAiG
+4CfTUAVZkJTDIEvFEFOTIAViIH6ZoEjzMAcCoQhHkAUTNA1Z4Iv/UA5gkAUzKAsd1w5fsAWjcDy1
+IAVfQI4CgUlmoUauBKEOWVAGuiByjFAF8ykQ4mB2uAAFWdBx0yAFaDAKuTQLUFcdjMEFC+hVAjEP
+fREOIkcIn1EMZaAIPlCc3ZAFU3AyrOB+Z3CgmeCFJAAFVXB0gCAFeNCob/ISgYA0D2ADlUAK9GMS
+xLAKmlBUjhEIn7AKqfcQvjBZEHEOvfkmBwEPQaAESNCtSKAEVhAEQcBmJWEH29qt3CokNmADe8YQ
+6FAEN1AExQkRyyAXCBEQADs=
+
+------=_Part_7CDC8C71_41F4510D.1449578BCAC
+Content-Location: http://www.doxpop.com/prod/images/doxpop_empty_logo.gif
+Content-Transfer-Encoding: base64
+Content-Type: image/gif
+
+R0lGODlhuQArAIABAABUpf///yH5BAEKAAEALAAAAAC5ACsAAAJkjI+py+0Po5y02ouz3rz7D4bi
+SJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmM
+TqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGEhVAAA7
+
+------=_Part_7CDC8C71_41F4510D.1449578BCAC
+Content-Location: http://www.doxpop.com/prod/images/inactive-tab-left.gif
+Content-Transfer-Encoding: base64
+Content-Type: image/gif
+
+R0lGODlhgAARALMAAN3v4Ze+oEF+UEeEVd3u4ZS8ndbq2kB9T4GwjFCNXp7DpnmrhVyaa////wyM
+KgAAACH5BAAAAAAALAAAAACAABEAQARTsMkGCnM46827/2AojmRpnmiqrujkvnAsz3Rt33heGwLr
+/8CgcEgsqhoEhHHJJCaa0Kh0Sq1ar1YJQDHAeqONwHcMXZDPywN6zW673/C4fE7/RgAAOw==
+
+------=_Part_7CDC8C71_41F4510D.1449578BCAC
+Content-Location: http://www.doxpop.com/prod/images/inactive-tab-right.gif
+Content-Transfer-Encoding: base64
+Content-Type: image/gif
+
+R0lGODlhhAARAOMLAN3v4UaDVEOAUZG6m26ke2KdcMjgzY64mIGwjFqXadns3v///wyMKv//////
+/////yH+FUNyZWF0ZWQgd2l0aCBUaGUgR0lNUAAh+QQBCgAPACwAAAAAhAARAAAEY5DJSau9OOvN
+u/9McihLaZZgqq5sywkDcKJubd84Rchn7v9ADoJHCxqPP0MPyWy2CkundLoJRKnYrOSq7Tq53rAR
+LC7nyOa0C61up9juOAcur1/o9vx2xu/7/4CBgoOEhYZ/EQA7
+
+------=_Part_7CDC8C71_41F4510D.1449578BCAC
+Content-Location: http://www.doxpop.com/prod/images/active-tab-left.gif
+Content-Transfer-Encoding: base64
+Content-Type: image/gif
+
+R0lGODlhlgARAOMOABRPmRZQmhpTmyZdoTJmpjNmp0FxrVN+tGWMvJu01J631a/D3LTH377P4///
+/////yH+FUNyZWF0ZWQgd2l0aCBUaGUgR0lNUAAsAAAAAJYAEQAABE/QSblQESDrzbv/YCiOZGme
+3NQYaOu+cCynjjLfeK6jDrP/wCDOQRAaj8hQIslsHg/OqBQ3mFqvqAB2y+16v+CweEwum8/otHrN
+brvfcGYEADs=
+
+------=_Part_7CDC8C71_41F4510D.1449578BCAC
+Content-Location: http://www.doxpop.com/prod/images/active-tab-right-shadow.gif
+Content-Transfer-Encoding: base64
+Content-Type: image/gif
+
+R0lGODlhmwARAKUtABRPmRZQmhpTmyZdoTJmpjNmp0FxrVN+tH9/f4GBgYSEhIWFhWWMvImJiY6O
+jp2dnaOjo6WlpZu01LOzs76+vsXFxbnJ3cfHx9HR0c3U3Nvb29zc3OLi4uPj4+Tk5N/n8evr6+3t
+7eru9PLy8vX19fb29vj4+Pn5+fr6+vv7+/z8/P39/f7+/v//////////////////////////////
+/////////////////////////////////////////////yH+FUNyZWF0ZWQgd2l0aCBUaGUgR0lN
+UAAh+QQBCgA/ACwAAAAAmwARAAAGlkCAcEgsGo/IpHLJbDqf0KKgwPiwrteWVhvter/gsLhoEKlW
+2O14zW67o5ZSKt162+94diZkQrPqeYGCg0kEFx0kaICEjI15EhQcJleOlZZsBw8VIHOXnp9RAw0R
+GCMroKipSAEJDhMeKaqyswgLERsos7qoCAoQGie7wpe9v8HDyIzFwMnNgsvHztJv0NPWbdXX2mHQ
+QQA7
+
+------=_Part_7CDC8C71_41F4510D.1449578BCAC
+Content-Location: http://www.doxpop.com/prod/images/footer_logo_line.gif
+Content-Transfer-Encoding: base64
+Content-Type: image/gif
+
+R0lGODlhowIUAKECANbW1v7+/v///////yH+FUNyZWF0ZWQgd2l0aCBUaGUgR0lNUAAsAAAAAKMC
+FAAAAs2Uj6nL7Q+jnLTai7PevPsPhuJIluaJpurKtu4Lx/JM1/aN5/rO9/4PDAqHxKLxiEwql8ym
+8wmNSqfUqvWKzWq33K73Cw6Lx+Sy+YxOq9fstvsNj8vn9Lr9TgXo9/y+/w8YKDhIWGh4iJiouMjY
+6PgIGSk5SVlpeYmZqbnJGYj3CRoqOkpaanqKehGwytrq+gobKztLW2t7i5uru8vb6/sLHCw8TFxs
+fIycrLzM3CybCh0tPU1dbX2Nna29zd3t/Q0eLj5OXm5+jp6ujlcAADs=
+
+------=_Part_7CDC8C71_41F4510D.1449578BCAC
+Content-Location: http://www.doxpop.com/prod/images/footer_logo.gif;jsessionid=0E9F53B398159ECCA00C91C4D3F724AE
+Content-Transfer-Encoding: base64
+Content-Type: image/gif
+
+R0lGODlhUAAUALMAAFewbFCIvpnMmcflzs3b6SqbRa/H3oqw1BaRMxljqv///wAAAAAAAAAAAAAA
+AAAAACH5BAAAAAAALAAAAABQABQAQATBUMlJq7046831QCACTF+IFJRpjtORvPB7UEH8EpQ9d3zv
+/8CgcEgcAI4VQKggoChViIrLJqNRcZOAVmsger9gzkDQtDxBTCm1OjEc3vDwGTQRQAeSEpQlmVJ3
+EjU2WBI6YRtjZBcEcI0HhIeRkpOUlZaXmD+JZRWMjm+Ql0ZITkucCnMheC1rCYAKgjGQW1w9qXV3
+eVAgfAp+hllXOTGviCskKigTuyIUv8RWg8MwxUOJF3Npzq2vbo6Z4OHi4+SHEQA7
+
+------=_Part_7CDC8C71_41F4510D.1449578BCAC--

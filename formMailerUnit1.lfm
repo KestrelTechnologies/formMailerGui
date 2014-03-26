@@ -1,0 +1,1895 @@
+object Form1: TForm1
+  Left = 236
+  Height = 502
+  Top = 120
+  Width = 821
+  ActiveControl = PageControl2
+  Caption = 'Form1'
+  ClientHeight = 479
+  ClientWidth = 821
+  Menu = MainMenu1
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  OnWindowStateChange = FormWindowStateChange
+  LCLVersion = '1.0.12.0'
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 19
+    Top = 460
+    Width = 821
+    Panels = <>
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 460
+    Top = 0
+    Width = 821
+    ActivePage = InstantRunTabSheet
+    Align = alClient
+    TabIndex = 3
+    TabOrder = 1
+    OnChange = PageControl1Change
+    object CaseIDTabSheet: TTabSheet
+      Caption = 'Case ID Builder'
+      ClientHeight = 431
+      ClientWidth = 817
+      object CourtLocationsComboBox1: TComboBox
+        Left = 23
+        Height = 23
+        Top = 154
+        Width = 456
+        ItemHeight = 0
+        TabOrder = 0
+      end
+      object SelectLocationLabel1: TLabel
+        Left = 23
+        Height = 16
+        Top = 133
+        Width = 216
+        Caption = 'Select Location for mycase.in.gov'
+        ParentColor = False
+      end
+      object TypeOfCasesLabel1: TLabel
+        Left = 23
+        Height = 16
+        Top = 194
+        Width = 345
+        Caption = 'Type Of Case Records To Retrieve from mycase.in.gov'
+        ParentColor = False
+      end
+      object CaseTypesComboBox2: TComboBox
+        Left = 23
+        Height = 23
+        Top = 218
+        Width = 456
+        ItemHeight = 0
+        TabOrder = 1
+      end
+      object CaseIDPanel5: TPanel
+        Left = 518
+        Height = 215
+        Top = 20
+        Width = 292
+        BorderStyle = bsSingle
+        ClientHeight = 213
+        ClientWidth = 290
+        Color = clCream
+        ParentColor = False
+        TabOrder = 2
+        object CaseIDformatLabel1: TLabel
+          Left = 13
+          Height = 196
+          Top = 7
+          Width = 256
+          Caption = 'Indiana County Courts'' Case ID Format:'#10'  '#10'57C03-8805-DR-06314'#10#10'where'#10'  57 = county number'#10'  C03 = court identifier a.k.a. court code'#10'  88 = year'#10'  05 = month'#10'  DR = case type'#10'  06314 = sequence number'
+          ParentColor = False
+          OnClick = CaseIDformatLabel1Click
+        end
+      end
+      object CaseIDSearchStrLabel2: TLabel
+        Left = 23
+        Height = 16
+        Top = 37
+        Width = 258
+        Caption = 'Case ID Search String for mycase.in.gov'
+        ParentColor = False
+      end
+      object CaseIDSearchStrComboBox2: TComboBox
+        Left = 23
+        Height = 23
+        Top = 58
+        Width = 456
+        ItemHeight = 0
+        TabOrder = 3
+      end
+      object CaseIDCountyNumComboBox: TComboBox
+        Left = 473
+        Height = 23
+        Top = 255
+        Width = 336
+        ItemHeight = 0
+        OnChange = CaseIDCountyNumComboBoxChange
+        TabOrder = 4
+        Text = ' '
+      end
+      object CaseIDCountyCourtIDComboBox: TComboBox
+        Left = 473
+        Height = 23
+        Top = 303
+        Width = 336
+        ItemHeight = 0
+        OnChange = CaseIDCountyCourtIDComboBoxChange
+        TabOrder = 5
+        Text = ' '
+      end
+      object CaseIDCaseTypeComboBox: TComboBox
+        Left = 473
+        Height = 23
+        Top = 375
+        Width = 336
+        ItemHeight = 0
+        OnChange = CaseIDCaseTypeComboBoxChange
+        OnEditingDone = CaseIDCaseTypeComboBoxChange
+        TabOrder = 6
+        Text = ' '
+      end
+      object CaseIDCaseSequenceComboBox: TComboBox
+        Left = 473
+        Height = 23
+        Top = 399
+        Width = 336
+        ItemHeight = 0
+        OnChange = CaseIDCaseSequenceComboBoxChange
+        OnEditingDone = CaseIDCaseSequenceComboBoxChange
+        TabOrder = 7
+        Text = ' '
+      end
+      object CaseIDCourtTypeCodeComboBox: TComboBox
+        Left = 473
+        Height = 23
+        Top = 279
+        Width = 336
+        ItemHeight = 0
+        OnChange = CaseIDCaseSequenceComboBoxChange
+        OnEditingDone = CaseIDCourtTypeCodeComboBoxEditingDone
+        TabOrder = 8
+        Text = ' '
+      end
+      object Label1: TLabel
+        Left = 361
+        Height = 16
+        Top = 261
+        Width = 102
+        Caption = 'County Number'
+        ParentColor = False
+      end
+      object Label2: TLabel
+        Left = 344
+        Height = 16
+        Top = 286
+        Width = 119
+        Caption = 'County Court Type'
+        ParentColor = False
+      end
+      object Label3: TLabel
+        Left = 361
+        Height = 16
+        Top = 309
+        Width = 102
+        Caption = 'County Court ID'
+        ParentColor = False
+        OnClick = Label3Click
+      end
+      object Label4: TLabel
+        Left = 398
+        Height = 16
+        Top = 331
+        Width = 65
+        Caption = 'Case Year'
+        ParentColor = False
+      end
+      object Label5: TLabel
+        Left = 386
+        Height = 16
+        Top = 354
+        Width = 77
+        Caption = 'Case Month'
+        ParentColor = False
+      end
+      object Label6: TLabel
+        Left = 396
+        Height = 16
+        Top = 380
+        Width = 67
+        Caption = 'Case Type'
+        ParentColor = False
+      end
+      object Label7: TLabel
+        Left = 336
+        Height = 16
+        Top = 403
+        Width = 127
+        Caption = 'Case Sequence No.'
+        ParentColor = False
+      end
+      object CaseIDSearchStrMaskEdit1: TMaskEdit
+        Left = 23
+        Height = 23
+        Top = 93
+        Width = 152
+        CharCase = ecNormal
+        MaxLength = 20
+        TabOrder = 9
+        EditMask = '>00L00-0000-LL-cccccc<;1;_'
+        Text = '     -    -  -      '
+        SpaceChar = '_'
+      end
+      object CaseIDYearSpinEdit1: TSpinEdit
+        Left = 473
+        Height = 23
+        Top = 327
+        Width = 69
+        MaxValue = 2050
+        MinValue = 1800
+        OnChange = CaseIDYearSpinEdit1Change
+        TabOrder = 10
+        Value = 2014
+      end
+      object CaseIDMonthSpinEdit2: TSpinEdit
+        Left = 473
+        Height = 23
+        Top = 351
+        Width = 69
+        MaxValue = 12
+        MinValue = 1
+        OnChange = CaseIDMonthSpinEdit2Change
+        TabOrder = 11
+        Value = 1
+      end
+    end
+    object FormLetterTabSheet: TTabSheet
+      Caption = 'Form Letter'
+      ClientHeight = 431
+      ClientWidth = 817
+      object FormLetterFileNameLabel4: TLabel
+        Left = 8
+        Height = 16
+        Top = 52
+        Width = 165
+        Caption = 'Form Letter Template File'
+        ParentColor = False
+      end
+      object TemplateLetterFileNameEdit2: TFileNameEdit
+        Left = 8
+        Height = 23
+        Top = 72
+        Width = 472
+        FilterIndex = 0
+        HideDirectories = False
+        ButtonWidth = 23
+        NumGlyphs = 0
+        MaxLength = 0
+        TabOrder = 0
+        OnChange = TemplateLetterFileNameEdit1Change
+        OnExit = TemplateLetterFileNameEdit1Exit
+      end
+      object FormLetterFileNameLabel5: TLabel
+        Left = 9
+        Height = 16
+        Top = 101
+        Width = 197
+        Caption = 'Folder To Hold Merged  Letters'
+        ParentColor = False
+      end
+      object DirectoryEdit2: TDirectoryEdit
+        Left = 8
+        Height = 23
+        Top = 120
+        Width = 472
+        ShowHidden = False
+        ButtonWidth = 23
+        NumGlyphs = 0
+        MaxLength = 0
+        TabOrder = 1
+        OnChange = DirectoryEdit1Change
+        OnExit = DirectoryEdit1Exit
+      end
+      object OpenTemplateLetterButton1: TButton
+        Left = 564
+        Height = 25
+        Top = 72
+        Width = 75
+        Caption = 'Open'
+        OnClick = OpenTemplateLetterButton1Click
+        TabOrder = 2
+      end
+      object Label8: TLabel
+        Left = 518
+        Height = 16
+        Top = 52
+        Width = 164
+        Caption = 'View/Edit Template Letter'
+        ParentColor = False
+      end
+    end
+    object AutoRunTabSheet: TTabSheet
+      Caption = 'Auto Run'
+      ClientHeight = 431
+      ClientWidth = 817
+      object Button1: TButton
+        Left = 473
+        Height = 25
+        Top = 78
+        Width = 75
+        Caption = 'Add Root'
+        OnClick = Button1Click
+        TabOrder = 0
+      end
+      object Button2: TButton
+        Left = 473
+        Height = 25
+        Top = 142
+        Width = 75
+        Caption = 'Add Child'
+        OnClick = Button2Click
+        TabOrder = 1
+      end
+      object Button3: TButton
+        Left = 473
+        Height = 25
+        Top = 213
+        Width = 75
+        Caption = 'Delete'
+        OnClick = Button3Click
+        TabOrder = 2
+      end
+      object VST: TVirtualStringTree
+        Left = 234
+        Height = 304
+        Top = 37
+        Width = 232
+        DefaultText = 'Node'
+        Header.AutoSizeIndex = 0
+        Header.Columns = <        
+          item
+            Options = [coDraggable, coEnabled, coParentBidiMode, coParentColor, coResizable, coShowDropMark, coVisible, coAllowFocus]
+            Position = 0
+            Text = 'Column 0'
+            Width = 100
+          end        
+          item
+            Options = [coDraggable, coEnabled, coParentBidiMode, coParentColor, coResizable, coShowDropMark, coVisible, coAllowFocus]
+            Position = 1
+            Text = 'Column 1'
+            Width = 100
+          end        
+          item
+            Options = [coDraggable, coEnabled, coParentBidiMode, coParentColor, coResizable, coShowDropMark, coVisible, coAllowFocus]
+            Position = 2
+            Text = 'Column 2'
+            Width = 100
+          end>
+        Header.DefaultHeight = 17
+        Header.Options = [hoColumnResize, hoDrag, hoShowSortGlyphs, hoVisible]
+        Header.Style = hsPlates
+        TabOrder = 3
+        TreeOptions.MiscOptions = [toEditable, toFullRepaintOnResize, toGridExtensions, toInitOnSave, toToggleOnDblClick, toWheelPanning, toEditOnClick]
+        TreeOptions.SelectionOptions = [toExtendedFocus, toMultiSelect]
+        OnChange = VSTChange
+        OnFocusChanged = VSTFocusChanged
+        OnFreeNode = VSTFreeNode
+        OnGetText = VSTGetText
+        OnGetNodeDataSize = VSTGetNodeDataSize
+        OnNewText = VSTNewText
+      end
+    end
+    object InstantRunTabSheet: TTabSheet
+      Caption = 'Instant Run'
+      ClientHeight = 431
+      ClientWidth = 817
+      object Panel1: TPanel
+        Left = 0
+        Height = 200
+        Top = 0
+        Width = 817
+        Align = alTop
+        Caption = 'Panel1'
+        ClientHeight = 200
+        ClientWidth = 817
+        TabOrder = 0
+        object Panel3: TPanel
+          Left = 1
+          Height = 198
+          Top = 1
+          Width = 534
+          Align = alLeft
+          ClientHeight = 198
+          ClientWidth = 534
+          TabOrder = 0
+          object DirectoryEdit1: TDirectoryEdit
+            Left = 8
+            Height = 23
+            Top = 159
+            Width = 472
+            ShowHidden = False
+            ButtonWidth = 23
+            NumGlyphs = 0
+            MaxLength = 0
+            TabOrder = 0
+            OnChange = DirectoryEdit1Change
+            OnExit = DirectoryEdit1Exit
+          end
+          object FormLetterFileNameLabel2: TLabel
+            Left = 9
+            Height = 16
+            Top = 143
+            Width = 197
+            Caption = 'Folder To Hold Merged  Letters'
+            ParentColor = False
+          end
+          object TemplateLetterFileNameEdit1: TFileNameEdit
+            Left = 8
+            Height = 23
+            Top = 111
+            Width = 472
+            FilterIndex = 0
+            HideDirectories = False
+            ButtonWidth = 23
+            NumGlyphs = 0
+            MaxLength = 0
+            TabOrder = 1
+            OnChange = TemplateLetterFileNameEdit1Change
+            OnExit = TemplateLetterFileNameEdit1Exit
+          end
+          object FormLetterFileNameLabel1: TLabel
+            Left = 8
+            Height = 16
+            Top = 95
+            Width = 165
+            Caption = 'Form Letter Template File'
+            ParentColor = False
+          end
+          object RetrievalURLComboBox1: TComboBox
+            Left = 8
+            Height = 23
+            Top = 22
+            Width = 472
+            ItemHeight = 0
+            OnChange = RetrievalURLComboBox1Change
+            TabOrder = 2
+          end
+          object FormLetterFileNameLabel3: TLabel
+            Left = 9
+            Height = 16
+            Top = 7
+            Width = 85
+            Caption = 'Retrieval URL'
+            ParentColor = False
+          end
+          object CaseIDSearchStringLabel6: TLabel
+            Left = 10
+            Height = 16
+            Top = 52
+            Width = 141
+            Caption = 'Case ID Search String'
+            ParentColor = False
+          end
+          object InstantRunCaseIDComboBox2: TComboBox
+            Left = 9
+            Height = 23
+            Top = 67
+            Width = 472
+            ItemHeight = 0
+            OnChange = RetrievalURLComboBox1Change
+            TabOrder = 3
+          end
+        end
+        object Splitter2: TSplitter
+          Left = 535
+          Height = 198
+          Top = 1
+          Width = 5
+        end
+        object Panel4: TPanel
+          Left = 540
+          Height = 198
+          Top = 1
+          Width = 255
+          Align = alLeft
+          ClientHeight = 198
+          ClientWidth = 255
+          TabOrder = 2
+          object GroupBox2: TGroupBox
+            Left = 4
+            Height = 144
+            Top = 7
+            Width = 246
+            ClientHeight = 140
+            ClientWidth = 242
+            TabOrder = 0
+            OnClick = GroupBox2Click
+            object StopSpeedButton1: TSpeedButton
+              Left = 14
+              Height = 22
+              Top = 72
+              Width = 77
+              Caption = 'Stop'
+              Color = 1710817
+              Down = True
+              Font.Color = 1973977
+              Glyph.Data = {
+                36040000424D3604000000000000360000002800000010000000100000000100
+                2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF007B7BB1003C3C8AFF00006BFF0D0D77FF101079FF0101
+                6CFF3C3C8AFF7B7BB100FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF00FFFFFF0059599DFF0E0E78FF07159EFF081BB8FF091BCCFF0A1CD2FF0A1C
+                C0FF0716A3FF0E0E78FF59599DFFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF005959A1FF020582FF081AAAFF0308BEFF0613BEFF0A15B1FF0F19BCFF0D1C
+                CEFF030AD0FF0819B6FF020582FF5959A1FFFFFFFF00FFFFFF00FFFFFF007B7B
+                BD000E0E82FF08179FFF0000AAFF0715BFFF030880FF02028800080894000D0D
+                A200151FBBFF060EBFFF0817ABFF0E0E82FF7B7BBD00FFFFFF00FFFFFF003C3C
+                97FF051197FF020596FF0A1BAEFF0000BCFF050EC8FF020687FF00009400FFFF
+                FF000B0BA000141BB9FF0206ABFF05109CFF3C3C97FFFFFFFF00FFFFFF002323
+                92FF051191FF08129CFF1416B1FF0814B5FF0000C7FF040DCBFF02068AFF0000
+                9900FFFFFF000B0BA3000C16AEFF05119AFF232392FFFFFFFF00FFFFFF000B0B
+                8EFF09128CFF0B129AFF0B0BA0001214B1FF141FBEFF1515CBFF141DC6FF0709
+                8AFF00009D000000A6000D13A5FF040D90FF0B0B8EFFFFFFFF00FFFFFF000B0B
+                92FF3A43AAFF171E9CFF0A0A9D000B0BA6001516B4FF4A52CEFF3737CCFF343A
+                C4FF07098BFF0000A00010159CFF161E93FF0B0B92FFFFFFFF00FFFFFF002323
+                9EFF373EAFFF2B31A5FF04049400FFFFFF000B0BA600191AB7FF5961CCFF4646
+                C5FF3A3FB8FF050786FF22269CFF363BACFF23239EFFFFFFFF00FFFFFF003C3C
+                AAFF252BABFF5E60C2FF0A0C91FF0B0B9400FFFFFF000B0BAA001819B7FF4E53
+                C1FF5353BEFF4448B1FF4B4DB4FF262BAAFF3C3CAAFFFFFFFF00FFFFFF007B7B
+                C9000F0F9EFF5A5DBFFF5457BFFF080A93FF04049A000909A6000E0EAD001314
+                B9FF464AB9FF6161C0FF5053B9FF0F0F9EFF7B7BC900FFFFFF00FFFFFF00FFFF
+                FF005959BFFF0F11A6FF6D6FC9FF7779D0FF3737B0FF1C1CA5FF2325AEFF4649
+                BCFF6F70CBFF6163C2FF090AA3FF5959BFFFFFFFFF00FFFFFF00FFFFFF00FFFF
+                FF00FFFFFF005959BFFF0F0FA8FF4748BBFF7373CCFF8A8AD8FF8B8BD9FF7676
+                CDFF4242B9FF0F0FA6FF5959BFFFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF007B7BCF003C3CB8FF0202A6FF2424B2FF3131B5FF1111
+                ABFF3D3DB8FF7B7BCF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+              }
+              GroupIndex = 1
+              NumGlyphs = 0
+              OnClick = StopSpeedButton1Click
+              ParentFont = False
+            end
+            object RunSpeedButton2: TSpeedButton
+              Left = 14
+              Height = 22
+              Top = 47
+              Width = 77
+              Caption = 'Run'
+              Color = 1760538
+              Enabled = False
+              Font.Color = 1219094
+              Glyph.Data = {
+                36040000424D3604000000000000360000002800000010000000100000000100
+                2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF00FFFFFF00000000003A1D0A003C1A0900FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF0000000000371F0BFF5E5236FF3F341BFF3A1F0700FFFF
+                FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF003A1E0CFF574C33FFBD9474FFA68868FF3E3118FF3A1A
+                0700FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF00FFFFFF003B200BFF53442AFF966F52FFA87C5FFFAC8062FF896D50FF4030
+                17FF3B1B0800FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF003D1E0AFF5D462DFF896A4FFF937054FF97765AFF9B765BFF947056FF795F
+                44FF46311AFF3C1A0900FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF003F1F
+                0BFF69482CFF876B51FF94775BFF9A7D60FF5A4C35FF7A6A4DFF9F8166FF9C80
+                64FF937B63FF53351CFF371B0500FFFFFF00FFFFFF00FFFFFF00FFFFFF005531
+                19FF967A5DFF9D8467FF9B8165FF6F543BFF3F220EFF4D321AFF877155FF9E85
+                69FF9D8467FF987D62FF56341AFF371E0500FFFFFF00FFFFFF00FFFFFF00391D
+                0A00764D2FFFA99174FF836044FF42220EFFFFFFFF0035200B0056351DFF9A7E
+                62FFB29B7FFFB29B7EFF9F8367FF573015FF371C0600FFFFFF00FFFFFF00FFFF
+                FF003B1F09005F391DFF43210EFFFFFFFF00FFFFFF00FFFFFF00391C09005A35
+                1DFFA88C70FFC8B294FFC8B294FFA88B6FFF59371EFFFFFFFF00FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF003523
+                09005C351AFFB59A7DFFDECAABFFA58362FF4B250CFFFFFFFF00FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF003E1F08005A3316FFA88769FF4D270EFF3B140000FFFFFF00FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF00FFFFFF00352309003A1D090037120000FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+              }
+              GroupIndex = 1
+              NumGlyphs = 0
+              OnClick = RunSpeedButton2Click
+              ParentFont = False
+            end
+            object RunLabel1: TLabel
+              Left = 102
+              Height = 16
+              Top = 52
+              Width = 151
+              Caption = 'Not ready to Process    '
+              ParentColor = False
+            end
+            object RunLabel2: TLabel
+              Left = 102
+              Height = 16
+              Top = 76
+              Width = 152
+              Caption = 'Processing Stopped      '
+              ParentColor = False
+            end
+            object QuitSpeedButton2: TSpeedButton
+              Left = 14
+              Height = 22
+              Top = 96
+              Width = 77
+              Caption = 'Exit'
+              Color = 1710817
+              Font.Color = 1973977
+              Glyph.Data = {
+                36040000424D3604000000000000360000002800000010000000100000000100
+                2000000000000004000064000000640000000000000000000000000000000000
+                0000000000000000000000000000000000000000000000002A00000037000000
+                0200000000000000000000000000000000000000000000000000000000000000
+                00000000000000000000000065000000ABFF0000BAFF0000BBFF0000BAFF0000
+                BCFF0000B3FF0000880000000000000000000000000000000000000000000000
+                00000000000000009AFF0000C0FF0000B2FF0002A7FF0009A5FF000BA5FF0006
+                A7FF0000AFFF0000BFFF0000B1FF000032000000000000000000000000000000
+                0000000099FF0000BAFF0002ABFF0013AAFF002CB3FF003EBBFF004AC0FF004B
+                C1FF0036B8FF000BACFF0000B6FF0000B0FF0000100000000000000000000000
+                72000000B5FF0002AEFF011BACFF6682D0FF054DBFFF0061CEFF006CD4FF0069
+                CEFF5C97DAFF1054C2FF0010B1FF0000B4FF00009B0000000000000000000000
+                A0FF0000B1FF0015B3FF788BCCFFFFFFFFFFADC6E6FF056EC9FF007CD4FF73AA
+                DAFFFFFFFFFFB8CAE7FF0037B9FF0003B3FF0000ABFF0000200000001C000000
+                A8FF0004B7FF0031C7FF1249B5FFCDD6E8FFFFFFFFFFADC7E1FF77A4CDFFFFFF
+                FFFFEDF0F6FF3268BBFF004ACCFF0011BDFF0000ADFF00008B00000073000000
+                A6FF000DBEFF0041D0FF005CD6FF1258B1FFCDD3E3FFFFFFFFFFFFFFFFFFEDEE
+                F4FF3262ADFF0059D1FF0042D1FF0016C2FF0000ACFF0000950000007A000000
+                A0FF0010BDFF0045D2FF005FDAFF005CC1FF7F8DB6FFFFFFFFFFFFFFFFFFB9BE
+                D3FF0540A5FF004AD2FF002FCBFF000DBFFF0000A7FF00009000000060000000
+                99FF0009B9FF0744D1FF1155C6FF7992C4FFFFFFFFFFEEF1F7FFD4DAEAFFFFFF
+                FFFFB0B8D7FF1536B1FF0C20C5FF0002BBFF0000A0FF00008A00000000000000
+                8FFF0203AFFF3A58CFFF7F92CCFFFFFFFFFFF1F3F9FF5879C4FF3F64BEFFD6DB
+                EEFFFFFFFFFFB2B5DCFF3738BEFF1010B9FF000095FF00007900000000000000
+                850000009EFF4248CAFF6E7FD1FFE2E5F6FF778BD4FF5F7CDBFF6078DCFF626D
+                CCFFDBDBF2FF8888D4FF5454CDFF0303A7FF00008BFF00000000000000000000
+                4C0000008DFF1111ABFF7A7DDAFF8289DEFF838BE1FF848AE1FF8487E1FF8484
+                DFFF8181DBFF8181DCFF2929B8FF000092FF0000830000000000000000000000
+                000000007E0000008EFF1D1DAAFF8989DBFFA7A7E7FFA7A7E8FFA7A7E8FFA7A7
+                E8FF9A9AE2FF3535B7FF000092FF000088000000000000000000000000000000
+                00000000000000007D0000008BFF020294FF3535B0FF6060C5FF6565C7FF4444
+                B7FF090999FF00008DFF00008600000000000000000000000000000000000000
+                00000000000000000000000000000000840000008E0000009300000094000000
+                900000008B000000000000000000000000000000000000000000
+              }
+              GroupIndex = 1
+              NumGlyphs = 0
+              OnClick = QuitSpeedButton2Click
+              ParentFont = False
+            end
+            object RunLabel3: TLabel
+              Left = 102
+              Height = 16
+              Top = 100
+              Width = 106
+              Caption = 'Quit Program     '
+              ParentColor = False
+            end
+            object TimerSpeedButton3: TSpeedButton
+              Left = 14
+              Height = 22
+              Top = 22
+              Width = 77
+              Caption = 'Timer'
+              Color = 1760538
+              Font.Color = 1219094
+              Glyph.Data = {
+                36040000424D3604000000000000360000002800000010000000100000000100
+                2000000000000004000064000000640000000000000000000000000000000000
+                0000000000000000000000000000000000000000000000000000000000000000
+                00000000000045250F9543230F98000000000000000000000000000000000000
+                0000000000000000000000000000000000000000000000000000000000000000
+                0000532C114E423127FF413128FF4F2A11500000000000000000000000000000
+                0000000000000000000000000000000000000000000000000000814A2300884A
+                1F0F4C280EFFD9BFADFEE0C6B3FE46250EFF8B4A1F0E77411B00000000000000
+                0000000000004E4E4E0000000000000000000000000000000000000000008047
+                21D3A97F61FECDB3A1FFD0B5A3FFAC856BFE703B15D100000000000000000000
+                0000000000005050501A474747A4717171F27F7F7FFF959597F888644BCD9960
+                38FFC3926CFFC49E7FFFC59E80FFC2916CFF925730FF8149237A000000000000
+                000059595943808080F7EFEFEFFAFFFFFFFFFFFFFFFFFFFFFFFFC8A993FF9961
+                3CFE8D512AFEC99B73FFCB9E77FF804823FE8D542DEE8B522C9C787878007070
+                7015888888F7FBFBFBFFFEFEFEFEFFFFFFFF252525FFFFFFFFFFFFFFFFFFECFF
+                FFFFA3663FFED7B28DFFD8B48FFF995D35F50000000000000000000000007373
+                739BE5E5E5FAFBFBFBFEF9F9F9FFFAFAFAFFFFFFFFFFF2F2F1FF6E6765FF5CC1
+                D2FFA66D45FFEACFAEFFEBD2B0FFA7683EF50000000000000000000000009A9A
+                9AE6F0F0F0FFFFFFFFFFF5F5F5FFF8F8F8FFCDCBCBFF3F3634FF0A7186FF64C2
+                D5FFA8896BFFB6784FFEB37348EFB77B51C6000000000000000000000000ADAD
+                ADFFF1F1F1FF424242FFFBFBFBFFDFDFDFFFA39C9AFF0E82A2FF009AC0FF26A7
+                C6FF6FC4D7FFDCDADCFF0000000000000000B37850000000000000000000B3B3
+                B3E7D7D7D7FFF8F8F8FFEBEBEBFFFFFFFFFF2F201BFF00ACE2FF009FCDFF009B
+                C7FF2298B7FFBCB5B3EC0000000000000000000000000000000000000000B2B2
+                B29CC0C0C0FAE7E7E7FEEBEBEBFFFEFEFEFF33241DFF00B3F1FF00A5DCFF00A3
+                D8FE7FADBBFAB6B4B3A200000000000000000000000000000000B4B4B400C3C3
+                C317C9C9C9F7B0B0B0FFE7E7E7FEFBFBFAFF372B25FF00B9FFFF00ADEEFE3394
+                B4FFD4CCC9F8C4C4C31BB4B4B400000000000000000000000000000000000000
+                0000D1D1D145D5D5D5F7AAAAAAFBB6B5B5FF61B0D1FF1997C9FF74A2B3FBDED7
+                D3F8D2D1D14B0000000000000000000000000000000000000000000000000000
+                000000000000E0E0E01CE1E1E1A7E4E3E3F7E9E3E1FFEBE5E2F8E3E1E1AAE0E0
+                DF20000000000000000000000000000000000000000000000000000000000000
+                000000000000DEDEDE000000000000000000000000000000000000000000DEDE
+                DE00000000000000000000000000000000000000000000000000
+              }
+              NumGlyphs = 0
+              OnClick = TimerSpeedButton3Click
+              ParentFont = False
+            end
+            object SetTimerLabel4: TLabel
+              Left = 102
+              Height = 16
+              Top = 27
+              Width = 114
+              Caption = 'Set Run Schedule'
+              ParentColor = False
+            end
+          end
+        end
+      end
+      object Splitter1: TSplitter
+        Cursor = crVSplit
+        Left = 0
+        Height = 5
+        Top = 200
+        Width = 817
+        Align = alTop
+        Beveled = True
+        ResizeAnchor = akTop
+      end
+      object Panel2: TPanel
+        Left = 0
+        Height = 226
+        Top = 205
+        Width = 817
+        Align = alClient
+        Caption = 'Panel2'
+        ClientHeight = 226
+        ClientWidth = 817
+        TabOrder = 2
+        object GroupBox1: TGroupBox
+          Left = 1
+          Height = 224
+          Top = 1
+          Width = 815
+          Align = alClient
+          Caption = '  Activity Log'
+          ClientHeight = 207
+          ClientWidth = 811
+          TabOrder = 0
+          object ActivityMemo1: TMemo
+            Left = 0
+            Height = 207
+            Top = 0
+            Width = 811
+            Align = alClient
+            ScrollBars = ssBoth
+            TabOrder = 0
+          end
+        end
+      end
+    end
+    object RetreivalSettingsTabSheet1: TTabSheet
+      Caption = 'Retrieval Settings'
+    end
+    object RunSettingsTabSheet1: TTabSheet
+      Caption = 'Run Settings'
+    end
+    object RunStatusTabSheet1: TTabSheet
+      Caption = 'Run Status'
+    end
+    object RetrievalJobsTabSheet1: TTabSheet
+      Caption = 'Retrieval Jobs'
+      ClientHeight = 431
+      ClientWidth = 817
+      object Panel5: TPanel
+        Left = 0
+        Height = 431
+        Top = 0
+        Width = 170
+        Align = alLeft
+        ClientHeight = 431
+        ClientWidth = 170
+        TabOrder = 0
+        object TreeView2: TTreeView
+          Left = 1
+          Height = 429
+          Top = 1
+          Width = 168
+          Align = alLeft
+          DefaultItemHeight = 18
+          PopupMenu = TVJobMenu2
+          SortType = stText
+          TabOrder = 0
+          Items.Data = {
+            F9FFFFFF020002000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF020000000000
+            00000117000000436976696C2C2046616D696C7920262050726F62617465FFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFF0400000000000000010A000000436976696C
+            20546F7274FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0200000000000000010500
+            0000436C61726BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000000000
+            07000000323031342D3032FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000000
+            0000000007000000323031342D3033FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF02
+            000000000000000105000000466C6F7964FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FF00000000000000000007000000323031342D3032FFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFF00000000000000000007000000323031342D3033FFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFF020000000000000001080000004861727269736F6EFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000000000000007000000323031342D
+            3032FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000000000000000700000032
+            3031342D3033FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0200000000000000010A
+            00000057617368696E67746F6EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000
+            00000000000007000000323031342D3032FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FF00000000000000000007000000323031342D3033FFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFF0400000000000000010C000000477561726469616E73686970FFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFF02000000000000000105000000436C61726B
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000000000000007000000323031
+            342D3032FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000000000070000
+            00323031342D3033FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0200000000000000
+            0105000000466C6F7964FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000
+            00000007000000323031342D3032FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+            0000000000000007000000323031342D3033FFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFF020000000000000001080000004861727269736F6EFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFF00000000000000000007000000323031342D3032FFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFF00000000000000000007000000323031342D3033FF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0200000000000000010A00000057617368
+            696E67746F6EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000000000000007
+            000000323031342D3032FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000
+            00000007000000323031342D3033FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0200
+            00000000000001130000004372696D696E616C2026204369746174696F6EFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFF0300000000000000010E000000436C617373
+            20412046656C6F6E79FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF05000000000000
+            000105000000436C61726BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000000
+            0000000007000000323031342D3033FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00
+            000000000000000007000000323031342D3032FFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFF00000000000000000007000000323031342D3031FFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFF00000000000000000007000000323031332D3132FFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFF00000000000000000007000000323031332D3131FF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF05000000000000000105000000466C6F79
+            64FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000000000070000003230
+            31342D3033FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000000000000000700
+            0000323031342D3032FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000000000
+            000007000000323031342D3031FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000
+            00000000000007000000323031332D3132FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FF00000000000000000007000000323031332D3131FFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFF0100000000000000010A00000057617368696E67746F6EFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFF00000000000000000007000000323031342D3033
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0200000000000000010A000000496E66
+            72616374696F6EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF010000000000000001
+            05000000466C6F7964FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000000000
+            000007000000323031342D3033FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF010000
+            0000000000010A00000057617368696E67746F6EFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFF00000000000000000007000000323031342D3033
+          }
+        end
+      end
+      object Splitter3: TSplitter
+        Left = 170
+        Height = 431
+        Top = 0
+        Width = 10
+      end
+      object Panel6: TPanel
+        Left = 180
+        Height = 431
+        Top = 0
+        Width = 637
+        Align = alClient
+        ClientHeight = 431
+        ClientWidth = 637
+        TabOrder = 2
+        object PageControl2: TPageControl
+          Left = 1
+          Height = 429
+          Top = 1
+          Width = 635
+          ActivePage = RunSettingsTabSheet3
+          Align = alClient
+          TabIndex = 0
+          TabOrder = 0
+          object RunSettingsTabSheet3: TTabSheet
+            Caption = 'Run Settings'
+            ClientHeight = 400
+            ClientWidth = 631
+            object Panel8: TPanel
+              Left = 0
+              Height = 352
+              Top = 10
+              Width = 817
+              Caption = 'Panel8'
+              ClientHeight = 352
+              ClientWidth = 817
+              TabOrder = 0
+              object Panel9: TPanel
+                Left = 1
+                Height = 350
+                Top = 1
+                Width = 361
+                Align = alLeft
+                ClientHeight = 350
+                ClientWidth = 361
+                TabOrder = 0
+                object DirectoryEdit3: TDirectoryEdit
+                  Left = 32
+                  Height = 23
+                  Top = 201
+                  Width = 296
+                  ShowHidden = False
+                  ButtonWidth = 23
+                  NumGlyphs = 0
+                  MaxLength = 0
+                  TabOrder = 0
+                  OnChange = DirectoryEdit1Change
+                  OnExit = DirectoryEdit1Exit
+                end
+                object FormLetterFileNameLabel6: TLabel
+                  Left = 9
+                  Height = 16
+                  Top = 185
+                  Width = 197
+                  Caption = 'Folder To Hold Merged  Letters'
+                  ParentColor = False
+                end
+                object TemplateLetterFileNameEdit3: TFileNameEdit
+                  Left = 32
+                  Height = 23
+                  Top = 153
+                  Width = 296
+                  FilterIndex = 0
+                  HideDirectories = False
+                  ButtonWidth = 23
+                  NumGlyphs = 0
+                  MaxLength = 0
+                  TabOrder = 1
+                  OnChange = TemplateLetterFileNameEdit1Change
+                  OnExit = TemplateLetterFileNameEdit1Exit
+                end
+                object FormLetterFileNameLabel7: TLabel
+                  Left = 8
+                  Height = 16
+                  Top = 137
+                  Width = 165
+                  Caption = 'Form Letter Template File'
+                  ParentColor = False
+                end
+                object RetrievalURLComboBox2: TComboBox
+                  Left = 32
+                  Height = 23
+                  Top = 23
+                  Width = 296
+                  ItemHeight = 0
+                  OnChange = RetrievalURLComboBox1Change
+                  TabOrder = 2
+                end
+                object FormLetterFileNameLabel8: TLabel
+                  Left = 9
+                  Height = 16
+                  Top = 8
+                  Width = 85
+                  Caption = 'Retrieval URL'
+                  ParentColor = False
+                end
+                object CaseIDSearchStringLabel7: TLabel
+                  Left = 10
+                  Height = 16
+                  Top = 94
+                  Width = 141
+                  Caption = 'Case ID Search String'
+                  ParentColor = False
+                end
+                object InstantRunCaseIDComboBox3: TComboBox
+                  Left = 32
+                  Height = 23
+                  Top = 109
+                  Width = 296
+                  ItemHeight = 0
+                  OnChange = RetrievalURLComboBox1Change
+                  TabOrder = 3
+                end
+                object CaseIDBuilderSpeedButton5: TSpeedButton
+                  Left = 328
+                  Height = 22
+                  Hint = 'Case ID Builder'
+                  Top = 109
+                  Width = 23
+                  Color = 13685462
+                  Glyph.Data = {
+                    36040000424D3604000000000000360000002800000010000000100000000100
+                    2000000000000004000064000000640000000000000000000000888B8924868B
+                    89BD797E7CD54F52517D0000000C000000000000000000000000000000000000
+                    0000000000000000000000000000000000000000000000000000A1A5A3BB8D93
+                    90FF8E9391FF959B99FE535554990000000A0000000000000000000000000000
+                    00000000000000000000000000000000000000000000000000009A9E9DDE8C92
+                    90FF565655FF616462FFA1A5A3FD494A4A800000000400000000000000000000
+                    000000000000000000000000000000000000000000000000000083878676969A
+                    98FF5A5B5BFF2B2B2BFF525452FFABB0AEF73536365900000001000000000000
+                    0000000000000000000000000000000000000000000000000000000000027C80
+                    7E71A0A4A2FA575958FF0E0E0EFF656765FFB3B5B4E918191938000000000000
+                    0000000000000000000000000000000000000000000000000000000000000000
+                    00007F828044AEB1B0EB6C6E6DFF171817FF949695FFB1B2B1D3000000210000
+                    0000000000000000000000000000000000000000000000000000000000000000
+                    00000000000082858521B9BBBBD0969898FF3A3B3AFFC2C3C2FFA4A5A5C60000
+                    003B000000100000000400000000000000000000000000000000000000000000
+                    000000000000000000006769680CBFC0C0AAC4C5C5FFB5B5B5FFFBFCFCFFB9BA
+                    B9F64F504FD73F4041AF1111117D000000410000000600000000000000000000
+                    000000000000000000000000000014151402B9BBBA88F1F2F3FFDDDFDEFF4240
+                    3CFF6C6C6AFFB2B3B1FFDCDEDDFF777878F81313138D00000009000000000000
+                    00000000000000000000000000000000000000000003B7B9B8C0878785FF7C7B
+                    78FF413F3AFFBAB9B9FFD9DADAFF959797FFB2B5B3FC10101069000000000000
+                    0000000000000000000000000000000000000000000084868560C3C6C5FF7273
+                    72FF7B7A78FFE9EAEAFFBCBFBDFF878888EED9DBDAFF6C6D6CD4000000000000
+                    000000000000000000000000000000000000000000002A2C2B199EA1A0FA989A
+                    99FFF0F1F0FFEFF0F0FF9C9E9DA3686B6B0DB3B5B42F8E908F8C000000000000
+                    00000000000000000000000000000000000000000000000000046E706FCECCCE
+                    CDFFF0F1F1FFD6D5D5F206060611000000000000000000000000000000000000
+                    00000000000000000000000000000000000000000000000000006E706F95E8EA
+                    E9FFF6F7F7FFC3C4C4F50000004A0000000B0000000100000000000000000000
+                    00000000000000000000000000000000000000000000000000005356532FDEDF
+                    DFF5FEFEFEFFEDEEEDFF959796FB595B5ACE3739383700000000000000000000
+                    0000000000000000000000000000000000000000000000000000000000009091
+                    9136CECFCFB4CCCECDE5BDC0BFD6A8ABAA85676B6A0C00000000
+                  }
+                  NumGlyphs = 0
+                  OnClick = CaseIDBuilderSpeedButton5Click
+                  ShowHint = True
+                  ParentFont = False
+                  ParentShowHint = False
+                end
+                object CaseTypesComboBox3: TComboBox
+                  Left = 32
+                  Height = 23
+                  Top = 67
+                  Width = 296
+                  ItemHeight = 0
+                  TabOrder = 4
+                end
+                object TypeOfCasesLabel2: TLabel
+                  Left = 10
+                  Height = 16
+                  Top = 49
+                  Width = 92
+                  Caption = 'Type Of Cases'
+                  ParentColor = False
+                end
+                object RetrievalURLCheckBox1: TCheckBox
+                  Left = 10
+                  Height = 21
+                  Top = 23
+                  Width = 21
+                  Checked = True
+                  Enabled = False
+                  State = cbChecked
+                  TabOrder = 5
+                end
+                object TypeOfCasesCheckBox2: TCheckBox
+                  Left = 10
+                  Height = 21
+                  Top = 67
+                  Width = 21
+                  Enabled = False
+                  TabOrder = 6
+                end
+                object CaseIDCheckBox4: TCheckBox
+                  Left = 10
+                  Height = 21
+                  Top = 110
+                  Width = 21
+                  Enabled = False
+                  TabOrder = 7
+                end
+                object FormLetterCheckBox5: TCheckBox
+                  Left = 10
+                  Height = 21
+                  Top = 153
+                  Width = 21
+                  Enabled = False
+                  TabOrder = 8
+                end
+                object MergedOutputFolderCheckBox6: TCheckBox
+                  Left = 10
+                  Height = 21
+                  Top = 201
+                  Width = 21
+                  Enabled = False
+                  TabOrder = 9
+                end
+                object PrinterSetupSpeedButton6: TSpeedButton
+                  Left = 54
+                  Height = 22
+                  Hint = 'Configure Printer'
+                  Top = 286
+                  Width = 23
+                  Color = 13685462
+                  Glyph.Data = {
+                    36040000424D3604000000000000360000002800000010000000100000000100
+                    2000000000000004000064000000640000000000000000000000474747004747
+                    4700373630A636342EFF36342EFF36342EFF36342EFF36342EFF36342EFF3634
+                    2EFF36342EFF36342EFF373630A6474747004747470047474700474747004747
+                    470036342EFF545856FF555957FF555957FF555957FF555957FF555957FF5559
+                    57FF555957FF545856FF36342EFF474747004747470047474700474747004747
+                    470036342EFF5E6260FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+                    FFFFFFFFFFFF5E6260FF36342EFF474747004747470047474700474747004747
+                    470036342EFF949796FFFFFFFFFFF5FBF8FFFBFEFCFFD3EDE0FFF5FBF8FFC3E6
+                    D4FFC9E9D9FF949796FF36342EFF474747004747470047474700474747003333
+                    330536342EFF6F7371FFE3F3EBFFE7F5EDFFFAFDFCFFEBF7F0FFEAF6F0FFE2F3
+                    EAFFFEFFFEFF6F7371FF36342EFF40402008333333054747470036332F773735
+                    2FFB36342EFF777C7AFFF9FDFBFFCFECDDFFB8E2CCFFB5E1CAFFB5E1CAFFD7EF
+                    E2FFFFFFFFFF777C7AFF36342EFF37352FFC37352FFB36332F7736342EFE5858
+                    53FF36342EFF7D8280FFD5E0DAFFA3CFB8FFA3CFB8FFB2D4C2FFD0DED6FFE5E5
+                    E5FFE5E5E5FF7D8280FF36342EFF54544FFF585853FF36342EFE36342EFF6668
+                    64FF3F3E38FF36342EFF000000FF000000FF000000FF000000FF000000FF0000
+                    00FF000000FF36342EFF5F605BFF484742FF666864FF36342EFF36342EFF7274
+                    70FF4A4A45FFD1D8D4FFD1D8D4FFD1D8D4FFD1D8D4FFD1D8D4FFD1D8D4FFD1D8
+                    D4FFD1D8D4FFD1D8D4FFD1D8D4FF4A4A45FF727470FF36342EFF36342EFFA2A5
+                    A3FF868784FFF1F2F2FFF1F2F2FFF1F2F2FFF1F2F2FFF1F2F2FFF1F2F2FFF1F2
+                    F2FFF1F2F2FFF1F2F2FFF1F2F2FF868784FFA2A5A3FF36342EFF36342EFF8F93
+                    91FF5D5F5BFFC3C9C7FFC3C9C7FFC3C9C7FFC3C9C7FFC3C9C7FFC3C9C7FFC3C9
+                    C7FFC3C9C7FFC3C9C7FFC3C9C7FF5D5F5BFF8F9391FF36342EFF36342EFF8B8E
+                    8DFF676966FFC0C6C3FF595C58FF454642FF42423EFF3F3E3AFF373833FF8E91
+                    8DFFC0C6C3FFC0C6C3FFC0C6C3FF676966FF8B8E8DFF36342EFF36342EFF8C8F
+                    8DFF717471FFCDD2D1FF505351FF818683FF494B48FF7E837FFF363633FF4D4D
+                    49FF3D3C37FF4B4B46FFCDD2D1FF717471FF8C8F8DFF36342EFF36342EFF8C8F
+                    8DFF7A7E7CFFDBDFDEFF5F6261FF535755FF515552FF4E514EFF3C3E3BFF5556
+                    53FF444541FF545451FFDBDFDEFF7A7E7CFF8C8F8DFF36342EFF36342EFD7F81
+                    7FFFA7AAA9FFDCDFDEFFEBECECFFEBECECFFEBECECFFEBECECFFEBECECFFEBEC
+                    ECFFEBECECFFEBECECFFDCDFDEFFA7AAA9FF7F817FFF36342EFD36362F673A38
+                    31F3565752FA858987FE878C89FF878C89FF878C89FF878C89FF878C89FF878C
+                    89FF878C89FF878C89FF858987FE565752FA3A3831F336362F67
+                  }
+                  NumGlyphs = 0
+                  OnClick = PrinterSetupSpeedButton6Click
+                  ShowHint = True
+                  ParentFont = False
+                  ParentShowHint = False
+                end
+                object PrintDialogSpeedButton7: TSpeedButton
+                  Left = 302
+                  Height = 22
+                  Hint = 'Print Merged Form Letters'
+                  Top = 286
+                  Width = 23
+                  Color = 13685462
+                  Glyph.Data = {
+                    36040000424D3604000000000000360000002800000010000000100000000100
+                    2000000000000004000064000000640000000000000000000000474747004747
+                    4700373630A636342EFF36342EFF36342EFF36342EFF36342EFF36342EFF3634
+                    2EFF36342EFF36342EFF373630A6474747004747470047474700474747004747
+                    470036342EFF545856FF555957FF555957FF555957FF555957FF555957FF5559
+                    57FF555957FF545856FF36342EFF474747004747470047474700474747004747
+                    470036342EFF5E6260FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+                    FFFFFFFFFFFF5E6260FF36342EFF474747004747470047474700474747004747
+                    470036342EFF949796FFFFFFFFFFF5FBF8FFFBFEFCFFD3EDE0FFF5FBF8FFC3E6
+                    D4FFC9E9D9FF949796FF36342EFF474747004747470047474700474747003333
+                    330536342EFF6F7371FFE3F3EBFFE7F5EDFFFAFDFCFFEBF7F0FFEAF6F0FFE2F3
+                    EAFFFEFFFEFF6F7371FF36342EFF40402008333333054747470036332F773735
+                    2FFB36342EFF777C7AFFF9FDFBFFCFECDDFFB8E2CCFFB5E1CAFFB5E1CAFFD7EF
+                    E2FFFFFFFFFF777C7AFF36342EFF37352FFC37352FFB36332F7736342EFE5858
+                    53FF36342EFF7D8280FFD5E0DAFFA3CFB8FFA3CFB8FFB2D4C2FFD0DED6FFE5E5
+                    E5FFE5E5E5FF7D8280FF36342EFF54544FFF585853FF36342EFE36342EFF6668
+                    64FF3F3E38FF36342EFF000000FF000000FF000000FF000000FF000000FF0000
+                    00FF000000FF36342EFF5F605BFF484742FF666864FF36342EFF36342EFF7274
+                    70FF4A4A45FFD1D8D4FFD1D8D4FFD1D8D4FFD1D8D4FFD1D8D4FFD1D8D4FFD1D8
+                    D4FFD1D8D4FFD1D8D4FFD1D8D4FF4A4A45FF727470FF36342EFF36342EFFA2A5
+                    A3FF868784FFF1F2F2FFF1F2F2FFF1F2F2FFF1F2F2FFF1F2F2FFF1F2F2FFF1F2
+                    F2FFF1F2F2FFF1F2F2FFF1F2F2FF868784FFA2A5A3FF36342EFF36342EFF8F93
+                    91FF5D5F5BFFC3C9C7FFC3C9C7FFC3C9C7FFC3C9C7FFC3C9C7FFC3C9C7FFC3C9
+                    C7FFC3C9C7FFC3C9C7FFC3C9C7FF5D5F5BFF8F9391FF36342EFF36342EFF8B8E
+                    8DFF676966FFC0C6C3FF595C58FF454642FF42423EFF3F3E3AFF373833FF8E91
+                    8DFFC0C6C3FFC0C6C3FFC0C6C3FF676966FF8B8E8DFF36342EFF36342EFF8C8F
+                    8DFF717471FFCDD2D1FF505351FF818683FF494B48FF7E837FFF363633FF4D4D
+                    49FF3D3C37FF4B4B46FFCDD2D1FF717471FF8C8F8DFF36342EFF36342EFF8C8F
+                    8DFF7A7E7CFFDBDFDEFF5F6261FF535755FF515552FF4E514EFF3C3E3BFF5556
+                    53FF444541FF545451FFDBDFDEFF7A7E7CFF8C8F8DFF36342EFF36342EFD7F81
+                    7FFFA7AAA9FFDCDFDEFFEBECECFFEBECECFFEBECECFFEBECECFFEBECECFFEBEC
+                    ECFFEBECECFFEBECECFFDCDFDEFFA7AAA9FF7F817FFF36342EFD36362F673A38
+                    31F3565752FA858987FE878C89FF878C89FF878C89FF878C89FF878C89FF878C
+                    89FF878C89FF878C89FF858987FE565752FA3A3831F336362F67
+                  }
+                  NumGlyphs = 0
+                  OnClick = PrintDialogSpeedButton7Click
+                  ShowHint = True
+                  ParentFont = False
+                  ParentShowHint = False
+                end
+                object PageSetupSpeedButton8: TSpeedButton
+                  Left = 183
+                  Height = 22
+                  Hint = 'Printer Page Setup'
+                  Top = 286
+                  Width = 23
+                  Color = 13685462
+                  Glyph.Data = {
+                    36040000424D3604000000000000360000002800000010000000100000000100
+                    2000000000000004000064000000640000000000000000000000474747004747
+                    4700373630A636342EFF36342EFF36342EFF36342EFF36342EFF36342EFF3634
+                    2EFF36342EFF36342EFF373630A6474747004747470047474700474747004747
+                    470036342EFF545856FF555957FF555957FF555957FF555957FF555957FF5559
+                    57FF555957FF545856FF36342EFF474747004747470047474700474747004747
+                    470036342EFF5E6260FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+                    FFFFFFFFFFFF5E6260FF36342EFF474747004747470047474700474747004747
+                    470036342EFF949796FFFFFFFFFFF5FBF8FFFBFEFCFFD3EDE0FFF5FBF8FFC3E6
+                    D4FFC9E9D9FF949796FF36342EFF474747004747470047474700474747003333
+                    330536342EFF6F7371FFE3F3EBFFE7F5EDFFFAFDFCFFEBF7F0FFEAF6F0FFE2F3
+                    EAFFFEFFFEFF6F7371FF36342EFF40402008333333054747470036332F773735
+                    2FFB36342EFF777C7AFFF9FDFBFFCFECDDFFB8E2CCFFB5E1CAFFB5E1CAFFD7EF
+                    E2FFFFFFFFFF777C7AFF36342EFF37352FFC37352FFB36332F7736342EFE5858
+                    53FF36342EFF7D8280FFD5E0DAFFA3CFB8FFA3CFB8FFB2D4C2FFD0DED6FFE5E5
+                    E5FFE5E5E5FF7D8280FF36342EFF54544FFF585853FF36342EFE36342EFF6668
+                    64FF3F3E38FF36342EFF000000FF000000FF000000FF000000FF000000FF0000
+                    00FF000000FF36342EFF5F605BFF484742FF666864FF36342EFF36342EFF7274
+                    70FF4A4A45FFD1D8D4FFD1D8D4FFD1D8D4FFD1D8D4FFD1D8D4FFD1D8D4FFD1D8
+                    D4FFD1D8D4FFD1D8D4FFD1D8D4FF4A4A45FF727470FF36342EFF36342EFFA2A5
+                    A3FF868784FFF1F2F2FFF1F2F2FFF1F2F2FFF1F2F2FFF1F2F2FFF1F2F2FFF1F2
+                    F2FFF1F2F2FFF1F2F2FFF1F2F2FF868784FFA2A5A3FF36342EFF36342EFF8F93
+                    91FF5D5F5BFFC3C9C7FFC3C9C7FFC3C9C7FFC3C9C7FFC3C9C7FFC3C9C7FFC3C9
+                    C7FFC3C9C7FFC3C9C7FFC3C9C7FF5D5F5BFF8F9391FF36342EFF36342EFF8B8E
+                    8DFF676966FFC0C6C3FF595C58FF454642FF42423EFF3F3E3AFF373833FF8E91
+                    8DFFC0C6C3FFC0C6C3FFC0C6C3FF676966FF8B8E8DFF36342EFF36342EFF8C8F
+                    8DFF717471FFCDD2D1FF505351FF818683FF494B48FF7E837FFF363633FF4D4D
+                    49FF3D3C37FF4B4B46FFCDD2D1FF717471FF8C8F8DFF36342EFF36342EFF8C8F
+                    8DFF7A7E7CFFDBDFDEFF5F6261FF535755FF515552FF4E514EFF3C3E3BFF5556
+                    53FF444541FF545451FFDBDFDEFF7A7E7CFF8C8F8DFF36342EFF36342EFD7F81
+                    7FFFA7AAA9FFDCDFDEFFEBECECFFEBECECFFEBECECFFEBECECFFEBECECFFEBEC
+                    ECFFEBECECFFEBECECFFDCDFDEFFA7AAA9FF7F817FFF36342EFD36362F673A38
+                    31F3565752FA858987FE878C89FF878C89FF878C89FF878C89FF878C89FF878C
+                    89FF878C89FF878C89FF858987FE565752FA3A3831F336362F67
+                  }
+                  NumGlyphs = 0
+                  OnClick = PageSetupSpeedButton8Click
+                  ShowHint = True
+                  ParentFont = False
+                  ParentShowHint = False
+                end
+                object PrintSpeedButton8: TSpeedButton
+                  Left = 246
+                  Height = 22
+                  Hint = 'Print Merged Form Letters'
+                  Top = 310
+                  Width = 23
+                  Color = 13685462
+                  Glyph.Data = {
+                    36040000424D3604000000000000360000002800000010000000100000000100
+                    2000000000000004000064000000640000000000000000000000474747004747
+                    4700373630A636342EFF36342EFF36342EFF36342EFF36342EFF36342EFF3634
+                    2EFF36342EFF36342EFF373630A6474747004747470047474700474747004747
+                    470036342EFF545856FF555957FF555957FF555957FF555957FF555957FF5559
+                    57FF555957FF545856FF36342EFF474747004747470047474700474747004747
+                    470036342EFF5E6260FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+                    FFFFFFFFFFFF5E6260FF36342EFF474747004747470047474700474747004747
+                    470036342EFF949796FFFFFFFFFFF5FBF8FFFBFEFCFFD3EDE0FFF5FBF8FFC3E6
+                    D4FFC9E9D9FF949796FF36342EFF474747004747470047474700474747003333
+                    330536342EFF6F7371FFE3F3EBFFE7F5EDFFFAFDFCFFEBF7F0FFEAF6F0FFE2F3
+                    EAFFFEFFFEFF6F7371FF36342EFF40402008333333054747470036332F773735
+                    2FFB36342EFF777C7AFFF9FDFBFFCFECDDFFB8E2CCFFB5E1CAFFB5E1CAFFD7EF
+                    E2FFFFFFFFFF777C7AFF36342EFF37352FFC37352FFB36332F7736342EFE5858
+                    53FF36342EFF7D8280FFD5E0DAFFA3CFB8FFA3CFB8FFB2D4C2FFD0DED6FFE5E5
+                    E5FFE5E5E5FF7D8280FF36342EFF54544FFF585853FF36342EFE36342EFF6668
+                    64FF3F3E38FF36342EFF000000FF000000FF000000FF000000FF000000FF0000
+                    00FF000000FF36342EFF5F605BFF484742FF666864FF36342EFF36342EFF7274
+                    70FF4A4A45FFD1D8D4FFD1D8D4FFD1D8D4FFD1D8D4FFD1D8D4FFD1D8D4FFD1D8
+                    D4FFD1D8D4FFD1D8D4FFD1D8D4FF4A4A45FF727470FF36342EFF36342EFFA2A5
+                    A3FF868784FFF1F2F2FFF1F2F2FFF1F2F2FFF1F2F2FFF1F2F2FFF1F2F2FFF1F2
+                    F2FFF1F2F2FFF1F2F2FFF1F2F2FF868784FFA2A5A3FF36342EFF36342EFF8F93
+                    91FF5D5F5BFFC3C9C7FFC3C9C7FFC3C9C7FFC3C9C7FFC3C9C7FFC3C9C7FFC3C9
+                    C7FFC3C9C7FFC3C9C7FFC3C9C7FF5D5F5BFF8F9391FF36342EFF36342EFF8B8E
+                    8DFF676966FFC0C6C3FF595C58FF454642FF42423EFF3F3E3AFF373833FF8E91
+                    8DFFC0C6C3FFC0C6C3FFC0C6C3FF676966FF8B8E8DFF36342EFF36342EFF8C8F
+                    8DFF717471FFCDD2D1FF505351FF818683FF494B48FF7E837FFF363633FF4D4D
+                    49FF3D3C37FF4B4B46FFCDD2D1FF717471FF8C8F8DFF36342EFF36342EFF8C8F
+                    8DFF7A7E7CFFDBDFDEFF5F6261FF535755FF515552FF4E514EFF3C3E3BFF5556
+                    53FF444541FF545451FFDBDFDEFF7A7E7CFF8C8F8DFF36342EFF36342EFD7F81
+                    7FFFA7AAA9FFDCDFDEFFEBECECFFEBECECFFEBECECFFEBECECFFEBECECFFEBEC
+                    ECFFEBECECFFEBECECFFDCDFDEFFA7AAA9FF7F817FFF36342EFD36362F673A38
+                    31F3565752FA858987FE878C89FF878C89FF878C89FF878C89FF878C89FF878C
+                    89FF878C89FF878C89FF858987FE565752FA3A3831F336362F67
+                  }
+                  NumGlyphs = 0
+                  OnClick = PrintSpeedButton8Click
+                  ShowHint = True
+                  ParentFont = False
+                  ParentShowHint = False
+                end
+              end
+              object Splitter4: TSplitter
+                Left = 362
+                Height = 350
+                Top = 1
+                Width = 5
+              end
+              object Panel10: TPanel
+                Left = 367
+                Height = 350
+                Top = 1
+                Width = 255
+                Align = alLeft
+                ClientHeight = 350
+                ClientWidth = 255
+                TabOrder = 2
+                object GroupBox3: TGroupBox
+                  Left = 4
+                  Height = 144
+                  Top = 7
+                  Width = 246
+                  ClientHeight = 140
+                  ClientWidth = 242
+                  TabOrder = 0
+                  OnClick = GroupBox2Click
+                  object StopSpeedButton2: TSpeedButton
+                    Left = 14
+                    Height = 22
+                    Top = 72
+                    Width = 77
+                    Caption = 'Stop'
+                    Color = 1710817
+                    Down = True
+                    Font.Color = 1973977
+                    Glyph.Data = {
+                      36040000424D3604000000000000360000002800000010000000100000000100
+                      2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF007B7BB1003C3C8AFF00006BFF0D0D77FF101079FF0101
+                      6CFF3C3C8AFF7B7BB100FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF0059599DFF0E0E78FF07159EFF081BB8FF091BCCFF0A1CD2FF0A1C
+                      C0FF0716A3FF0E0E78FF59599DFFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF005959A1FF020582FF081AAAFF0308BEFF0613BEFF0A15B1FF0F19BCFF0D1C
+                      CEFF030AD0FF0819B6FF020582FF5959A1FFFFFFFF00FFFFFF00FFFFFF007B7B
+                      BD000E0E82FF08179FFF0000AAFF0715BFFF030880FF02028800080894000D0D
+                      A200151FBBFF060EBFFF0817ABFF0E0E82FF7B7BBD00FFFFFF00FFFFFF003C3C
+                      97FF051197FF020596FF0A1BAEFF0000BCFF050EC8FF020687FF00009400FFFF
+                      FF000B0BA000141BB9FF0206ABFF05109CFF3C3C97FFFFFFFF00FFFFFF002323
+                      92FF051191FF08129CFF1416B1FF0814B5FF0000C7FF040DCBFF02068AFF0000
+                      9900FFFFFF000B0BA3000C16AEFF05119AFF232392FFFFFFFF00FFFFFF000B0B
+                      8EFF09128CFF0B129AFF0B0BA0001214B1FF141FBEFF1515CBFF141DC6FF0709
+                      8AFF00009D000000A6000D13A5FF040D90FF0B0B8EFFFFFFFF00FFFFFF000B0B
+                      92FF3A43AAFF171E9CFF0A0A9D000B0BA6001516B4FF4A52CEFF3737CCFF343A
+                      C4FF07098BFF0000A00010159CFF161E93FF0B0B92FFFFFFFF00FFFFFF002323
+                      9EFF373EAFFF2B31A5FF04049400FFFFFF000B0BA600191AB7FF5961CCFF4646
+                      C5FF3A3FB8FF050786FF22269CFF363BACFF23239EFFFFFFFF00FFFFFF003C3C
+                      AAFF252BABFF5E60C2FF0A0C91FF0B0B9400FFFFFF000B0BAA001819B7FF4E53
+                      C1FF5353BEFF4448B1FF4B4DB4FF262BAAFF3C3CAAFFFFFFFF00FFFFFF007B7B
+                      C9000F0F9EFF5A5DBFFF5457BFFF080A93FF04049A000909A6000E0EAD001314
+                      B9FF464AB9FF6161C0FF5053B9FF0F0F9EFF7B7BC900FFFFFF00FFFFFF00FFFF
+                      FF005959BFFF0F11A6FF6D6FC9FF7779D0FF3737B0FF1C1CA5FF2325AEFF4649
+                      BCFF6F70CBFF6163C2FF090AA3FF5959BFFFFFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF005959BFFF0F0FA8FF4748BBFF7373CCFF8A8AD8FF8B8BD9FF7676
+                      CDFF4242B9FF0F0FA6FF5959BFFFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF007B7BCF003C3CB8FF0202A6FF2424B2FF3131B5FF1111
+                      ABFF3D3DB8FF7B7BCF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+                    }
+                    GroupIndex = 1
+                    NumGlyphs = 0
+                    OnClick = StopSpeedButton1Click
+                    ParentFont = False
+                  end
+                  object RunSpeedButton3: TSpeedButton
+                    Left = 14
+                    Height = 22
+                    Top = 47
+                    Width = 77
+                    Caption = 'Run'
+                    Color = 1760538
+                    Enabled = False
+                    Font.Color = 1219094
+                    Glyph.Data = {
+                      36040000424D3604000000000000360000002800000010000000100000000100
+                      2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF00FFFFFF00000000003A1D0A003C1A0900FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF0000000000371F0BFF5E5236FF3F341BFF3A1F0700FFFF
+                      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF003A1E0CFF574C33FFBD9474FFA68868FF3E3118FF3A1A
+                      0700FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF003B200BFF53442AFF966F52FFA87C5FFFAC8062FF896D50FF4030
+                      17FF3B1B0800FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF003D1E0AFF5D462DFF896A4FFF937054FF97765AFF9B765BFF947056FF795F
+                      44FF46311AFF3C1A0900FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF003F1F
+                      0BFF69482CFF876B51FF94775BFF9A7D60FF5A4C35FF7A6A4DFF9F8166FF9C80
+                      64FF937B63FF53351CFF371B0500FFFFFF00FFFFFF00FFFFFF00FFFFFF005531
+                      19FF967A5DFF9D8467FF9B8165FF6F543BFF3F220EFF4D321AFF877155FF9E85
+                      69FF9D8467FF987D62FF56341AFF371E0500FFFFFF00FFFFFF00FFFFFF00391D
+                      0A00764D2FFFA99174FF836044FF42220EFFFFFFFF0035200B0056351DFF9A7E
+                      62FFB29B7FFFB29B7EFF9F8367FF573015FF371C0600FFFFFF00FFFFFF00FFFF
+                      FF003B1F09005F391DFF43210EFFFFFFFF00FFFFFF00FFFFFF00391C09005A35
+                      1DFFA88C70FFC8B294FFC8B294FFA88B6FFF59371EFFFFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF003523
+                      09005C351AFFB59A7DFFDECAABFFA58362FF4B250CFFFFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF003E1F08005A3316FFA88769FF4D270EFF3B140000FFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF00352309003A1D090037120000FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+                      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+                    }
+                    GroupIndex = 1
+                    NumGlyphs = 0
+                    OnClick = RunSpeedButton2Click
+                    ParentFont = False
+                  end
+                  object RunLabel4: TLabel
+                    Left = 102
+                    Height = 16
+                    Top = 52
+                    Width = 151
+                    Caption = 'Not ready to Process    '
+                    ParentColor = False
+                  end
+                  object RunLabel5: TLabel
+                    Left = 102
+                    Height = 16
+                    Top = 76
+                    Width = 152
+                    Caption = 'Processing Stopped      '
+                    ParentColor = False
+                  end
+                  object QuitSpeedButton3: TSpeedButton
+                    Left = 14
+                    Height = 22
+                    Top = 96
+                    Width = 77
+                    Caption = 'Exit'
+                    Color = 1710817
+                    Font.Color = 1973977
+                    Glyph.Data = {
+                      36040000424D3604000000000000360000002800000010000000100000000100
+                      2000000000000004000064000000640000000000000000000000000000000000
+                      0000000000000000000000000000000000000000000000002A00000037000000
+                      0200000000000000000000000000000000000000000000000000000000000000
+                      00000000000000000000000065000000ABFF0000BAFF0000BBFF0000BAFF0000
+                      BCFF0000B3FF0000880000000000000000000000000000000000000000000000
+                      00000000000000009AFF0000C0FF0000B2FF0002A7FF0009A5FF000BA5FF0006
+                      A7FF0000AFFF0000BFFF0000B1FF000032000000000000000000000000000000
+                      0000000099FF0000BAFF0002ABFF0013AAFF002CB3FF003EBBFF004AC0FF004B
+                      C1FF0036B8FF000BACFF0000B6FF0000B0FF0000100000000000000000000000
+                      72000000B5FF0002AEFF011BACFF6682D0FF054DBFFF0061CEFF006CD4FF0069
+                      CEFF5C97DAFF1054C2FF0010B1FF0000B4FF00009B0000000000000000000000
+                      A0FF0000B1FF0015B3FF788BCCFFFFFFFFFFADC6E6FF056EC9FF007CD4FF73AA
+                      DAFFFFFFFFFFB8CAE7FF0037B9FF0003B3FF0000ABFF0000200000001C000000
+                      A8FF0004B7FF0031C7FF1249B5FFCDD6E8FFFFFFFFFFADC7E1FF77A4CDFFFFFF
+                      FFFFEDF0F6FF3268BBFF004ACCFF0011BDFF0000ADFF00008B00000073000000
+                      A6FF000DBEFF0041D0FF005CD6FF1258B1FFCDD3E3FFFFFFFFFFFFFFFFFFEDEE
+                      F4FF3262ADFF0059D1FF0042D1FF0016C2FF0000ACFF0000950000007A000000
+                      A0FF0010BDFF0045D2FF005FDAFF005CC1FF7F8DB6FFFFFFFFFFFFFFFFFFB9BE
+                      D3FF0540A5FF004AD2FF002FCBFF000DBFFF0000A7FF00009000000060000000
+                      99FF0009B9FF0744D1FF1155C6FF7992C4FFFFFFFFFFEEF1F7FFD4DAEAFFFFFF
+                      FFFFB0B8D7FF1536B1FF0C20C5FF0002BBFF0000A0FF00008A00000000000000
+                      8FFF0203AFFF3A58CFFF7F92CCFFFFFFFFFFF1F3F9FF5879C4FF3F64BEFFD6DB
+                      EEFFFFFFFFFFB2B5DCFF3738BEFF1010B9FF000095FF00007900000000000000
+                      850000009EFF4248CAFF6E7FD1FFE2E5F6FF778BD4FF5F7CDBFF6078DCFF626D
+                      CCFFDBDBF2FF8888D4FF5454CDFF0303A7FF00008BFF00000000000000000000
+                      4C0000008DFF1111ABFF7A7DDAFF8289DEFF838BE1FF848AE1FF8487E1FF8484
+                      DFFF8181DBFF8181DCFF2929B8FF000092FF0000830000000000000000000000
+                      000000007E0000008EFF1D1DAAFF8989DBFFA7A7E7FFA7A7E8FFA7A7E8FFA7A7
+                      E8FF9A9AE2FF3535B7FF000092FF000088000000000000000000000000000000
+                      00000000000000007D0000008BFF020294FF3535B0FF6060C5FF6565C7FF4444
+                      B7FF090999FF00008DFF00008600000000000000000000000000000000000000
+                      00000000000000000000000000000000840000008E0000009300000094000000
+                      900000008B000000000000000000000000000000000000000000
+                    }
+                    GroupIndex = 1
+                    NumGlyphs = 0
+                    OnClick = QuitSpeedButton2Click
+                    ParentFont = False
+                  end
+                  object RunLabel6: TLabel
+                    Left = 102
+                    Height = 16
+                    Top = 100
+                    Width = 106
+                    Caption = 'Quit Program     '
+                    ParentColor = False
+                  end
+                  object TimerSpeedButton4: TSpeedButton
+                    Left = 14
+                    Height = 22
+                    Top = 22
+                    Width = 77
+                    Caption = 'Timer'
+                    Color = 1760538
+                    Font.Color = 1219094
+                    Glyph.Data = {
+                      36040000424D3604000000000000360000002800000010000000100000000100
+                      2000000000000004000064000000640000000000000000000000000000000000
+                      0000000000000000000000000000000000000000000000000000000000000000
+                      00000000000045250F9543230F98000000000000000000000000000000000000
+                      0000000000000000000000000000000000000000000000000000000000000000
+                      0000532C114E423127FF413128FF4F2A11500000000000000000000000000000
+                      0000000000000000000000000000000000000000000000000000814A2300884A
+                      1F0F4C280EFFD9BFADFEE0C6B3FE46250EFF8B4A1F0E77411B00000000000000
+                      0000000000004E4E4E0000000000000000000000000000000000000000008047
+                      21D3A97F61FECDB3A1FFD0B5A3FFAC856BFE703B15D100000000000000000000
+                      0000000000005050501A474747A4717171F27F7F7FFF959597F888644BCD9960
+                      38FFC3926CFFC49E7FFFC59E80FFC2916CFF925730FF8149237A000000000000
+                      000059595943808080F7EFEFEFFAFFFFFFFFFFFFFFFFFFFFFFFFC8A993FF9961
+                      3CFE8D512AFEC99B73FFCB9E77FF804823FE8D542DEE8B522C9C787878007070
+                      7015888888F7FBFBFBFFFEFEFEFEFFFFFFFF252525FFFFFFFFFFFFFFFFFFECFF
+                      FFFFA3663FFED7B28DFFD8B48FFF995D35F50000000000000000000000007373
+                      739BE5E5E5FAFBFBFBFEF9F9F9FFFAFAFAFFFFFFFFFFF2F2F1FF6E6765FF5CC1
+                      D2FFA66D45FFEACFAEFFEBD2B0FFA7683EF50000000000000000000000009A9A
+                      9AE6F0F0F0FFFFFFFFFFF5F5F5FFF8F8F8FFCDCBCBFF3F3634FF0A7186FF64C2
+                      D5FFA8896BFFB6784FFEB37348EFB77B51C6000000000000000000000000ADAD
+                      ADFFF1F1F1FF424242FFFBFBFBFFDFDFDFFFA39C9AFF0E82A2FF009AC0FF26A7
+                      C6FF6FC4D7FFDCDADCFF0000000000000000B37850000000000000000000B3B3
+                      B3E7D7D7D7FFF8F8F8FFEBEBEBFFFFFFFFFF2F201BFF00ACE2FF009FCDFF009B
+                      C7FF2298B7FFBCB5B3EC0000000000000000000000000000000000000000B2B2
+                      B29CC0C0C0FAE7E7E7FEEBEBEBFFFEFEFEFF33241DFF00B3F1FF00A5DCFF00A3
+                      D8FE7FADBBFAB6B4B3A200000000000000000000000000000000B4B4B400C3C3
+                      C317C9C9C9F7B0B0B0FFE7E7E7FEFBFBFAFF372B25FF00B9FFFF00ADEEFE3394
+                      B4FFD4CCC9F8C4C4C31BB4B4B400000000000000000000000000000000000000
+                      0000D1D1D145D5D5D5F7AAAAAAFBB6B5B5FF61B0D1FF1997C9FF74A2B3FBDED7
+                      D3F8D2D1D14B0000000000000000000000000000000000000000000000000000
+                      000000000000E0E0E01CE1E1E1A7E4E3E3F7E9E3E1FFEBE5E2F8E3E1E1AAE0E0
+                      DF20000000000000000000000000000000000000000000000000000000000000
+                      000000000000DEDEDE000000000000000000000000000000000000000000DEDE
+                      DE00000000000000000000000000000000000000000000000000
+                    }
+                    NumGlyphs = 0
+                    OnClick = TimerSpeedButton3Click
+                    ParentFont = False
+                  end
+                  object SetTimerLabel5: TLabel
+                    Left = 102
+                    Height = 16
+                    Top = 27
+                    Width = 114
+                    Caption = 'Set Run Schedule'
+                    ParentColor = False
+                  end
+                end
+                object JobStateEnabledRadioButton1: TRadioButton
+                  Left = 41
+                  Height = 21
+                  Top = 177
+                  Width = 74
+                  Caption = 'Enabled'
+                  Checked = True
+                  TabOrder = 1
+                  TabStop = True
+                end
+                object JobStateDisabledRadioButton2: TRadioButton
+                  Left = 41
+                  Height = 21
+                  Top = 198
+                  Width = 78
+                  Caption = 'Disabled'
+                  TabOrder = 2
+                end
+                object CheckBox1: TCheckBox
+                  Left = 40
+                  Height = 21
+                  Top = 222
+                  Width = 192
+                  Caption = 'Automatically Print Letters'
+                  TabOrder = 3
+                end
+              end
+            end
+          end
+          object RunLogTabSheet2: TTabSheet
+            Caption = 'Run Log'
+            ClientHeight = 400
+            ClientWidth = 631
+            object Panel7: TPanel
+              Left = 0
+              Height = 400
+              Top = 0
+              Width = 631
+              Align = alClient
+              Caption = 'Panel7'
+              ClientHeight = 400
+              ClientWidth = 631
+              TabOrder = 0
+              object ActivityMemo2: TMemo
+                Left = 1
+                Height = 348
+                Top = 51
+                Width = 629
+                Align = alClient
+                ScrollBars = ssBoth
+                TabOrder = 0
+              end
+              object Panel11: TPanel
+                Left = 1
+                Height = 50
+                Top = 1
+                Width = 629
+                Align = alTop
+                ClientHeight = 50
+                ClientWidth = 629
+                TabOrder = 1
+                object FileNameEdit1: TFileNameEdit
+                  Left = 62
+                  Height = 23
+                  Top = 14
+                  Width = 536
+                  FilterIndex = 0
+                  HideDirectories = False
+                  ButtonWidth = 23
+                  NumGlyphs = 0
+                  MaxLength = 0
+                  TabOrder = 0
+                end
+                object Label9: TLabel
+                  Left = 6
+                  Height = 16
+                  Top = 18
+                  Width = 49
+                  Caption = 'Log File'
+                  ParentColor = False
+                end
+              end
+            end
+          end
+          object CaseIDBuilderTabSheet2: TTabSheet
+            Caption = 'Case ID Builder'
+          end
+        end
+      end
+    end
+  end
+  object RetrievalURLCheckBox3: TCheckBox
+    Left = 10
+    Height = 21
+    Top = 23
+    Width = 21
+    Checked = True
+    State = cbChecked
+    TabOrder = 2
+  end
+  object MainMenu1: TMainMenu
+    left = 56
+    top = 168
+    object MenuItemFile: TMenuItem
+      Caption = '&Program'
+      OnClick = MenuItemFileClick
+      object MenuItem2: TMenuItem
+        Caption = '&Configure'
+      end
+      object CaseIDBuilderMenuItem1: TMenuItem
+        Caption = 'Case &Search String Builder...'
+      end
+      object MenuItem4: TMenuItem
+        Caption = '&Export'
+      end
+      object MenuItem3: TMenuItem
+        Caption = '&Quit'
+        OnClick = MenuItem3Click
+      end
+    end
+    object MenuItem6: TMenuItem
+      Caption = '&Help'
+      object MenuItem7: TMenuItem
+        Caption = '&User''s Manual'
+      end
+      object MenuItem8: TMenuItem
+        Caption = '&About'
+      end
+    end
+  end
+  object PopupNotifier1: TPopupNotifier
+    Color = 14483455
+    Icon.Data = {
+      07544269746D617000000000
+    }
+    Text = 'Text'
+    Title = 'Caption'
+    Visible = False
+    left = 56
+    top = 224
+  end
+  object TrayIcon1: TTrayIcon
+    BalloonHint = 'D.Hunt Form Mailer'
+    PopUpMenu = TrayIconPopupMenu1
+    Icon.Data = {
+      BE1000000000010001002020000001002000A810000016000000280000002000
+      0000400000000100200000000000001000006400000064000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000000000000000000002F1C0F000000
+      00000000000027160B0000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000006556
+      36B96D5E35C80000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000000000000000000001A0C04795244
+      27FF6B5C39FF0B03019100000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000301B0A00271607261D1105FFD9BA
+      9AFEE1C1A3FF211B0CFF1A0C043C190B05000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000003A1F0D0000000000220E01EAAF9576FEE1C0
+      A9FFE4C2ABFFC2A789FE180A00F82D190C042F190A0000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000004848481649494923484848160000
+      0000000000000000000000000000000000003A1D0B9F775D41FFD7B6A2FFDDBC
+      A4FFE0BEA6FFD8B7A2FF887155FE291305BF0000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000515151000000
+      00004D4D4D154F4F4F774E4E4ED14C4C4CFF4B4B4BFF4A4A4AFF4B4B4BFF4C4C
+      4CFF4D4D4DD24F4F4F794D4D4E1552290F4456351CFFC6A992FFC9AB96FFD1B1
+      9BFFD1B29CFFCBAC98FFCAAC97FF563E28FF3D210C6700000000000000000000
+      0000000000000000000000000000000000000000000055555500505050085454
+      549C525252FF4E4E4EFF4F4F4FFD626262FD747474FD7B7B7BFD747474FD6464
+      64FD4F4F4FFD4E4F4FFF505051FF4C250BF7A5856CFEB69A86FFBFA18CFFC3A6
+      91FFC5A691FFC0A38EFFBA9D88FFAD8F77FE482610FF4523101C452510000000
+      000000000000000000000000000000000000000000005A5A5A32585858FE5454
+      54FE636363FDA1A1A1FED0D0D0FFEEEEEEFEF6F6F6FFF8F8F8FFF6F6F6FFEEEE
+      EEFED1D2D2FFA7A9ABFE4D301DFE7B5438FFA0795FFFA98871FFB1937EFFB598
+      84FFB69984FFB19580FFAD8C77FFA47E66FF846046FE44230CE3000000003E21
+      0E0000000000000000000000000000000000616161535E5E5EFF5C5C5CFD9A9A
+      9AFEE0E0E0FFF9F9F9FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFAF9E92FF5C3417FF9B7153FFA37D63FFAC8A73FFB2947FFFB79A
+      86FFB89C89FFB69B85FFB2947EFFAC8A73FF956749FF5B3418FF4A270F990000
+      000000000000000000006E6E6E006868682F656565FF666666FDB6B6B6FEF1F1
+      F1FEFFFFFFFFFDFDFDFFFDFDFDFFFDFDFDFFFEFEFEFF0E0E0EFFFCFCFCFFFDFD
+      FDFFE8E1DDFF502205FF936746FF986D4CFF9F7859FFA58064FFAA866CFFAC8A
+      6FFFAC8A70FFAA876DFFA68064FF9F7658FFA98468FFAA876DFF69442BFF6F46
+      2A4600000000717171006E6E6E016B6B6BFC686868FDB6B6B6FEF4F4F4FFFEFE
+      FEFFFCFCFCFFFCFCFCFFFCFCFCFFFCFCFCFFFEFEFEFFFBFBFBFFFEFEFEFFFFFF
+      FFFFB1876AFFA97D5DFFA98669FFA78568FFA8866AFFA78263FFA98567FFAB88
+      6AFFAB886AFFAA8668FFA78163FFA48162FFA48062FFA68265FFC29E82FEC495
+      74C300000000000000007272728F6F6F6FFF9E9E9EFEEDEDEDFEFDFDFDFFFBFB
+      FBFFFBFBFBFFFAFAFAFFFBFBFBFFFAFAFAFFFAFAFAFFFAFAFAFFFAFAFAFFFDFF
+      FFFFC79D83FF9F5320FF9B4710FFB15318FFAC561CFFAE8E6FFFAE8A6AFFAE8B
+      6AFFAE8A6AFFAD8A6AFFAE8D6FFFAE571EFEA85822FFA15420FFAB6435FFAF71
+      4871000000007B7B7B09777777FF7D7D7DFDD8D8D8FFFBFBFBFFF9F9F9FFF9F9
+      F9FFF9F9F9FFF9F9F9FFF9F9F9FFF9F9F9FFF9F9F9FFF9F9F9FFF8F8F8FFF8F9
+      F9FFFCFFFFFFFFFFFFFFB2C2C8FF008DB4FF984B1BFFBEA283FFBB9C7CFFBB9C
+      7CFFBB9C7CFFBB9C7CFFBFA284FF8E4C20FF0000000000000000000000000000
+      000094949400808080657C7C7CFFA9A9A9FEF0F0F0FFF8F8F8FFF8F8F8FFF8F8
+      F8FFF8F8F8FFF7F7F7FFF7F7F7FFF7F7F7FFF7F7F7FFF7F7F7FFF7F7F7FFF7F7
+      F7FFF9F9F9FF757170FF2E5159FF008BAFFF814622FFCFB496FFC8AC8DFFC8AC
+      8DFFC8AC8DFFC8AC8DFFD0B697FF7A4826FF0000000000000000000000000000
+      000000000000868686BF828282FDC9C9C9FFF1F1F1FFF6F6F6FFF6F6F6FFF6F6
+      F6FFF6F6F6FFF6F6F6FFF5F5F5FFF5F5F5FFF5F5F5FFF5F5F5FFF6F6F6FFF1F0
+      F0FF7E7876FF38707CFF008EAFFF008EB3FF90522DFFDDC7A7FFD7BE9EFFD7BD
+      9EFFD7BD9EFFD7BD9EFFDDC7A8FF885432FF0000000000000000000000000000
+      0000000000008D8D8DFC909090FDD8D8D8FFEFEFEFFFF4F4F4FFF4F4F4FFF4F4
+      F4FFF4F4F4FFF4F4F4FFF3F3F3FFF3F3F3FFF3F3F3FFF4F4F4FFE8E8E7FF9188
+      86FF34879BFF0093B7FF0090B1FF0091B7FFA05F38FFEBD8B8FFE5CFAFFFE5CF
+      AFFFE5CFAEFFE5CFAEFFECD8B9FF99623CFF0000000000000000000000000000
+      000000000000929292FF9C9C9CFCD6D6D6FFEEEEEEFFE1E1E1FFF7F7F7FFF2F2
+      F2FFF2F2F2FFF2F2F2FFF1F1F1FFF1F1F1FFF4F4F4FFD3D2D2FFA7A09EFF2797
+      B2FF0098BEFF0096B9FF0095B7FF0096BEFFAF6C43FFFAEACBFFF4E1C0FFF4E1
+      C0FFF4E1C0FFF4E1C0FFFAEACAFFA96E47FF0000000000000000000000000000
+      000095959506999999FFA3A3A3FDD1D1D1FFF5F5F5FF242424FFDBDBDBFFF0F0
+      F0FFEFEFEFFFEFEFEFFFEFEFEFFFEFEFEFFFEAEAEAFF8C8382FF179DBEFF009E
+      C6FF009DC2FF009BC0FF0099BDFF0099C3FFC47B4FFFFFFFE6FFFFF9DEFFFFF9
+      DFFFFFF9DFFFFFF9DFFFFFFFE4FFC79371FF0000000000000000000000000000
+      0000000000009F9F9FFFA5A5A5FCCACACAFFE3E3E3FFF8F8F8FFF1F1F1FFEDED
+      EDFFEDEDEDFFEDEDEDFFECECECFFECECECFFF2F2F2FFAFA09CFF00A6D2FF00A3
+      CBFF00A1C9FF00A0C7FF009EC4FF009BC3FFBCD0CFFFD59067FFCD8659FFC984
+      59FFC88459FFC88659FFCC8B61FFF5E1D3D40000000000000000000000000000
+      000000000000A7A7A7F4A6A6A6FDC9C9C9FFD2D2D2FFEDEDEDFFEBEBEBFFEBEB
+      EBFFEBEBEBFFEAEAEAFFECECECFFEEEEEEFFF6F7F7FF9B8C89FF00ABD9FF00A8
+      D1FF00A6D0FF00A4CDFF00A3CAFF00A1C9FF009DC5FF009ECBFF0088B1FF9CC0
+      CAFFA4A8ACFDA1A7AAF60000000000000000E8CCB90000000000000000000000
+      000000000000ACACACAFA8A8A8FDCCCCCCFFB3B3B3FFEBEBEBFFE9E9E9FFE8E8
+      E8FFEAEAEAFFEDEDEDFFEEEEEEFFEFEFEFFFF8F8F8FF887A75FF00B1E0FF00AC
+      D8FF00ABD5FF00A9D4FF00A7D1FF00A6CEFF00A4CDFF00A4CCFF007A9AFFD7D0
+      CEFFA9A8A8FDACACACAF00000000000000000000000000000000000000000000
+      0000ABABAB00B3B3B355B1B1B1FFBEBEBEFEAEAEAEFFDBDBDBFFE6E6E6FFE8E8
+      E8FFEBEBEBFFECECECFFEDEDEDFFEEEEEEFFF8F8F8FF766662FF00B8E9FF00B1
+      DEFF00AFDCFF00AED9FF00ACD7FF00AAD5FF00AAD2FF009EC7FF4E94A6FFC4C0
+      C0FEB1B1B1FFB3B3B357ABABAB00000000000000000000000000000000000000
+      00000000000000000000B9B9B9FEB7B7B7FDCCCCCCFFA1A1A1FFE5E5E5FFE7E7
+      E7FFE9E9E9FFEAEAEAFFEBEBEBFFEDEDEDFFF9F9F9FF64544FFF00BDF1FF00B6
+      E4FF00B4E2FF00B2E0FF00B1DDFF00AFDBFF00AFDBFF007799FFC7CBCBFFB8B7
+      B7FDB9B9B9FF0000000000000000000000000000000000000000000000000000
+      00000000000000000000C2C2C271BDBDBDFFC4C4C4FEB1B1B1FEAEAEAEFFE6E6
+      E6FFE7E7E7FFE8E8E8FFEAEAEAFFECECECFFF9F9F9FF52413CFF00C4F8FF00BB
+      EBFF00B9E9FF00B7E7FF00B5E5FF00B6E5FF0088AFFF83A9B2FEC6C4C4FEBDBD
+      BDFFC2C2C2740000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000C5C5C5E6C3C3C3FDCCCCCCFEA0A0A0FEA4A4
+      A4FFE6E6E6FFE7E7E7FFE7E7E7FFEAEAEAFFF9F9F9FF3C2C28FF00C9FFFF00BF
+      F2FF00BDF0FF00BDEEFF00BCEEFF0087AEFF6096A4FED2CDCCFEC3C3C3FDC4C5
+      C5E7000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000C4C4C400CACACA12C9C9C9FDC9C9C9FECFCFCFFEABAB
+      ABFE808080FFCACACAFFEAEAEAFFECECECFFF5F5F5FF988782FF00CCFFFF00C6
+      FBFF00C6FBFF00ADDCFF007192FF83A5B0FED4CFCEFECAC9C9FECBCBCBFECCCC
+      CC13C4C4C4000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000B5B5B500D0D0D02DCFCFCFFCCFCFCFFDD0D0
+      D0FECCCCCCFF8D8D8DFE767676FF979797FFB0B1B1FFD1C3BFFF009DCEFF0089
+      B2FF00708EFF518898FECCCECEFFD1D0CFFED0CFCFFDCFCFCFFDD1D1D12E0000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000D2D2D200D6D6D610D7D7D7E3D7D7
+      D7FFD6D6D6FDD4D4D4FDD6D6D6FFB9B9B9FFA5A6A6FF9D9A98FF86A6AEFFADB9
+      BDFFDDD6D4FFD7D4D4FDD6D6D5FDD7D7D7FFD7D7D7E4D6D6D611D3D3D3000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000000000000D6D6D60000000000E1E1
+      E166E0E0E0F8DEDEDEFFDCDCDCFDDCDCDCFDDBDBDBFDDADADAFDDBDBDBFDDCDC
+      DCFDDCDCDDFDDEDEDEFFE0E0E0F9E1E1E16700000000D6D6D600000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000E6E6E642E5E5E59CE8E8E8DDE8E8E8FFE8E8E8FFE8E8E8FFE8E8
+      E8DEE5E5E59CE6E6E64300000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000E3E3E30000000000000000000000000000000000000000000000
+      000000000000E3E3E30000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000
+    }
+    Hint = 'D.Hunt Form Mailer'
+    Visible = True
+    OnDblClick = TrayIcon1DblClick
+    left = 56
+    top = 48
+  end
+  object ApplicationProperties1: TApplicationProperties
+    OnMinimize = ApplicationProperties1Minimize
+    OnRestore = ApplicationProperties1Restore
+    left = 56
+    top = 104
+  end
+  object TrayIconPopupMenu1: TPopupMenu
+    left = 56
+    top = 280
+    object TrayIconDisplay: TMenuItem
+      Caption = 'Display'
+      OnClick = TrayIconDisplayClick
+    end
+    object TrayIconMinimize: TMenuItem
+      Caption = 'Daemonize'
+      OnClick = TrayIconMinimizeClick
+    end
+    object TrayIconShutDown: TMenuItem
+      Caption = 'Shutdown'
+      OnClick = TrayIconShutDownClick
+    end
+  end
+  object TVJobMenu2: TPopupMenu
+    left = 56
+    top = 344
+    object TrayIconShutDown1: TMenuItem
+      Caption = 'Create New Job'
+      object MenuItem5: TMenuItem
+        Caption = 'Civil, Family && Probate'
+      end
+      object MenuItem9: TMenuItem
+        Caption = 'Criminal && Citation'
+      end
+    end
+    object MenuItem1: TMenuItem
+      Caption = 'Delete Job'
+    end
+  end
+  object PrintDialog1: TPrintDialog
+    left = 488
+    top = 304
+  end
+  object PageSetupDialog1: TPageSetupDialog
+    left = 368
+    top = 304
+  end
+  object PrinterSetupDialog1: TPrinterSetupDialog
+    left = 240
+    top = 304
+  end
+end

@@ -1,0 +1,1433 @@
+See also: http://www.state.in.us/judiciary/2633.htm which explains case formats for the IN superior court.  This is a different format from that used by mycase.in.gov.
+
+
+
+mycase.in.gov Case Search Format
+--------------------------------
+
+(http://www.in.gov/judiciary/2634.htm which explains the case format and how to operate the Odyessy search site.)
+
+Each part of the case number corresponds to information about the case, including the county, court, date filed, and case type:
+
+  57C03-8805-DR-06314
+
+where
+  57 = county number
+  C03 = court identifier a.k.a. court code
+  88 = year
+  05 = month
+  DR = case type
+  06314 = sequence number
+
+According to the above doc, here's some acceptable alternate formats (But it would be best to use the one shown previously):
+
+  
+    57C038805DR06314
+    57C038805DR6314
+    57-C-03-8805-DR-06314
+    57-C-03-8805-DR-6314
+
+
+    
+Codes for County No., Court Identifier, And Case Type
+-----------------------------------------------------
+
+Rule 8. Uniform Case Numbering System  (http://www.in.gov/judiciary/rules/admin/ lists the codes that are used in the case formats above.)
+
+(A)   Application. All trial courts in the State of Indiana shall use the uniform case numbering system as set forth under this rule.
+
+(B)   Numbering System. The uniform case numbering system shall consist of four groups of characters arranged in a manner to identify the court, the year/month of filing, the case type and the filing sequence. The following is an example of the case number to be employed:
+
+55C01-1101-CF-000123
+
+(1)     Court Identifier. The first group of five characters shall constitute the county and court identifier. The first and second character in this group shall represent the county of filing employing the following code:
+
+01    Adams County
+
+02    Allen County
+
+03    Bartholomew County
+
+04    Benton County
+
+05    Blackford County
+
+06    Boone County
+
+07    Brown County
+
+08    Carroll County
+
+09    Cass County
+
+10    Clark County
+
+11     Clay County
+
+12     Clinton County
+
+13     Crawford County
+
+14     Daviess County
+
+15     Dearborn County
+
+16     Decatur County
+
+17     DeKalb County
+
+18    Delaware County
+
+19     Dubois County
+
+20    Elkhart County
+
+21     Fayette County
+
+22    Floyd County
+
+23    Fountain County
+
+24    Franklin County
+
+25    Fulton County
+
+26    Gibson County
+
+27    Grant County
+
+28    Greene County
+
+29    Hamilton County
+
+30    Hancock County
+
+31     Harrison County
+
+32    Hendricks County
+
+33    Henry County
+
+34    Howard County
+
+35    Huntington County
+
+36    Jackson County
+
+37    Jasper County
+
+38    Jay County
+
+39    Jefferson County
+
+40    Jennings County
+
+41     Johnson County
+
+42    Knox County
+
+43    Kosciusko County
+
+44    LaGrange County
+
+45    Lake County
+
+46    LaPorte County
+
+47    Lawrence County
+
+48    Madison County
+
+49    Marion County
+
+50    Marshall County
+
+51     Martin County
+
+52    Miami County
+
+53    Monroe County
+
+54    Montgomery County
+
+55    Morgan County
+
+56    Newton County
+
+57    Noble County
+
+58    Ohio County
+
+59    Orange County
+
+60    Owen County
+
+61     Parke County
+
+62    Perry County
+
+63    Pike County
+
+64    Porter County
+
+65    Posey County
+
+66    Pulaski County
+
+67    Putnam County
+
+68    Randolph County
+
+69    Ripley County
+
+70    Rush County
+
+71     St. Joseph County
+
+72    Scott County
+
+73    Shelby County
+
+74    Spencer County
+
+75    Starke County
+
+76    Steuben County
+
+77    Sullivan County
+
+78    Switzerland County
+
+79    Tippecanoe County
+
+80    Tipton County
+
+81    Union County
+
+82    Vanderburgh County
+
+83    Vermillion County
+
+84    Vigo County
+
+85    Wabash County
+
+86    Warren County
+
+87    Warrick County
+
+88    Washington County
+
+89    Wayne County
+
+90    Wells County
+
+91     White County
+
+92    Whitley County
+
+The third character in the first group shall represent the court of filing employing the following code:
+
+C       Circuit Court
+
+D       Superior Court
+
+E       County Court
+
+F       Superior Municipal Division
+
+G       Superior Court/Criminal Division
+
+H      City Court
+
+I        Town Court
+
+J        Probate Court
+
+K       Township Small Claims Court
+
+The last two characters of the first group shall distinguish between courts in counties having more than one court of a specific type. The following code sets forth the county and court identifier for all courts:
+
+01C01       Adams Circuit Court
+
+01D01       Adams Superior Court
+
+02C01       Allen Circuit Court
+
+02D01      Allen Superior Court
+
+02D02      Allen Superior Court
+
+02D03      Allen Superior Court
+
+02D04      Allen Superior Court
+
+02D05      Allen Superior Court
+
+02D06      Allen Superior Court
+
+02D07      Allen Superior Court
+
+02D08      Allen Superior Court
+
+02D09      Allen Superior Court
+
+02H01      Allen/New Haven City Court
+
+03C01       Bartholomew Circuit Court
+
+03D01      Bartholomew Superior Court 1
+
+03D02      Bartholomew Superior Court 2
+
+04C01       Benton Circuit Court
+
+05C01       Blackford Circuit Court
+
+05D01      Blackford Superior Court
+
+05E01       Blackford County Court (abolished)
+
+05H01      Blackford/Hartford City City Court (abolished)
+
+05H02      Blackford/Montpelier City Court (abolished)
+
+06C01       Boone Circuit Court
+
+06D01      Boone Superior Court 1
+
+06D02      Boone Superior Court 2
+
+06H01      Boone/Lebanon City Court
+
+06I01        Boone/Thorntown Town Court
+
+06I02        Boone/Zionsville Town Court
+
+06I03        Boone/Jamestown Court
+
+06I04        Boone/Whitestown Town Court
+
+07C01       Brown Circuit Court
+
+08C01       Carroll Circuit Court
+
+08D01      Carroll Superior Court
+
+08H01      Carroll/Delphi City Court
+
+08I01        Carroll/Burlington Town Court
+
+09C01       Cass Circuit Court
+
+09D01      Cass Superior Court 1
+
+09D02      Cass Superior Court 2
+
+10C01       Clark Circuit Court 1
+
+10C02       Clark Circuit Court 2 (effective January 1, 2012, formerly Clark Superior Court 2)
+
+10C03       Clark Circuit Court 3 (effective January 1, 2012, formerly Clark Superior Court 3)
+
+10C04       Clark Circuit Court 4 (effective January 1, 2012, formerly Clark Superior Court 1)
+
+10D01       Clark Superior Court 1 (Abolished effective January 1, 2012)
+
+10D02      Clark Superior Court 2 (Abolished effective January 1, 2012)
+
+10D03      Clark Superior Court 3 (Abolished effective January 1, 2012)
+
+10E01       Clark County Court (abolished)
+
+10H01      Clark/Charlestown City Court (abolished effective January 1, 2012)
+
+10H02      Clark/Jeffersonville City Court
+
+10I01        Clark/Clarksville Town Court
+
+10I02        Clark/Sellersburg Town Court (abolished effective January 1, 2012)
+
+11C01        Clay Circuit Court
+
+11D01       Clay Superior Court
+
+12C01        Clinton Circuit Court
+
+12D01       Clinton Superior Court
+
+12E01       Clinton County Court (abolished)
+
+12H01       Clinton/Frankfort City Court
+
+13C01        Crawford Circuit Court
+
+14C01        Daviess Circuit Court
+
+14D01       Daviess Superior Court
+
+14E01       Daviess County Court (abolished)
+
+15C01        Dearborn Circuit Court
+
+15D01       Dearborn Superior Court
+
+15D02       Dearborn Superior Court 2
+
+15E01       Dearborn County Court (abolished)
+
+15H01       Dearborn/Aurora City Court (abolished effective January 1, 2012)
+
+15H02      Dearborn/Lawrenceburg City Court
+
+16C01        Decatur Circuit Court
+
+16D01       Decatur Superior Court
+
+16E01       Decatur County Court (abolished)
+
+17C01        DeKalb Circuit Court
+
+17D01       DeKalb Superior Court
+
+17D02       DeKalb Superior Court 2
+
+17H01       DeKalb/Butler City Court
+
+18C01       Delaware Circuit Court
+
+18C02       Delaware Circuit Court 2
+
+18C03       Delaware Circuit Court 3
+
+18C04       Delaware Circuit Court 4
+
+18C05       Delaware Circuit Court 5
+
+18D01       Delaware Superior Court 1 (abolished)
+
+18D02      Delaware Superior Court 2 (abolished)
+
+18D03      Delaware Superior Court 3 (abolished)
+
+18D04      Delaware Superior Court 4 (abolished)
+
+18H01      Delaware/Muncie City Court
+
+18I01        Delaware/Yorktown Town Court
+
+19C01        Dubois Circuit Court
+
+19D01       Dubois Superior Court
+
+20C01       Elkhart Circuit Court
+
+20D01      Elkhart Superior Court 1
+
+20D02      Elkhart Superior Court 2
+
+20D03      Elkhart Superior Court 3
+
+20D04      Elkhart Superior Court 4 [Goshen]
+
+20D05      Elkhart Superior Court 5 [Elkhart]
+
+20D06      Elkhart Superior Court 6 [Elkhart]
+
+20E01       Elkhart County Court 1 in Elkhart (abolished)
+
+20E02      Elkhart County Court 2 in Goshen (abolished)
+
+20H01      Elkhart/Elkhart City Court
+
+20H02      Elkhart/Goshen City Court
+
+20H03      Elkhart/Nappanee City Court
+
+21C01        Fayette Circuit Court
+
+22C01       Floyd Circuit Court
+
+22D01       Floyd Superior Court 1
+
+22D02      Floyd Superior Court 2 (effective January 1, 2009, formerly Floyd County Court)
+
+22D03      Floyd Superior Court 3 (effective January 1, 2009)
+
+22E01       Floyd County Court (abolished January 1, 2009)
+
+21D01       Fayette Superior Court
+
+23C01       Fountain Circuit Court
+
+23H01      Fountain/Attica City Court
+
+24C01       Franklin Circuit Court 1
+
+24C02       Franklin Circuit Court 2
+
+25C01       Fulton Circuit Court
+
+25D01       Fulton Superior Court
+
+25E01       Fulton County Court (abolished)
+
+26C01       Gibson Circuit Court
+
+26D01       Gibson Superior Court
+
+27C01       Grant Circuit Court
+
+27D01       Grant Superior Court 1
+
+27D02      Grant Superior Court 2
+
+27D03      Grant Superior Court 3
+
+27E01       Grant County Court (abolished)
+
+27H01      Grant/Gas City City Court
+
+27H02      Grant/Marion City Court
+
+28C01       Greene Circuit Court
+
+28D01      Greene Superior Court
+
+28E01       Greene County Court (abolished)
+
+29C01       Hamilton Circuit Court
+
+29D01       Hamilton Superior Court 1
+
+29D02      Hamilton Superior Court 2
+
+29D03      Hamilton Superior Court 3
+
+29D04      Hamilton Superior Court 4
+
+29D05      Hamilton Superior Court 5
+
+29D06      Hamilton Superior Court 6
+
+29E01       Hamilton County Court (abolished)
+
+29H01      Hamilton/Carmel City Court
+
+29H02      Hamilton/Noblesville City Court
+
+29I01        Hamilton/Fishers Town Court (effective January 1, 2012)
+
+30C01       Hancock Circuit Court
+
+30D01      Hancock Superior Court 1
+
+30D02      Hancock Superior Court 2
+
+30E01       Hancock county Court (abolished)
+
+31C01        Harrison Circuit Court
+
+31D01       Harrison Superior Court
+
+31E01       Harrison County Court (abolished)
+
+32C01       Hendricks Circuit Court
+
+32D01       Hendricks Superior Court 1
+
+32D02      Hendricks Superior Court 2
+
+32D03      Hendricks Superior Court 3
+
+32D04      Hendricks Superior Court 4
+
+32D05      Hendricks Superior Court 5
+
+32I01        Hendricks/Plainfield Town Court
+
+32I02        Hendricks/Brownsburg Town Court
+
+32I03        Hendricks/Avon Town Court
+
+33C01       Henry Circuit Court 1
+
+33C02       Henry Circuit Court 2 (effective July 1, 2011, formerly Henry Superior Court 1)
+
+33C03       Henry Circuit Court 3 (effective July 1, 2011, formerly Henry Superior Court 2)
+
+33D01       Henry Superior Court 1 (abolished effective July 1, 2011)
+
+33D02      Henry Superior Court 2 (abolished effective July 1, 2011)
+
+33E01       Henry County Court (abolished)
+
+33H01      New Castle City Court
+
+33I01        Henry/Knightstown Town Court (abolished effective October 31, 2011)
+
+34C01       Howard Circuit Court
+
+34D01       Howard Superior Court 1
+
+34D02      Howard Superior Court 2
+
+34D03      Howard Superior Court 3
+
+34D04      Howard Superior Court 4
+
+34E01       Howard County Court (abolished)
+
+35C01       Huntington Circuit Court
+
+35D01       Huntington Superior Court
+
+35E01       Huntington County Court (abolished)
+
+35I01        Huntington/Roanoke Town Court (abolished)
+
+36C01       Jackson Circuit Court
+
+36D01       Jackson Superior Court 1
+
+36D02      Jackson Superior Court 2 (effective January 1, 2008)
+
+36E01       Jackson County Court (abolished)
+
+37C01       Jasper Circuit Court
+
+37D01       Jasper Superior Court
+
+37D02      Jasper Superior Court 2 (abolished)
+
+37I01        Jasper/DeMotte Town Court
+
+37I02        Jasper/Wheatfield Town Court (abolished)
+
+38C01       Jay Circuit Court
+
+38D01      Jay Superior Court
+
+38E01       Jay County Court (abolished)
+
+38H01      Jay/Dunkirk City Court
+
+38H02      Jay/Portland City Court
+
+39C01       Jefferson Circuit Court
+
+39D01       Jefferson Superior Court
+
+39E01       Jefferson County Court (abolished)
+
+40C01       Jennings Circuit Court
+
+40D01      Jennings Superior Court
+
+40H01      Jennings/North Vernon city Court (abolished)
+
+41C01        Johnson Circuit Court
+
+41D01       Johnson Superior Court 1
+
+41D02       Johnson Superior Court 2
+
+41D03       Johnson Superior Court 3
+
+41H01       Johnson/Franklin City Court
+
+41H02      Johnson/Greenwood City Court
+
+41I01         Johnson/New Whiteland Town Court (abolished)
+
+42C01       Knox Circuit Court
+
+42D01       Knox Superior Court 1
+
+42D02      Knox Superior Court 2
+
+42E01       Knox County Court (abolished)
+
+42H01      Knox/Bicknell City Court
+
+43C01       Kosciusko Circuit Court
+
+43D01       Kosciusko Superior Court 1
+
+43D02      Kosciusko Superior Court 2
+
+43D03      Kosciusko Superior Court 3
+
+43E01       Kosciusko County Court (abolished)
+
+44C01       LaGrange Circuit Court
+
+44D01       LaGrange Superior Court
+
+44E01       LaGrange County Court (abolished)
+
+45C01       Lake Circuit Court
+
+45D01       Lake Superior Court, Civil Division 1
+
+45D02      Lake Superior Court, Civil Division 2
+
+45D03      Lake Superior Court, Civil Division 3
+
+45D04      Lake Superior Court, Civil Division 4
+
+45D05      Lake Superior Court, Civil Division 5
+
+45D10       Lake Superior Court, Civil Division 6
+
+45D11       Lake Superior Court, Civil Division 7
+
+45D06      Lake Superior Court, Juvenile Division
+
+45D07      Lake Superior Court, County Division 1
+
+45D08      Lake Superior Court, County Division 2
+
+45D09      Lake Superior Court, County Division 3
+
+45D12       Lake Superior Court, County Division 4
+
+45G01       Lake Superior Court, Criminal Division 1
+
+45G02       Lake Superior Court, Criminal Division 2
+
+45G03       Lake Superior Court, Criminal Division 3
+
+45G04       Lake Superior Court, Criminal Division 4
+
+45E01       Lake County Court (abolished)
+
+45E02       Lake County Court (abolished)
+
+45E03       Lake County Court (abolished)
+
+45H01      Lake/Crown Point City Court
+
+45H02      Lake/East Chicago City Court
+
+45H03      Lake/Gary City Court
+
+45H04      Lake/Hammond City Court
+
+45H05      Lake/Hobart City Court
+
+45H06      Lake/Lake Station City Court
+
+45H07      Lake/Whiting City Court
+
+45I01        Lake/Merrillville Town Court
+
+45I02        Lake/Schererville Town Court
+
+45I03        Lake/Lowell Town Court
+
+46C01       LaPorte Circuit Court
+
+46D01       LaPorte Superior Court 1
+
+46D02      LaPorte Superior Court 2
+
+46D03      LaPorte Superior Court 3 in LaPorte
+
+46D04      LaPorte Superior Court 4 in Michigan City
+
+47C01       Lawrence Circuit Court
+
+47D01       Lawrence Superior Court 1
+
+47D02      Lawrence Superior Court 2
+
+47E01       Lawrence County Court (abolished)
+
+48C01       Madison Circuit Court 1
+
+48C02       Madison Circuit Court 2 (effective July 1, 2011, formerly Madison Superior Court 2)
+
+48C03       Madison Circuit Court 3 (effective July 1, 2011, formerly Madison Superior Court 3)
+
+48C04       Madison Circuit Court 4 (effective July 1, 2011, formerly Madison Superior Court 4)
+
+48C05       Madison Circuit Court 5 (effective July 1, 2011, formerly Madison Superior Court 5)
+
+48C06       Madison Circuit Court 6 (effective July 1, 2011, formerly Madison Superior Court 1)
+
+48D01      Madison Superior Court 1 (abolished effective July 1, 2011)
+
+48D02      Madison Superior Court 2 (abolished effective July 1, 2011)
+
+48D03      Madison Superior Court 3 (abolished effective July 1, 2011)
+
+48D04      Madison Superior Court 4 (effective January 1, 2009, formerly Madison County Court 1) (abolished effective July 1, 2011)
+
+48D05      Madison Superior Court 5 (effective January 1, 2009, formerly Madison County Court 2) (abolished effective July 1, 2011)
+
+48E01       Madison County Court 1 (abolished effective January 1, 2009)
+
+48E02      Madison County Court 2 (abolished effective January 1, 2009)
+
+48H01      Madison/Alexandria City Court (abolished)
+
+48H02      Madison/Anderson City Court
+
+48H03      Madison/Elwood City Court
+
+48I01        Madison/Edgewood Town Court
+
+48I02        Madison/Pendleton Town Court
+
+49C01       Marion Circuit Court
+
+49D01       Marion Superior Court, Civil Division 1
+
+49D02      Marion Superior Court, Civil Division 2
+
+49D03      Marion Superior Court, Civil Division 3
+
+49D04      Marion Superior Court, Civil Division 4
+
+49D05      Marion Superior Court, Civil Division 5
+
+49D06      Marion Superior Court, Civil Division 6
+
+49D07      Marion Superior Court, Civil Division 7
+
+49D08      Marion Superior Court, Probate Division
+
+49D09      Marion Superior Court, Juvenile Division
+
+49D10       Marion Superior Court, Civil Division 10
+
+49D11       Marion Superior Court, Civil Division 11
+
+49D12       Marion Superior Court, Civil Division 12
+
+49D13       Marion Superior Court, Civil Division 13
+
+49D14       Marion Superior Court, Civil Division 14
+
+49F07       Marion Superior Court, Criminal Division 7
+
+49F08       Marion Superior Court, Criminal Division 8
+
+49F09       Marion Superior Court, Criminal Division 9
+
+49F10       Marion Superior Court, Criminal Division 10
+
+49F11        Initial Hearing Court
+
+49F12        Marion Superior Court, Environmental/Community Court
+
+49F13        Marion Superior Court, Criminal Division 13
+
+49F15        Marion Superior Court, Criminal Division 15
+
+49F16        Marion Superior Court, Criminal Division 16 (renumbered 49G16 effective 2/1/07)
+
+49F17        Marion Superior Court, Criminal Division 17 (renumbered 49G17 effective 2/1/07)
+
+49F18       Marion Superior Court, Criminal Division 18
+
+49F19        Marion Superior Court, Criminal Division 19
+
+49F24       Marion Superior Court, Criminal Division 24
+
+49F25       Marion Superior Court, Criminal Division 25 (effective 1/1/2013)
+
+49G01       Marion Superior Court, Criminal Division 1
+
+49G02       Marion Superior Court, Criminal Division 2
+
+49G03       Marion Superior Court, Criminal Division 3
+
+49G04       Marion Superior Court, Criminal Division 4
+
+49G05       Marion Superior Court, Criminal Division 5
+
+49G06       Marion Superior Court, Criminal Division 6
+
+49G13       Marion Superior Court, Criminal Division 13
+
+49G14       Marion Superior Court, Criminal Division 14
+
+49G16       Marion Superior Court, Criminal Division 16
+
+49G17       Marion Superior Court, Criminal Division 17
+
+49G20       Marion Superior Court, Criminal Division 20
+
+49G21       Marion Superior Court, Criminal Division 21
+
+49G22       Marion Superior Court, Criminal Division 22 (renumbered 49F25 effective 1/1/2013)
+
+49G23       Marion Superior Court, Criminal Division 23
+
+49H01      Marion/Beech Grove City Court
+
+49I01        Marion/Cumberland Town Court
+
+49K01       Marion County Small Claims Court, Center Division
+
+49K02       Marion County Small Claims Court, Decatur Division
+
+49K03       Marion County Small Claims Court, Lawrence Division
+
+49K04       Marion County Small Claims Court, Perry Division
+
+49K05       Marion County Small Claims Court, Pike Division
+
+49K06       Marion County Small Claims Court, Warren Division
+
+49K07       Marion County Small Claims Court, Washington Division
+
+49K08      Marion County Small Claims Court, Wayne Division
+
+49K09       Marion County Small Claims Court, Franklin Township
+
+50C01       Marshall Circuit Court
+
+50D01      Marshall Superior Court 1
+
+50D02      Marshall Superior Court 2
+
+50E01       Marshall County Court (abolished)
+
+50H01      Marshall/Plymouth City Court (abolished)
+
+50I01        Marshall/Argos Town Court (abolished)
+
+51C01        Martin Circuit Court
+
+51H01       Martin/Loogootee City Court (abolished)
+
+52C01       Miami Circuit Court
+
+52D01       Miami Superior Court 1
+
+52D02      Miami Superior Court 2
+
+52H01      Miami/Peru City Court
+
+52I01        Miami/Bunker Hill Town Court
+
+53C01       Monroe Circuit Court 1
+
+53C02       Monroe Circuit Court 2
+
+53C03       Monroe Circuit Court 3
+
+53C04       Monroe Circuit Court 4
+
+53C05       Monroe Circuit Court 5
+
+53C06       Monroe Circuit Court 6
+
+53C07       Monroe Circuit Court 7
+
+53C08       Monroe Circuit Court 8
+
+53C09       Monroe Circuit Court 9
+
+53D01       Monroe Superior Court (abolished)
+
+53D02      Monroe Superior Court (abolished)
+
+53D03      Monroe Superior Court (abolished)
+
+53D04      Monroe Superior Court (abolished)
+
+53D05      Monroe Superior Court (abolished)
+
+54C01       Montgomery Circuit Court
+
+54D01       Montgomery Superior Court
+
+54D02      Montgomery Superior Court 2
+
+54E01       Montgomery County Court (abolished)
+
+54H01      Montgomery/Crawfordsville City Court (abolished)
+
+55C01       Morgan Circuit Court
+
+55D01       Morgan Superior Court 1
+
+55D02      Morgan Superior Court 2
+
+55D03      Morgan Superior Court 3
+
+55E01       Morgan County Court (abolished)
+
+55H01      Morgan/Martinsville City Court
+
+55I01        Morgan/Mooresville Town Court
+
+56C01       Newton Circuit Court
+
+56D01       Newton Superior Court
+
+57C01       Noble Circuit Court
+
+57D01       Noble Superior Court 1
+
+57D02      Noble Superior Court 2 7/1/1999
+
+57E01       Noble County Court (to be abolished) 7/1/1999
+
+57I01        Noble/Avilla Town Court (abolished)
+
+57I02        Noble/Cromwell Town Court (abolished)
+
+58C01       Ohio Circuit Court
+
+58D01      Ohio Superior Court (abolished effective January 1, 2009)
+
+59C01       Orange Circuit Court
+
+59D01       Orange Superior Court
+
+59E01       Orange County Court (abolished)
+
+60C01       Owen Circuit Court
+
+61C01        Parke Circuit Court
+
+62C01       Perry Circuit Court
+
+62H01      Perry/Cannelton Town Court (abolished)
+
+62H02      Perry/Tell City City Court (abolished)
+
+63C01       Pike Circuit Court
+
+63H01      Pike/Petersburg City Court (abolished)
+
+64C01       Porter Circuit Court
+
+64D01       Porter Superior Court 1
+
+64D02      Porter Superior Court 2
+
+64D03      Porter Superior Court 3
+
+64D04      Porter Superior Court 4
+
+64D05      Porter Superior Court 5 (Circuit Judge)
+
+64D06      Porter Superior Court 6
+
+64E01       Porter County Court (abolished)
+
+64I01        Porter/Chesterton Town Court (abolished)
+
+65C01       Posey Circuit Court
+
+65D01       Posey Superior Court
+
+65E01       Posey County Court (abolished)
+
+66C01       Pulaski Circuit Court
+
+66D01       Pulaski Superior Court
+
+66E01       Pulaski County Court (abolished)
+
+67C01       Putnam Circuit Court
+
+67D01       Putnam Superior Court
+
+67E01       Putnam County Court (abolished)
+
+68C01       Randolph Circuit Court
+
+68D01      Randolph Superior Court
+
+68E01       Randolph County Court (abolished)
+
+68H01      Randolph/Winchester City Court
+
+68H02      Randolph/Union City City Court
+
+69C01       Ripley Circuit Court
+
+69D01       Ripley Superior Court
+
+69H01      Ripley/Batesville City Court
+
+69I01        Ripley/Versailles Town court
+
+70C01       Rush Circuit Court
+
+70D01      Rush Superior Court
+
+70E01       Rush County Court (abolished)
+
+71C01        St. Joseph Circuit Court
+
+71D01       St. Joseph Superior Court
+
+71D02       St. Joseph Superior Court
+
+71D03       St. Joseph Superior Court
+
+71D04       St. Joseph Superior Court
+
+71D05       St. Joseph Superior Court
+
+71D06       St. Joseph Superior Court
+
+71D07       St. Joseph Superior Court
+
+71D08      St. Joseph Superior Court
+
+71I01         St. Joseph/Walkerton Town Court
+
+71I02        St. Joseph/Lakeville Town Court
+
+71J01        St. Joseph Probate Court
+
+72C01       Scott Circuit Court
+
+72D01       Scott Superior Court
+
+72E01       Scott County Court (abolished)
+
+73C01       Shelby Circuit Court
+
+73D01       Shelby Superior Court 1
+
+73D02      Shelby Superior Court 2
+
+73E01       Shelby County Court (abolished)
+
+74C01       Spencer Circuit Court
+
+74H01      Spencer/Rockport City Court (abolished)
+
+75C01       Starke Circuit Court
+
+75H01      Starke/Knox City Court
+
+76C01       Steuben Circuit Court
+
+76D01       Steuben Superior Court
+
+76E01       Steuben County Court (abolished)
+
+76I01        Steuben/Fremont Town Court
+
+77C01       Sullivan Circuit Court
+
+77D01       Sullivan Superior Court
+
+77E01       Sullivan County Court (abolished)
+
+78C01       Switzerland Circuit Court
+
+78D01      Switzerland Superior Court (abolished effective January 1, 2009)
+
+79C01       Tippecanoe Circuit Court
+
+79D01       Tippecanoe Superior Court 1
+
+79D02      Tippecanoe Superior Court 2
+
+79D03      Tippecanoe Superior Court 3
+
+79D04      Tippecanoe Superior Court 4
+
+79D05      Tippecanoe Superior Court 5
+
+79D06      Tippecanoe Superior Court 6
+
+79H01      Tippecanoe/West Lafayette City Court
+
+80C01       Tipton Circuit Court
+
+80H01      Tipton/Tipton City Court
+
+80I01        Tipton/Sharpsville Town Court
+
+81C01       Union Circuit Court
+
+82C01       Vanderburgh Circuit Court
+
+82D01      Vanderburgh Superior Court
+
+82D02      Vanderburgh Superior Court
+
+82D03      Vanderburgh Superior Court
+
+82D04      Vanderburgh Superior Court
+
+82D05      Vanderburgh Superior Court
+
+82D06      Vanderburgh Superior Court
+
+82D07      Vanderburgh Superior Court
+
+83C01       Vermillion Circuit Court
+
+83H01      Vermillion/Clinton City Court
+
+84C01       Vigo Circuit Court
+
+84D01      Vigo Superior Court 1
+
+84D02      Vigo Superior Court 2
+
+84D03      Vigo Superior Court 3 (Circuit Judge)
+
+84D04      Vigo Superior Court 4
+
+84D05      Vigo Superior Court 5
+
+84D06      Vigo Superior Court 6
+
+84E04      Vigo County Court, Division 4 (abolished)
+
+84E05      Vigo County Court, Division 5 (abolished)
+
+(84E01, 84E02, and 84E03 not used)
+
+84H01      Vigo/Terre Haute City Court
+
+85C01       Wabash Circuit Court
+
+85D01      Wabash Superior Court
+
+85E01       Wabash County Court (abolished)
+
+85H01      Wabash/Wabash City Court
+
+85I01        Wabash/N. Manchester Town Court (abolished effective January 1, 2012)
+
+86C01       Warren Circuit Court
+
+87C01       Warrick Circuit Court
+
+87D01      Warrick Superior Court 1
+
+87D02      Warrick Superior Court 2
+
+88C01       Washington Circuit Court
+
+88D01      Washington Superior Court
+
+88H01      Washington/Salem City Court (abolished)
+
+89C01       Wayne Circuit Court
+
+89D01      Wayne Superior Court 1
+
+89D02      Wayne Superior Court 2
+
+89D03      Wayne Superior Court 3
+
+89D03      Wayne Superior Court 4 (transfer judge)
+
+89I01        Wayne/Hagerstown Town Court
+
+90C01       Wells Circuit Court
+
+90D01      Wells Superior Court
+
+90H01      Wells/Bluffton City Court
+
+91C01        White Circuit Court
+
+91D01       White Superior Court
+
+91I01         White/Monon Town Court (abolished effective January 1, 2011)
+
+92C01       Whitely Circuit Court
+
+92D01       Whitley Superior Court
+
+ 
+
+(2)    Year/Month of Filing. The second group of four characters shall represent the year and month of filing. As shown above, digits one and two of this group denote the last two digits of the calendar year and digits three and four reflect the month of filing.
+
+(3)    Case type. The third group of two characters shall designate the type of proceeding utilizing the following case classification code:
+
+MR--        Murder
+
+CF--         Criminal Felony (New CF case numbers shall not be issued after 12/31/2001. CF cases filed prior to 1/1/2002 shall continue to bear the CF case type designation.
+
+FA--         Class A Felony
+
+FB--         Class B Felony
+
+FC--         Class C Felony
+
+FD--         Class D Felony
+
+PC--         Post Conviction Relief Petition
+
+CM--        Criminal Misdemeanor
+
+MC--        Miscellaneous Criminal
+
+IF--          Infraction
+
+OV--        Local Ordinance Violation
+
+OE--        Exempted Ordinance Violation
+
+CT--         Civil Tort
+
+CP--         Civil Plenary (New CP case numbers shall not be issued after 12/31/2001. CP cases filed before 1/1/2002 shall continue to bear the CP case type.)
+
+PL--         Civil Plenary (Civil Plenary cases filed after 1/1/2002--All Civil cases except those otherwise specifically designated)
+
+CC--         Civil Collection
+
+MF--        Mortgage Foreclosure
+
+MI--         Miscellaneous (Civil cases other than those specifically identified--i.e. change of name, appointment of appraisers, marriage waivers, etc.)
+
+CB--         court business record--i.e. court orders that refer to non-case matters such as the appointment of judge pro tem, drawing the jury, etc.
+
+RS--         Reciprocal Support
+
+SC--          Small Claim
+
+DR--        Domestic Relation (Includes Dissolution of Marriage, Annulment, and Legal Separation)
+
+MH--       Mental Health
+
+AD--        Adoption
+
+ES--         Estate, Supervised
+
+EU--        Estate, Unsupervised
+
+EM--        Estate, Miscellaneous
+
+GU--        Guardianship
+
+TR--         Trust
+
+JC--          Juvenile CHINS
+
+JD--         Juvenile Delinquency
+
+JS--          Juvenile Status
+
+JT--          Juvenile Termination of Parental Rights
+
+JP--          Juvenile Paternity
+
+JM--        Juvenile Miscellaneous
+
+PO--         Order of Protection
+
+Separate dockets need not be maintained for each type.
+
+(4)    Filing Sequence. The fourth group shall consist of six (6) characters assigned sequentially to a case when it is filed. It shall begin with a “000001” at the beginning of each year for each case classification (or for each docket book or case pool if more than one case classification is grouped within a single docket or case pool) and continue sequentially until the end of the year. No court is required to change to using six (6) characters in the fourth group to the extent that it requires re-programming that court's existing electronic case management system. The same sequence for each case classification (or for each docket book or case pool if more than one case classification is grouped within a single docket or case pool) shall be used in common for all circuit, probate and superior courts within a county using the same case management system. No court is required to use the same sequence in common to the extent that it requires re-programming that court's existing electronic case management system.
+
+(C)   Transferring Cases Between Courts Within County. Whenever a case is transferred between circuit, probate or superior courts within the same county, only the court identifier in the first group of characters in the case number shall be changed. No change shall be made to the fourth group of characters in the case number. The following is an example of how a case number should appear before and after the case has been transferred from one court to another:
+
+55C01-1101-CF-000123 (Case number as it appears in originating court).
+
+55D02-1101-CF-000123 (Case number as it appears in court to which case transferred).
+
+The restriction prohibiting a change to the fourth group of characters does not apply to the extent that implementation of this restriction would require re-programming of the court's existing electronic case management system.
+
+Commentary
+
+          The following changes to the uniform case numbering system shall take effect January 1, 2011:
+
+1.       Administrative Rule 8(2) is amended to require that any case number must contain the month in which a case is filed. (Previously, including the month of filing was optional.) The reason for this change is to facilitate the collection of case filing statistics for periods of time of less than one year.
+
+2.      Administrative Rule 8(4) is amended to require that the fourth group of characters (the "filing sequence") in a case number consist of six (6) characters. (Previously, the filing sequence could contain any number of characters up to six (6)). The reasons for this change are to, first, facilitate on-line searches for cases and, second, achieve greater statewide uniformity in the case numbering system. No court is required to comply with this change to the extent that it would require re-programming of that court's existing electronic case management system. In the process of converting a court's legacy data to a new case management system, the filing sequence may be expanded to consist of six (6) characters.
+
+3.      Administrative Rule 8(4) is further amended to require that the same sequence for each case classification (or for each docket book or case pool if more than one case classification is grouped within a single docket or case pool) shall be used in common for all circuit and superior courts within a county using the same case management system. (Previously, each court could use its own filing sequence). In addition, Administrative Rule 8 is further amended by adding a new paragraph “C” providing that when a case is transferred between any circuit, probate, and superior court in the same county, only the court identifier is to be changed; the filing sequence is to remain the same. The reason for these changes is to facilitate the transfer of cases between courts in the same county. Without this change, two cases may, after a transfer, have the same case number, requiring a new filing sequence to be assigned. For example, under current practice, C Felony cases could be filed in Circuit and Superior Courts in Morgan County under case numbers 55C01-1101-CF-000123 and 55D01-1101-CF-000123. Absent this amendment, if the case in Circuit Court is transferred to Superior Court, there would be two cases in Superior Court with the case number 55C01-1101-CF-000123. This change will also achieve greater statewide uniformity in the case numbering system. No court is required to comply with this change to the extent that it would require re-programming of that court's existing electronic case management system.
+
+Rule 8.1. Uniform Appellate Case Numbering System
+
+(A)    Application. The Clerk of the Supreme Court shall use the uniform case numbering system set forth below for cases filed in the Supreme Court, Court of Appeals and Tax Court.
+
+(B)    Numbering System. The uniform appellate case numbering system shall consist of four groups of characters arranged in a manner to identify the court, the year/month of filing, the case type and the filing sequence. The following is an example of the case number to be employed:
+
+55S00-0804-SJ-001
+
+(1)     Court Identifier. In cases filed in the Supreme Court and the Court of Appeals, and in inheritance tax cases and original tax appeals filed in the Tax Court, the first group of five characters shall constitute the county and the court identifier. The first and second character in this group shall represent the county of the court from which the case is being appealed or the original action arose; the county where the original inheritance tax action arose; or the county designated in the written election filed by the taxpayer in an original tax appeal, or otherwise designated as set forth in Indiana Tax Rule 8(A), employing the same code set forth in Administrative Rule 8(B)(1). For the cases noted below, the following topic codes will be used in place of county codes:
+
+93 Appeals from agency actions pursuant to IC 4-21.5-5 et seq.
+
+94 Certified Questions, Rule Amendments, and other miscellaneous matters
+
+98 Disciplinary matters involving out-of-state attorneys.
+
+The third character in the first group shall represent the court in which the proceeding is being filed employing the following codes:
+
+S Supreme Court
+
+A Court of Appeals
+
+T Tax Court
+
+The last two characters of the first group shall distinguish between geographical districts set forth in IC 33-25-1-2 from which the case is being appealed or being assigned in the Court of Appeals, and additional cases and other matters handled by the Supreme Court and the Tax Court, employing the following codes:
+
+00 Administrative/Other matters handled by the Supreme Court, including, but not limited to, Attorney Disciplinary matters, Judicial Disciplinary matters, Special Judge assignments, Senior Judge assignments and Rule amendments.
+
+01 First District: Bartholomew, Boone, Brown, Clark, Clay, Crawford, Daviess, Dearborn, Decatur, Dubois, Fayette, Floyd, Fountain, Franklin, Gibson, Greene, Hancock, Harrison, Hendricks, Henry, Jackson, Jefferson, Jennings, Johnson, Knox, Lawrence, Martin, Monroe, Montgomery, Morgan, Ohio, Orange, Owen, Parke, Perry, Pike, Posey, Putnam, Randolph, Ripley, Rush, Scott, Shelby, Spencer, Sullivan, Switzerland, Union, Vanderburgh, Vermillion, Vigo, Warrick, Washington, and Wayne.
+
+02 Second District: Adams, Blackford, Carroll, Cass, Clinton, Delaware, Grant, Hamilton, Howard, Huntington, Jay, Madison, Marion, Miami, Tippecanoe, Tipton, Wabash, Wells, and White.
+
+03 Third District: Allen, Benton, DeKalb, Elkhart, Fulton, Jasper, Kosciusko, LaGrange, Lake, LaPorte, Marshall, Newton, Noble, Porter, Pulaski, St. Joseph, Starke, Steuben, Warren, and Whitley.
+
+04 The entire state constitutes the Fourth District.
+
+05 The entire state constitutes the Fifth District.
+
+10 Cases appealed to the Tax Court.
+
+(2)    Year/Month of Filing. The second group of four characters shall represent the year and month of filing. As shown above, the first and second characters of this group denote the last two digits of the calendar year and the third and fourth characters reflect the month of filing.
+
+(3)    Case Type. The third group of two characters shall designate the type of proceeding.
+
+i.       The following codes shall be used for matters originating in the Supreme Court:
+
+BL Board of Law Examiners
+
+CQ Certified Questions
+
+DI Attorney Discipline
+
+JD Judicial Discipline
+
+MS Miscellaneous Matters
+
+OR Original Actions
+
+SJ Special Judges
+
+ii.      In appeals, the same case type code used in the lower court, as specified in Administrative Rule 8(B)(3), shall be used except as indicated below:
+
+EX Appeals in certain administrative proceedings
+
+TA Appeals from the Tax Court
+
+DP Direct capital appeals
+
+PD Post-conviction capital appeals
+
+LW Direct Life without Parole (LWOP) appeals
+
+CR Direct appeals (non-capital, non-LWOP)
+
+PC Post-conviction appeals (non-capital)
+
+SD Requests to file successive capital post-conviction petitions
+
+SP Requests to file successive post-conviction petitions (non-capital)
+
+JV Juvenile delinquency appeals with a trial court designation of "JD".
+
+(4)    Filing Sequence. The fourth group may consist of any number of characters assigned sequentially to a case when it is filed. It shall begin with "1" at the beginning of each year for each case classification and continue sequentially until the end of the year. The number of cases filed within a given classification will determine the number of digits in this group. 

@@ -1,0 +1,246 @@
+%!PS-Adobe-3.0
+%%BoundingBox: 12 12 600 780
+%%Creator: Lazarus PostScriptCanvas for /usr/home/mrathbun/KTI/GitHub_Repos/formMailer-1/formMailer
+%%Title: 
+%%CreationDate: 23-3-14 13:29:32
+%%Orientation: Portrait
+%%Pages: 1
+%%PageResources: (atend)
+%%PageOrder: Ascend
+
+%------------------------------------------------------------
+%================== BEGIN SETUP==============================
+
+/RE { % /NewFontName [NewEncodingArray] /FontName RE -
+  findfont dup length dict begin
+  {
+    1 index /FID ne
+    {def}
+    {pop pop} ifelse
+  } forall
+  /Encoding exch def
+  /FontName 1 index def
+  currentdict definefont pop
+  end
+} bind def
+
+/scp {currentpoint /oldy exch def /oldx exch def } def
+/rcp {oldx oldy moveto} bind def
+/uli { 2 copy /uposy exch def /uposx exch def moveto } def
+/ule { % underlinepenwidh underlinepos
+scp gsave 0 exch rmoveto setlinewidth
+uposx oldx sub 0 rlineto [] 0 setdash stroke grestore rcp } def
+
+%%BeginProcSet: patternfill 1.0 0
+% width height matrix proc key cache
+% definepattern -\> font
+/definepattern { %def
+    7 dict begin
+        /FontDict 9 dict def
+        FontDict begin
+            /cache exch def
+            /key exch def
+            /proc exch cvx def
+            /mtx exch matrix invertmatrix def
+            /height exch def
+            /width exch def
+            /ctm matrix currentmatrix def
+            /ptm matrix identmatrix def
+            /str
+            (12345678901234567890123456789012)
+            def
+        end
+        /FontBBox [ %def
+            0 0 FontDict /width get
+            FontDict /height get
+        ] def
+        /FontMatrix FontDict /mtx get def
+        /Encoding StandardEncoding def
+        /FontType 3 def
+        /BuildChar { %def
+            pop begin
+            FontDict begin
+                width 0 cache { %ifelse
+                    0 0 width height setcachedevice
+                }{ %else
+                    setcharwidth
+                } ifelse
+                0 0 moveto width 0 lineto
+                width height lineto 0 height lineto
+                closepath clip newpath
+                gsave proc grestore
+            end end
+        } def
+        FontDict /key get currentdict definefont
+    end
+} bind def
+% dict patternpath -
+% dict matrix patternpath -
+/patternpath { %def
+    dup type /dicttype eq { %ifelse
+        begin FontDict /ctm get setmatrix
+    }{ %else
+        exch begin FontDict /ctm get setmatrix
+        concat
+    } ifelse
+    currentdict setfont
+    FontDict begin
+        FontMatrix concat
+        width 0 dtransform
+        round width div exch round width div exch
+        0 height dtransform
+        round height div exch
+        round height div exch
+        0 0 transform round exch round exch
+        ptm astore setmatrix
+        
+        pathbbox
+        height div ceiling height mul 4 1 roll
+        width div ceiling width mul 4 1 roll
+        height div floor height mul 4 1 roll
+        width div floor width mul 4 1 roll
+        
+        2 index sub height div ceiling cvi exch
+        3 index sub width div ceiling cvi exch
+        4 2 roll moveto
+        
+        FontMatrix ptm invertmatrix pop
+        { %repeat
+            gsave
+                ptm concat
+                dup str length idiv { %repeat
+                    str show
+                } repeat
+                dup str length mod str exch
+                0 exch getinterval show
+            grestore
+            0 height rmoveto
+        } repeat
+        pop
+    end end
+} bind def
+
+% dict patternfill -
+% dict matrix patternfill -
+/patternfill { %def
+    gsave
+        clip patternpath
+    grestore
+    newpath
+} bind def
+
+% dict patterneofill -
+% dict matrix patterneofill -
+/patterneofill { %def
+    gsave
+        eoclip patternpath
+    grestore
+    newpath
+} bind def
+
+% dict patternstroke -
+% dict matrix patternstroke -
+/patternstroke { %def
+    gsave
+        strokepath clip patternpath
+    grestore
+    newpath
+} bind def
+
+% dict ax ay string patternashow -
+% dict matrix ax ay string patternashow -
+/patternashow { %def
+    (0) exch { %forall
+        2 copy 0 exch put pop dup
+        false charpath 
+        currentpoint
+        5 index type /dicttype eq { %ifelse
+            5 index patternfill
+        }{ %else
+            6 index 6 index patternfill
+        } ifelse
+        moveto
+        3 copy pop rmoveto
+    } forall
+    pop pop pop
+    dup type /dicttype ne { pop } if pop
+} bind def
+
+% dict string patternshow -
+% dict matrix string patternshow -
+/patternshow { %def
+    0 exch 0 exch patternashow
+} bind def
+
+/opaquepatternfill { %def
+    gsave
+    1 setgray
+    fill
+    grestore
+    patternfill
+} bind def
+
+%%EndProcSet
+%%EndProlog
+
+%%BeginSetup
+15 15 [300 72 div 0 0 300 72 div 0 0]
+{ %definepattern
+    2 setlinecap
+    7.5 0 moveto 15 7.5 lineto
+    0 7.5 moveto 7.5 15 lineto
+    2 setlinewidth stroke
+} bind
+/bsBDiagonal true definepattern pop
+
+15 15 [300 72 div 0 0 300 72 div 0 0]
+{ %definepattern
+    2 setlinecap
+    7.5 0 moveto 0 7.5 lineto
+    15 7.5 moveto 7.5 15 lineto
+    2 setlinewidth stroke
+} bind
+/bsFDiagonal true definepattern pop
+30 30 [300 72 div 0 0 300 72 div 0 0]
+{ %definepattern
+    2 2 scale
+    2 setlinecap
+    7.5 0 moveto 15 7.5 lineto
+    0 7.5 moveto 7.5 15 lineto
+    7.5 0 moveto 0 7.5 lineto
+    15 7.5 moveto 7.5 15 lineto
+    0.5 setlinewidth stroke
+} bind
+/bsDiagCross true definepattern pop
+
+30 30 [300 72 div 0 0 300 72 div 0 0]
+{ %definepattern
+    2 setlinecap
+    15 0 moveto 15 30 lineto
+    0 15 moveto 30 15 lineto
+    2 setlinewidth stroke
+} bind
+/bsCross true definepattern pop
+
+15 15 [300 72 div 0 0 300 72 div 0 0]
+{ %definepattern
+    2 setlinecap
+    0 7.5 moveto 15 7.5 lineto
+    2 setlinewidth stroke
+} bind
+/bsHorizontal true definepattern pop
+
+15 15 [300 72 div 0 0 300 72 div 0 0]
+{ %definepattern
+    2 setlinecap
+    7.5 0 moveto 7.5 15 lineto
+    2 setlinewidth stroke
+} bind
+/bsVertical true definepattern pop
+%%EndSetup
+%%====================== END SETUP =========================
+
+%%Page: 1 1
+stroke
+showpage
+%%EOF

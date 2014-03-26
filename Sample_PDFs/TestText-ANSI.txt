@@ -1,0 +1,78 @@
+Printing Both Text and PDF Files On Unix Platforms
+
+In Unix use lpr to print out both text files and PDF files:
+
+Note: on PC-BSD and FreeBSD CUPS is installed as the print server, and CUPS 
+supplies replacement utilities for lp and lpr.  However the distro managers 
+neglected to remove the old, unconfigured versions of lp and lpr which reside in 
+/usr/bin.  The CUPS versions are located in /usr/local/bin, but this folder is 
+listed after /usr/bin in the environmental var $PATH, which causes the old 
+versions to be invoked rather than the CUPS versions.
+
+This problem is fixed in two steps:
+
+1. Rename all the old lp utilities found in /usr/bin to have an extension like 
+“.orig.bak”
+
+    mv /usr/bin/lp lp.old.bak
+    mv /usr/bin/lpq lpq.old.bak
+    mv /usr/bin/lpr lpr.old.bak
+    mv /usr/bin/lprm lprm.old.bak
+
+2. For each user, including Root, edit the ~/.profile script so that the PATH 
+string has the folder /usr/local/bin ahead of /usr/bin.
+
+PATH=/usr/local/share/pcbsd/bin:/sbin:/bin:/usr/sbin:/usr/local/bin:/usr/bin:/usr/games:\$HOME/bin:/usr/local/sbin; export PATH
+
+See 
+http://lists.freebsd.org/pipermail/freebsd-questions/2003-December/029705.html 
+for details.
+
+Thus, to print text or pdf files from the command line:
+
+[mrathbun@kti-a61 ~]$ lpr /usr/home/mrathbun/KTI/Saved_TreeViews/TTreeView-2.txt
+[mrathbun@kti-a61 ~]$ lpr "KTI Profit and Loss Statement, Jan-Dec 2012.pdf"
+
+Printing Text Files On Windows
+
+Text files can easily be sent to a networked printer, by using the Windows lpr 
+utility. (This utility needs to be enabled via Control Panel ? Add Windows 
+Programs)
+
+C:\Junk>lpr -S 192.168.0.243 -P Brother-MFC-9230CW TestBootINI.txt
+
+where values for the IP address and printer name for the networked printer are 
+found by typing lpstat -s on a Unix command line:
+
+[mrathbun@kti-a61 ~]$ lpstat -s
+system default destination: Brother-MFC-9320CW
+device for Brother-MFC-9320CW: socket://192.168.000.243:9100
+[mrathbun@kti-a61 ~]$
+
+Alternately, a text file can simply be sent to a physically attached printer by 
+using the print command:
+
+C:\Junk>print TestBootINI.txt
+
+Type print /? at the command prompt to learn about print’s options.
+Printing PDFs On Windows
+
+PDF files cannot be printed from the Windows command prompt using any of the 
+utilities mentioned above for printing out text files.  PDFs must be printed out 
+from the command prompt by using any number of free utilities, such as 
+Ghostscript, or Foxit Reader, which must be installed specifically.
+
+Here’s how a file was sent to network printer via command prompt using Foxit 
+Reader’s command line utility, Foxit Reader.exe (Installed version 614.0217_enu. 
+Earlier versions had a bug and would not print to network printers.)
+
+C:\Junk>"C:\Program Files\Foxit Software\Foxit Reader\Foxit Reader.exe" /p LibreOfficeSample.pdf
+
+Using a printer shared via Samba is another way to print which requires a 
+different syntax, but not shown in this document.
+
+Note: Be sure to adjust firewall settings to allow access to the network 
+printer.  
+
+
+
